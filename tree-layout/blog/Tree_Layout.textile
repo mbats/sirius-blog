@@ -20,7 +20,7 @@ Automatically the default layout will present an ordered tree with at the top, t
 
 That's looks good but imagine that we want to see the subordination link but we want to order our nodes thanks to another relation. In our metamodel we added another reference @influences@ which will represent the influence that a person could have on another one. So we need to create another kind of diagram where we want to see the more influencing person at the top and the most influenced at the bottom. But we still want to represent the subordinate link between the persons.
 
-Good news for you that's really easy to implement thanks to Sirius.
+Good news for you, that's really easy to implement thanks to Sirius.
 If the default algorithm does not fit your needs, you can configure some parameters or request for alternate algorithms directly inside the Sirius specification editor.
 Thus, you can define :
 * A _Composite Layout_ : must be used to show containment relation, it allows to specify the padding between elements and the direction for the default algorithm.
@@ -34,7 +34,7 @@ We defined a new @Influence@ diagram, with a @Person@ mapping and a @DependsOn@ 
 
 The @Children Expression@ is used to specify the manner to retrieve children for each node. In our example we will use the @influences@ reference to go through the model.
 
-The @Node Mapping@ must specify the mapping on which the tree order algorithm will operate. For our example, we want the algorithm to operate on @Person@.
+The @Node Mapping@ must specify the mapping on which the tree order algorithm will operate. For our example, we want the algorithm to operate on @Person@. Pay attention, the ordered tree layout will work only if you have one kind of node mapping defined in your diagram specification.
 
 And tadaaa! Just by defining this new layout we are now able to see that the one who's influencing every other protagonists is Frank Underwood, but Shh! that's a secret ;)
 
