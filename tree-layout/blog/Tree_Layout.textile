@@ -42,4 +42,4 @@ And tadaaa! Just by defining this new layout we are now able to see that the one
 
 Last thing, if you need to go beyond that, it is also possible to provide your "own layout algorithm programmatically":http://www.eclipse.org/sirius/doc/developer/extensions-provide_custom-arrange-all.html.
 
-The example code is available on github : "https://github.com/mbats/sirius-blog/tree-layout":https://github.com/mbats/sirius-blog/tree-layout
+The example code is available on github : "https://github.com/mbats/sirius-blog/tree/master/tree-layout":https://github.com/mbats/sirius-blog/tree/master/tree-layout
