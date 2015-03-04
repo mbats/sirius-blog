@@ -1,6 +1,6 @@
 A recurring problem when developing a graphical modeler is providing the right layout. The advantage with Sirius is it provides you with a default algorithm that performs an automatic layout of all the elements on a diagram.
 
-To illustratep the Sirius' layout capabilities imagine that we want to visualize the hierarchy of characters in the US TV series "House Of Cards":http://en.wikipedia.org/wiki/House_of_Cards_(U.S._TV_series). To do  this we define the following metamodel:
+To illustrate the Sirius' layout capabilities imagine that we want to visualize the hierarchy of characters in the US TV series "House Of Cards":http://en.wikipedia.org/wiki/House_of_Cards_(U.S._TV_series). To do  this we define the following metamodel:
 !./images/metamodel.png!
 
 First, we used Sirius to create a diagram representing the @Persons@.
