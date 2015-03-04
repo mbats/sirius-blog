@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:houseofcards="http://www.example.org/houseofcards" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.example.org/houseofcards platform:/resource/fr.obeo.dsl.houseofcard.metamodel/model/houseofcards.ecore http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_Sgv6YMDaEeSMj7T71jxybQ" selectedViews="_s7gh8MDaEeSMj7T71jxybQ" version="8.1.1">
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:houseofcards="http://www.example.org/houseofcards" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_Sgv6YMDaEeSMj7T71jxybQ" selectedViews="_e_we0MJFEeSsweJ0QEgopw" version="8.1.1">
   <models xmi:type="houseofcards:House" href="HouseOfCards.xmi#/"/>
   <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_s7gh8MDaEeSMj7T71jxybQ" initialized="true">
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_91iLYMDgEeSwNZSdI8ztRA" name="new Influences">
@@ -1703,5 +1703,587 @@
       <target xmi:type="houseofcards:House" href="HouseOfCards.xmi#/"/>
     </ownedRepresentations>
     <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_e_we0MJFEeSsweJ0QEgopw" initialized="true">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_hTh4QMJFEeSsweJ0QEgopw" name="Hierarchy">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_hT0MIMJFEeSsweJ0QEgopw" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_hT0MIcJFEeSsweJ0QEgopw" type="Sirius" element="_hTh4QMJFEeSsweJ0QEgopw" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_hT9WEMJFEeSsweJ0QEgopw" type="2001" element="_hTh4QcJFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_hUOb0MJFEeSsweJ0QEgopw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_hUOb0cJFEeSsweJ0QEgopw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hUXlwMJFEeSsweJ0QEgopw" type="3004" element="_hTh4QsJFEeSsweJ0QEgopw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_hUYM0MJFEeSsweJ0QEgopw" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUYM0cJFEeSsweJ0QEgopw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_hT9WEcJFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hT9WEsJFEeSsweJ0QEgopw" x="80" width="100" height="100"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_hUUicMJFEeSsweJ0QEgopw" type="2001" element="_hTh4RsJFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_hUVJgMJFEeSsweJ0QEgopw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_hUVJgcJFEeSsweJ0QEgopw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hUYM0sJFEeSsweJ0QEgopw" type="3004" element="_hTh4R8JFEeSsweJ0QEgopw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_hUYM08JFEeSsweJ0QEgopw" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUYM1MJFEeSsweJ0QEgopw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_hUUiccJFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUUicsJFEeSsweJ0QEgopw" y="160" width="100" height="100"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_hUVJgsJFEeSsweJ0QEgopw" type="2001" element="_hTh4S8JFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_hUVwkMJFEeSsweJ0QEgopw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_hUVwkcJFEeSsweJ0QEgopw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hUYz4MJFEeSsweJ0QEgopw" type="3004" element="_hTh4TMJFEeSsweJ0QEgopw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_hUYz4cJFEeSsweJ0QEgopw" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUYz4sJFEeSsweJ0QEgopw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_hUVJg8JFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUVJhMJFEeSsweJ0QEgopw" x="160" y="160" width="100" height="100"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_hUVwksJFEeSsweJ0QEgopw" type="2001" element="_hTh4UMJFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_hUWXoMJFEeSsweJ0QEgopw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_hUWXocJFEeSsweJ0QEgopw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hUYz48JFEeSsweJ0QEgopw" type="3004" element="_hTh4UcJFEeSsweJ0QEgopw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_hUYz5MJFEeSsweJ0QEgopw" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUYz5cJFEeSsweJ0QEgopw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_hUVwk8JFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUVwlMJFEeSsweJ0QEgopw" x="160" y="320" width="100" height="100"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_hUWXosJFEeSsweJ0QEgopw" type="2001" element="_hTh4VcJFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_hUW-sMJFEeSsweJ0QEgopw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_hUW-scJFEeSsweJ0QEgopw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hUZa8MJFEeSsweJ0QEgopw" type="3004" element="_hTh4VsJFEeSsweJ0QEgopw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_hUZa8cJFEeSsweJ0QEgopw" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUZa8sJFEeSsweJ0QEgopw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_hUWXo8JFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUWXpMJFEeSsweJ0QEgopw" x="160" y="480" width="100" height="100"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_hT0MIsJFEeSsweJ0QEgopw"/>
+          <edges xmi:type="notation:Edge" xmi:id="_hUik4MJFEeSsweJ0QEgopw" type="4001" element="_hTh4WsJFEeSsweJ0QEgopw" source="_hUUicMJFEeSsweJ0QEgopw" target="_hT9WEMJFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_hUjzAMJFEeSsweJ0QEgopw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUjzAcJFEeSsweJ0QEgopw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hUjzAsJFEeSsweJ0QEgopw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUjzA8JFEeSsweJ0QEgopw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hUkaEMJFEeSsweJ0QEgopw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUkaEcJFEeSsweJ0QEgopw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_hUik4cJFEeSsweJ0QEgopw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_hUik4sJFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hUik48JFEeSsweJ0QEgopw" points="[0, 0, -80, 60]$[80, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hUru0MJFEeSsweJ0QEgopw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hUru0cJFEeSsweJ0QEgopw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_hUsV4MJFEeSsweJ0QEgopw" type="4001" element="_hTh4X8JFEeSsweJ0QEgopw" source="_hUVJgsJFEeSsweJ0QEgopw" target="_hT9WEMJFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_hUs88MJFEeSsweJ0QEgopw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUs88cJFEeSsweJ0QEgopw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hUs88sJFEeSsweJ0QEgopw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUs888JFEeSsweJ0QEgopw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hUs89MJFEeSsweJ0QEgopw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUs89cJFEeSsweJ0QEgopw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_hUsV4cJFEeSsweJ0QEgopw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_hUsV4sJFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hUsV48JFEeSsweJ0QEgopw" points="[0, 0, 80, 60]$[-80, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hUtkAMJFEeSsweJ0QEgopw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hUtkAcJFEeSsweJ0QEgopw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_hUtkAsJFEeSsweJ0QEgopw" type="4001" element="_hTh4ZMJFEeSsweJ0QEgopw" source="_hUVwksJFEeSsweJ0QEgopw" target="_hUVJgsJFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_hUtkBsJFEeSsweJ0QEgopw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUtkB8JFEeSsweJ0QEgopw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hUuLEMJFEeSsweJ0QEgopw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUuLEcJFEeSsweJ0QEgopw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hUuLEsJFEeSsweJ0QEgopw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUuLE8JFEeSsweJ0QEgopw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_hUtkA8JFEeSsweJ0QEgopw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_hUtkBMJFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hUtkBcJFEeSsweJ0QEgopw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hUuyIMJFEeSsweJ0QEgopw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hUuyIcJFEeSsweJ0QEgopw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_hUuyIsJFEeSsweJ0QEgopw" type="4001" element="_hTh4acJFEeSsweJ0QEgopw" source="_hUWXosJFEeSsweJ0QEgopw" target="_hUVwksJFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_hUuyJsJFEeSsweJ0QEgopw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUuyJ8JFEeSsweJ0QEgopw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hUvZMMJFEeSsweJ0QEgopw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUvZMcJFEeSsweJ0QEgopw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hUvZMsJFEeSsweJ0QEgopw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hUvZM8JFEeSsweJ0QEgopw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_hUuyI8JFEeSsweJ0QEgopw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_hUuyJMJFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hUuyJcJFEeSsweJ0QEgopw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hUwAQMJFEeSsweJ0QEgopw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hUwAQcJFEeSsweJ0QEgopw" id="(0.5,1.0)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_hTh4QcJFEeSsweJ0QEgopw" name="Garrett Walker" incomingEdges="_hTh4WsJFEeSsweJ0QEgopw _hTh4X8JFEeSsweJ0QEgopw" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.0"/>
+        <semanticElements xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_hTh4QsJFEeSsweJ0QEgopw" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4Q8JFEeSsweJ0QEgopw"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4RMJFEeSsweJ0QEgopw"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_hTh4RcJFEeSsweJ0QEgopw" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_hTh4RsJFEeSsweJ0QEgopw" name="Jim Matthews" outgoingEdges="_hTh4WsJFEeSsweJ0QEgopw" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.1"/>
+        <semanticElements xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.1"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_hTh4R8JFEeSsweJ0QEgopw" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4SMJFEeSsweJ0QEgopw"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4ScJFEeSsweJ0QEgopw"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_hTh4SsJFEeSsweJ0QEgopw" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_hTh4S8JFEeSsweJ0QEgopw" name="Linda Vasquez" outgoingEdges="_hTh4X8JFEeSsweJ0QEgopw" incomingEdges="_hTh4ZMJFEeSsweJ0QEgopw" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.2"/>
+        <semanticElements xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.2"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_hTh4TMJFEeSsweJ0QEgopw" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4TcJFEeSsweJ0QEgopw"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4TsJFEeSsweJ0QEgopw"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_hTh4T8JFEeSsweJ0QEgopw" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_hTh4UMJFEeSsweJ0QEgopw" name="Frank Underwood" outgoingEdges="_hTh4ZMJFEeSsweJ0QEgopw" incomingEdges="_hTh4acJFEeSsweJ0QEgopw" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.3"/>
+        <semanticElements xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.3"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_hTh4UcJFEeSsweJ0QEgopw" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4UsJFEeSsweJ0QEgopw"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4U8JFEeSsweJ0QEgopw"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_hTh4VMJFEeSsweJ0QEgopw" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_hTh4VcJFEeSsweJ0QEgopw" name="Peter Russo" outgoingEdges="_hTh4acJFEeSsweJ0QEgopw" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.4"/>
+        <semanticElements xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.4"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_hTh4VsJFEeSsweJ0QEgopw" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4V8JFEeSsweJ0QEgopw"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4WMJFEeSsweJ0QEgopw"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_hTh4WcJFEeSsweJ0QEgopw" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_hTh4WsJFEeSsweJ0QEgopw" sourceNode="_hTh4RsJFEeSsweJ0QEgopw" targetNode="_hTh4QcJFEeSsweJ0QEgopw">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.1"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_hTh4W8JFEeSsweJ0QEgopw" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@edgeMappings[name='DependsOn']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4XMJFEeSsweJ0QEgopw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_hTh4XcJFEeSsweJ0QEgopw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4XsJFEeSsweJ0QEgopw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@edgeMappings[name='DependsOn']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_hTh4X8JFEeSsweJ0QEgopw" sourceNode="_hTh4S8JFEeSsweJ0QEgopw" targetNode="_hTh4QcJFEeSsweJ0QEgopw">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_hTh4YMJFEeSsweJ0QEgopw" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@edgeMappings[name='DependsOn']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4YcJFEeSsweJ0QEgopw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_hTh4YsJFEeSsweJ0QEgopw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4Y8JFEeSsweJ0QEgopw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@edgeMappings[name='DependsOn']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_hTh4ZMJFEeSsweJ0QEgopw" sourceNode="_hTh4UMJFEeSsweJ0QEgopw" targetNode="_hTh4S8JFEeSsweJ0QEgopw">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.3"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_hTh4ZcJFEeSsweJ0QEgopw" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@edgeMappings[name='DependsOn']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4ZsJFEeSsweJ0QEgopw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_hTh4Z8JFEeSsweJ0QEgopw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4aMJFEeSsweJ0QEgopw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@edgeMappings[name='DependsOn']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_hTh4acJFEeSsweJ0QEgopw" sourceNode="_hTh4VcJFEeSsweJ0QEgopw" targetNode="_hTh4UMJFEeSsweJ0QEgopw">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.4"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_hTh4asJFEeSsweJ0QEgopw" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@edgeMappings[name='DependsOn']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4a8JFEeSsweJ0QEgopw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_hTh4bMJFEeSsweJ0QEgopw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hTh4bcJFEeSsweJ0QEgopw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@edgeMappings[name='DependsOn']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_hTh4bsJFEeSsweJ0QEgopw"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer"/>
+      <target xmi:type="houseofcards:House" href="HouseOfCards.xmi#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_i8n9AMJFEeSsweJ0QEgopw" name="Influence">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_i8qZQMJFEeSsweJ0QEgopw" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_i8qZQcJFEeSsweJ0QEgopw" type="Sirius" element="_i8n9AMJFEeSsweJ0QEgopw" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_i8tckMJFEeSsweJ0QEgopw" type="2001" element="_i8n9AcJFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_i8uDoMJFEeSsweJ0QEgopw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_i8uDocJFEeSsweJ0QEgopw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_i8zjMMJFEeSsweJ0QEgopw" type="3004" element="_i8n9AsJFEeSsweJ0QEgopw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_i8zjMcJFEeSsweJ0QEgopw" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8zjMsJFEeSsweJ0QEgopw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_i8tckcJFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8tcksJFEeSsweJ0QEgopw" x="130" y="350" width="100" height="100"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_i8uqsMJFEeSsweJ0QEgopw" type="2001" element="_i8n9BsJFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_i8vRwMJFEeSsweJ0QEgopw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_i8vRwcJFEeSsweJ0QEgopw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_i80KQMJFEeSsweJ0QEgopw" type="3004" element="_i8n9B8JFEeSsweJ0QEgopw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_i80KQcJFEeSsweJ0QEgopw" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i80KQsJFEeSsweJ0QEgopw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_i8uqscJFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8uqssJFEeSsweJ0QEgopw" x="250" y="190" width="100" height="100"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_i8v40MJFEeSsweJ0QEgopw" type="2001" element="_i8n9C8JFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_i8wf4MJFEeSsweJ0QEgopw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_i8wf4cJFEeSsweJ0QEgopw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_i80xUMJFEeSsweJ0QEgopw" type="3004" element="_i8n9DMJFEeSsweJ0QEgopw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_i80xUcJFEeSsweJ0QEgopw" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i80xUsJFEeSsweJ0QEgopw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_i8v40cJFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8v40sJFEeSsweJ0QEgopw" x="130" y="190" width="100" height="100"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_i8xG8MJFEeSsweJ0QEgopw" type="2001" element="_i8n9EMJFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_i8xuAMJFEeSsweJ0QEgopw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_i8xuAcJFEeSsweJ0QEgopw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_i81YYMJFEeSsweJ0QEgopw" type="3004" element="_i8n9EcJFEeSsweJ0QEgopw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_i81YYcJFEeSsweJ0QEgopw" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i81YYsJFEeSsweJ0QEgopw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_i8xG8cJFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8xG8sJFEeSsweJ0QEgopw" x="250" y="30" width="100" height="100"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_i8xuAsJFEeSsweJ0QEgopw" type="2001" element="_i8n9FcJFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_i8yVEMJFEeSsweJ0QEgopw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_i8yVEcJFEeSsweJ0QEgopw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_i82mgMJFEeSsweJ0QEgopw" type="3004" element="_i8n9FsJFEeSsweJ0QEgopw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_i82mgcJFEeSsweJ0QEgopw" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i82mgsJFEeSsweJ0QEgopw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_i8xuA8JFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8xuBMJFEeSsweJ0QEgopw" x="370" y="190" width="100" height="100"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_i8qZQsJFEeSsweJ0QEgopw"/>
+          <edges xmi:type="notation:Edge" xmi:id="_i83NkMJFEeSsweJ0QEgopw" type="4001" element="_i8n9GsJFEeSsweJ0QEgopw" source="_i8uqsMJFEeSsweJ0QEgopw" target="_i8tckMJFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_i830oMJFEeSsweJ0QEgopw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i830ocJFEeSsweJ0QEgopw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_i830osJFEeSsweJ0QEgopw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i830o8JFEeSsweJ0QEgopw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_i830pMJFEeSsweJ0QEgopw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i830pcJFEeSsweJ0QEgopw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_i83NkcJFEeSsweJ0QEgopw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_i83NksJFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_i83Nk8JFEeSsweJ0QEgopw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i84bsMJFEeSsweJ0QEgopw" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i84bscJFEeSsweJ0QEgopw" id="(0.5,0.5)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_i84bssJFEeSsweJ0QEgopw" type="4001" element="_i8n9H8JFEeSsweJ0QEgopw" source="_i8v40MJFEeSsweJ0QEgopw" target="_i8tckMJFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_i85CwMJFEeSsweJ0QEgopw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i85CwcJFEeSsweJ0QEgopw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_i85CwsJFEeSsweJ0QEgopw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i85Cw8JFEeSsweJ0QEgopw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_i85p0MJFEeSsweJ0QEgopw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i85p0cJFEeSsweJ0QEgopw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_i84bs8JFEeSsweJ0QEgopw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_i84btMJFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_i84btcJFEeSsweJ0QEgopw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i86Q4MJFEeSsweJ0QEgopw" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i86Q4cJFEeSsweJ0QEgopw" id="(0.5,0.5)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_i86Q4sJFEeSsweJ0QEgopw" type="4001" element="_i8n9JMJFEeSsweJ0QEgopw" source="_i8xG8MJFEeSsweJ0QEgopw" target="_i8v40MJFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_i8638MJFEeSsweJ0QEgopw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8638cJFEeSsweJ0QEgopw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_i8638sJFEeSsweJ0QEgopw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i86388JFEeSsweJ0QEgopw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_i8639MJFEeSsweJ0QEgopw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8639cJFEeSsweJ0QEgopw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_i86Q48JFEeSsweJ0QEgopw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_i86Q5MJFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_i86Q5cJFEeSsweJ0QEgopw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i87fAMJFEeSsweJ0QEgopw" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i87fAcJFEeSsweJ0QEgopw" id="(0.5,0.5)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_i87fAsJFEeSsweJ0QEgopw" type="4001" element="_i8n9KcJFEeSsweJ0QEgopw" source="_i8xuAsJFEeSsweJ0QEgopw" target="_i8xG8MJFEeSsweJ0QEgopw">
+            <children xmi:type="notation:Node" xmi:id="_i88GEMJFEeSsweJ0QEgopw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i88GEcJFEeSsweJ0QEgopw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_i88GEsJFEeSsweJ0QEgopw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i88GE8JFEeSsweJ0QEgopw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_i88GFMJFEeSsweJ0QEgopw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i88GFcJFEeSsweJ0QEgopw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_i87fA8JFEeSsweJ0QEgopw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_i87fBMJFEeSsweJ0QEgopw" fontName="Droid Sans" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_i87fBcJFEeSsweJ0QEgopw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i88tIMJFEeSsweJ0QEgopw" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i88tIcJFEeSsweJ0QEgopw" id="(0.5,0.5)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_i8n9AcJFEeSsweJ0QEgopw" name="Garrett Walker" incomingEdges="_i8n9GsJFEeSsweJ0QEgopw _i8n9H8JFEeSsweJ0QEgopw" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.0"/>
+        <semanticElements xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_i8n9AsJFEeSsweJ0QEgopw" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9A8JFEeSsweJ0QEgopw"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9BMJFEeSsweJ0QEgopw"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_i8n9BcJFEeSsweJ0QEgopw" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_i8n9BsJFEeSsweJ0QEgopw" name="Jim Matthews" outgoingEdges="_i8n9GsJFEeSsweJ0QEgopw" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.1"/>
+        <semanticElements xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.1"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_i8n9B8JFEeSsweJ0QEgopw" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9CMJFEeSsweJ0QEgopw"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9CcJFEeSsweJ0QEgopw"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_i8n9CsJFEeSsweJ0QEgopw" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_i8n9C8JFEeSsweJ0QEgopw" name="Linda Vasquez" outgoingEdges="_i8n9H8JFEeSsweJ0QEgopw" incomingEdges="_i8n9JMJFEeSsweJ0QEgopw" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.2"/>
+        <semanticElements xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.2"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_i8n9DMJFEeSsweJ0QEgopw" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9DcJFEeSsweJ0QEgopw"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9DsJFEeSsweJ0QEgopw"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_i8n9D8JFEeSsweJ0QEgopw" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_i8n9EMJFEeSsweJ0QEgopw" name="Frank Underwood" outgoingEdges="_i8n9JMJFEeSsweJ0QEgopw" incomingEdges="_i8n9KcJFEeSsweJ0QEgopw" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.3"/>
+        <semanticElements xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.3"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_i8n9EcJFEeSsweJ0QEgopw" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9EsJFEeSsweJ0QEgopw"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9E8JFEeSsweJ0QEgopw"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_i8n9FMJFEeSsweJ0QEgopw" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_i8n9FcJFEeSsweJ0QEgopw" name="Peter Russo" outgoingEdges="_i8n9KcJFEeSsweJ0QEgopw" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.4"/>
+        <semanticElements xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.4"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_i8n9FsJFEeSsweJ0QEgopw" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9F8JFEeSsweJ0QEgopw"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9GMJFEeSsweJ0QEgopw"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_i8n9GcJFEeSsweJ0QEgopw" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_i8n9GsJFEeSsweJ0QEgopw" sourceNode="_i8n9BsJFEeSsweJ0QEgopw" targetNode="_i8n9AcJFEeSsweJ0QEgopw">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.1"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_i8n9G8JFEeSsweJ0QEgopw" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@edgeMappings[name='DependsOn']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9HMJFEeSsweJ0QEgopw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_i8n9HcJFEeSsweJ0QEgopw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9HsJFEeSsweJ0QEgopw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@edgeMappings[name='DependsOn']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_i8n9H8JFEeSsweJ0QEgopw" sourceNode="_i8n9C8JFEeSsweJ0QEgopw" targetNode="_i8n9AcJFEeSsweJ0QEgopw">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_i8n9IMJFEeSsweJ0QEgopw" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@edgeMappings[name='DependsOn']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9IcJFEeSsweJ0QEgopw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_i8n9IsJFEeSsweJ0QEgopw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9I8JFEeSsweJ0QEgopw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@edgeMappings[name='DependsOn']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_i8n9JMJFEeSsweJ0QEgopw" sourceNode="_i8n9EMJFEeSsweJ0QEgopw" targetNode="_i8n9C8JFEeSsweJ0QEgopw">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.3"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_i8n9JcJFEeSsweJ0QEgopw" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@edgeMappings[name='DependsOn']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9JsJFEeSsweJ0QEgopw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_i8n9J8JFEeSsweJ0QEgopw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9KMJFEeSsweJ0QEgopw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@edgeMappings[name='DependsOn']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_i8n9KcJFEeSsweJ0QEgopw" sourceNode="_i8n9FcJFEeSsweJ0QEgopw" targetNode="_i8n9EMJFEeSsweJ0QEgopw">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.4"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_i8n9KsJFEeSsweJ0QEgopw" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@edgeMappings[name='DependsOn']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9K8JFEeSsweJ0QEgopw" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_i8n9LMJFEeSsweJ0QEgopw">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_i8n9LcJFEeSsweJ0QEgopw"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@edgeMappings[name='DependsOn']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_i8n9LsJFEeSsweJ0QEgopw"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer"/>
+      <target xmi:type="houseofcards:House" href="HouseOfCards.xmi#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_eos-0MJHEeSGuL3mkw-0AA" name="Flat">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_eo2IwMJHEeSGuL3mkw-0AA" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_eo2IwcJHEeSGuL3mkw-0AA" type="Sirius" element="_eos-0MJHEeSGuL3mkw-0AA" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_eo4lAMJHEeSGuL3mkw-0AA" type="2001" element="_eos-0cJHEeSGuL3mkw-0AA">
+            <children xmi:type="notation:Node" xmi:id="_eo-EkMJHEeSGuL3mkw-0AA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_eo-EkcJHEeSGuL3mkw-0AA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_epEyQMJHEeSGuL3mkw-0AA" type="3004" element="_eos-0sJHEeSGuL3mkw-0AA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_epEyQcJHEeSGuL3mkw-0AA" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_epEyQsJHEeSGuL3mkw-0AA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_eo4lAcJHEeSGuL3mkw-0AA" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eo4lAsJHEeSGuL3mkw-0AA" width="100" height="100"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eo_5wMJHEeSGuL3mkw-0AA" type="2001" element="_eos-1sJHEeSGuL3mkw-0AA">
+            <children xmi:type="notation:Node" xmi:id="_epAg0MJHEeSGuL3mkw-0AA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_epAg0cJHEeSGuL3mkw-0AA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_epFZUMJHEeSGuL3mkw-0AA" type="3004" element="_eos-18JHEeSGuL3mkw-0AA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_epFZUcJHEeSGuL3mkw-0AA" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_epFZUsJHEeSGuL3mkw-0AA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_eo_5wcJHEeSGuL3mkw-0AA" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eo_5wsJHEeSGuL3mkw-0AA" x="160" width="100" height="100"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_epBH4MJHEeSGuL3mkw-0AA" type="2001" element="_eotl4sJHEeSGuL3mkw-0AA">
+            <children xmi:type="notation:Node" xmi:id="_epBu8MJHEeSGuL3mkw-0AA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_epBu8cJHEeSGuL3mkw-0AA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_epGAYMJHEeSGuL3mkw-0AA" type="3004" element="_eotl48JHEeSGuL3mkw-0AA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_epGAYcJHEeSGuL3mkw-0AA" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_epGAYsJHEeSGuL3mkw-0AA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_epBH4cJHEeSGuL3mkw-0AA" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_epBH4sJHEeSGuL3mkw-0AA" x="320" width="100" height="100"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_epCWAMJHEeSGuL3mkw-0AA" type="2001" element="_eotl58JHEeSGuL3mkw-0AA">
+            <children xmi:type="notation:Node" xmi:id="_epC9EMJHEeSGuL3mkw-0AA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_epC9EcJHEeSGuL3mkw-0AA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_epGncMJHEeSGuL3mkw-0AA" type="3004" element="_eotl6MJHEeSGuL3mkw-0AA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_epGnccJHEeSGuL3mkw-0AA" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_epGncsJHEeSGuL3mkw-0AA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_epCWAcJHEeSGuL3mkw-0AA" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_epCWAsJHEeSGuL3mkw-0AA" x="480" width="100" height="100"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_epDkIMJHEeSGuL3mkw-0AA" type="2001" element="_eotl7MJHEeSGuL3mkw-0AA">
+            <children xmi:type="notation:Node" xmi:id="_epELMMJHEeSGuL3mkw-0AA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_epELMcJHEeSGuL3mkw-0AA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_epHOgMJHEeSGuL3mkw-0AA" type="3004" element="_eotl7cJHEeSGuL3mkw-0AA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_epHOgcJHEeSGuL3mkw-0AA" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_epHOgsJHEeSGuL3mkw-0AA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_epDkIcJHEeSGuL3mkw-0AA" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_epDkIsJHEeSGuL3mkw-0AA" x="640" width="100" height="100"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_eo2IwsJHEeSGuL3mkw-0AA"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_eos-0cJHEeSGuL3mkw-0AA" name="Garrett Walker" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.0"/>
+        <semanticElements xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_eos-0sJHEeSGuL3mkw-0AA" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_eos-08JHEeSGuL3mkw-0AA"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_eos-1MJHEeSGuL3mkw-0AA"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_eos-1cJHEeSGuL3mkw-0AA" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_eos-1sJHEeSGuL3mkw-0AA" name="Jim Matthews" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.1"/>
+        <semanticElements xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.1"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_eos-18JHEeSGuL3mkw-0AA" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_eos-2MJHEeSGuL3mkw-0AA"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_eotl4MJHEeSGuL3mkw-0AA"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_eotl4cJHEeSGuL3mkw-0AA" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_eotl4sJHEeSGuL3mkw-0AA" name="Linda Vasquez" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.2"/>
+        <semanticElements xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.2"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_eotl48JHEeSGuL3mkw-0AA" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_eotl5MJHEeSGuL3mkw-0AA"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_eotl5cJHEeSGuL3mkw-0AA"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_eotl5sJHEeSGuL3mkw-0AA" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_eotl58JHEeSGuL3mkw-0AA" name="Frank Underwood" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.3"/>
+        <semanticElements xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.3"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_eotl6MJHEeSGuL3mkw-0AA" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_eotl6cJHEeSGuL3mkw-0AA"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_eotl6sJHEeSGuL3mkw-0AA"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_eotl68JHEeSGuL3mkw-0AA" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_eotl7MJHEeSGuL3mkw-0AA" name="Peter Russo" width="10" height="10" resizeKind="NSEW">
+        <target xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.4"/>
+        <semanticElements xmi:type="houseofcards:Person" href="HouseOfCards.xmi#//@houses.4"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_eotl7cJHEeSGuL3mkw-0AA" showIcon="false" labelPosition="node">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_eotl7sJHEeSGuL3mkw-0AA"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_eotl78JHEeSGuL3mkw-0AA"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_eotl8MJHEeSGuL3mkw-0AA" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Flat']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_eotl8cJHEeSGuL3mkw-0AA"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Flat']/@defaultLayer"/>
+      <target xmi:type="houseofcards:House" href="HouseOfCards.xmi#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/fr.obeo.dsl.houseofcards.design/description/houseofcards.odesign#//@ownedViewpoints[name='HouseOfCards']"/>
   </ownedViews>
 </viewpoint:DAnalysis>
