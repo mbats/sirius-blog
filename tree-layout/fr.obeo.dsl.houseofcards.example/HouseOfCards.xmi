@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<houseofcards:House xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:houseofcards="http://www.example.org/houseofcards" xsi:schemaLocation="http://www.example.org/houseofcards ../fr.obeo.dsl.houseofcard.metamodel/model/houseofcards.ecore">
+<houseofcards:House xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:houseofcards="http://www.example.org/houseofcards">
   <houses name="Garrett Walker"/>
   <houses dependsOn="//@houses.0" name="Jim Matthews"/>
   <houses dependsOn="//@houses.0" name="Linda Vasquez" influences="//@houses.0"/>
