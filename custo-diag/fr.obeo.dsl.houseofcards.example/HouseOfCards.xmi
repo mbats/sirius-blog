@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<houseofcards:House xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:houseofcards="http://www.example.org/houseofcards">
+  <houses name="Garrett Walker"/>
+  <houses dependsOn="//@houses.0" name="Jim Matthews"/>
+  <houses dependsOn="//@houses.0" name="Linda Vasquez" influences="//@houses.0"/>
+  <houses dependsOn="//@houses.2" name="Frank Underwood" influences="//@houses.2 //@houses.1 //@houses.4"/>
+  <houses dependsOn="//@houses.3" name="Peter Russo"/>
+</houseofcards:House>

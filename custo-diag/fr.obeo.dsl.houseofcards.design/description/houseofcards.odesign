@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="houseofcards" version="8.1.0">
+  <ownedViewpoints name="HouseOfCards">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Flat" domainClass="houseofcards.House">
+      <defaultLayer name="Default">
+        <nodeMappings name="Person" semanticCandidatesExpression="feature:houses" domainClass="houseofcards.Person">
+          <style xsi:type="style:BundledImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Hierarchy" domainClass="houseofcards.House">
+      <metamodel href="../../fr.obeo.dsl.houseofcard.metamodel/model/houseofcards.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="Person" semanticCandidatesExpression="feature:houses" domainClass="houseofcards.Person">
+          <style xsi:type="style:BundledImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="DependsOn" sourceMapping="//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@nodeMappings[name='Person']" targetMapping="//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Hierarchy']/@defaultLayer/@nodeMappings[name='Person']" targetFinderExpression="feature:dependsOn">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Influence" domainClass="houseofcards.House">
+      <layout xsi:type="description_1:OrderedTreeLayout" childrenExpression="feature:influences" nodeMapping="//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@nodeMappings[name='Person']"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="Person" semanticCandidatesExpression="feature:houses" domainClass="houseofcards.Person">
+          <style xsi:type="style:BundledImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="DependsOn" sourceMapping="//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@nodeMappings[name='Person']" targetMapping="//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence']/@defaultLayer/@nodeMappings[name='Person']" targetFinderExpression="feature:dependsOn">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Influence with conditional style" domainClass="houseofcards.House">
+      <layout xsi:type="description_1:OrderedTreeLayout" childrenExpression="feature:influences" nodeMapping="//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence%20with%20conditional%20style']/@defaultLayer/@nodeMappings[name='Person']"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="Person" semanticCandidatesExpression="feature:houses" domainClass="houseofcards.Person">
+          <style xsi:type="style:BundledImageDescription" showIcon="false" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+          <conditionnalStyles predicateExpression="[self.name='Frank Underwood'/]">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" resizeKind="NSEW" workspacePath="/fr.obeo.dsl.houseofcards.design/images/Frank_Underwood.jpg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="[self.name='Linda Vasquez'/]">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="10" resizeKind="NSEW" workspacePath="/fr.obeo.dsl.houseofcards.design/images/Linda_Vasquez.jpg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </conditionnalStyles>
+        </nodeMappings>
+        <edgeMappings name="DependsOn" sourceMapping="//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence%20with%20conditional%20style']/@defaultLayer/@nodeMappings[name='Person']" targetMapping="//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence%20with%20conditional%20style']/@defaultLayer/@nodeMappings[name='Person']" targetFinderExpression="feature:dependsOn">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Influence with style custo" domainClass="houseofcards.House">
+      <layout xsi:type="description_1:OrderedTreeLayout" childrenExpression="feature:influences" nodeMapping="//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence%20with%20style%20custo']/@defaultLayer/@nodeMappings[name='Person']"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="Person" semanticCandidatesExpression="feature:houses" domainClass="houseofcards.Person">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="PersonWorkspaceImage">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="DependsOn" sourceMapping="//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence%20with%20style%20custo']/@defaultLayer/@nodeMappings[name='Person']" targetMapping="//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence%20with%20style%20custo']/@defaultLayer/@nodeMappings[name='Person']" targetFinderExpression="feature:dependsOn">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <customization>
+          <vsmElementCustomizations xsi:type="description:VSMElementCustomization">
+            <featureCustomizations xsi:type="description:EAttributeCustomization" appliedOn="//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence%20with%20style%20custo']/@defaultLayer/@nodeMappings[name='Person']/@style" attributeName="workspacePath" value="service:getImage"/>
+          </vsmElementCustomizations>
+        </customization>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="fr.obeo.dsl.houseofcards.design.service.HouseOfCardsServices"/>
+  </ownedViewpoints>
+</description:Group>
