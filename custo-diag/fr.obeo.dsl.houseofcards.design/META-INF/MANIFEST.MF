@@ -9,6 +9,6 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.core.resources,
  org.eclipse.sirius,
  org.eclipse.sirius.common.acceleo.mtl,
- fr.obeo.dsl.houseofcard.metamodel;bundle-version="1.0.0"
+ fr.obeo.dsl.houseofcards.metamodel
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6

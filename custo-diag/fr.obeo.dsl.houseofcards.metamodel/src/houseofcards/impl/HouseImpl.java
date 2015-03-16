@@ -25,11 +25,12 @@ import org.eclipse.emf.ecore.util.InternalEList;
  * An implementation of the model object '<em><b>House</b></em>'.
  * <!-- end-user-doc -->
  * <p>
+ * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link houseofcards.impl.HouseImpl#getHouses <em>Houses</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */

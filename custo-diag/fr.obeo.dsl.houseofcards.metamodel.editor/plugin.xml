@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated houseofcards -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="houseofcards.presentation.HouseofcardsModelWizardID"
+            name="%_UI_HouseofcardsModelWizard_label"
+            class="houseofcards.presentation.HouseofcardsModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/HouseofcardsModelFile.gif">
+         <description>%_UI_HouseofcardsModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated houseofcards -->
+      <editor
+            id="houseofcards.presentation.HouseofcardsEditorID"
+            name="%_UI_HouseofcardsEditor_label"
+            icon="icons/full/obj16/HouseofcardsModelFile.gif"
+            extensions="houseofcards"
+            class="houseofcards.presentation.HouseofcardsEditor"
+            contributorClass="houseofcards.presentation.HouseofcardsActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

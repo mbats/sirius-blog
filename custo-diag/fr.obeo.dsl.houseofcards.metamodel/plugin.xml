@@ -10,7 +10,8 @@
       <!-- @generated houseofcards -->
       <package
             uri="http://www.example.org/houseofcards"
-            class="houseofcards.HouseofcardsPackage"/>
+            class="houseofcards.HouseofcardsPackage"
+            genModel="model/houseofcards.genmodel"/>
    </extension>
 
 </plugin>
