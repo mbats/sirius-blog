@@ -54,8 +54,8 @@ We provide a new style customization:
 And a new property customization by expression:
 !./images/style_custo_property_specification.png!
 
-All the pictures are stored in an @images@ folder:
-./images/style_custo_design_images.png!
+All the pictures are stored in an @images@ folder.
+!./images/style_custo_design_images.png!
 
 Then we specify that the style to customize is the workspace image previously defined.
 This style customization must be applied on @PersonWorkspaceImage@ and we want to customize the @workspacePath@ property:
@@ -66,6 +66,9 @@ To retrieve the value of the @workspacePath@, we call a Java service @getImage@ 
 
 Finally, when we reopen our example, we get a shinier diagram this time with everybody associated to his picture.
 !./images/style_custo_property.png!
+
+And now if I update the name of a character, I get automatically the associated picture. John Doe is represented by the default image and we see Zoe's lovely face.
+!./images/style_custo_update_name.png!
 
 With the next Sirius 3.0 version, if you use images with a transparent background, the edges will follow the image.
 !./images/Sirius_3_0_Edges_And_Transparency.png!
