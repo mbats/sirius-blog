@@ -88,7 +88,7 @@
       <layout xsi:type="description_1:OrderedTreeLayout" childrenExpression="feature:influences" nodeMapping="//@ownedViewpoints[name='HouseOfCards']/@ownedRepresentations[name='Influence%20with%20style%20custo']/@defaultLayer/@nodeMappings[name='Person']"/>
       <defaultLayer name="Default">
         <nodeMappings name="Person" semanticCandidatesExpression="feature:houses" domainClass="houseofcards.Person">
-          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="PersonWorkspaceImage">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.obeo.dsl.houseofcards.design/images/default.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
