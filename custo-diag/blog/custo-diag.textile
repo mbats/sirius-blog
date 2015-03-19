@@ -1,6 +1,6 @@
 h1. Customize diagrams with images
 
-Continuing from the example of our "previous blog post":http://melb.enix.org/the_tree_layout_secret on House of Cards, we'll see today how one can customize the elements of diagrams by using pictures.
+Continuing from the example of our "previous blog post":http://melb.enix.org/sirius/the_tree_layout_secret on House of Cards, we'll see today how one can customize the elements of diagrams by using pictures.
 
 h2. Per-diagram instance customization
 
@@ -19,7 +19,7 @@ The elements you can customize are:
 * node: border size, color, label alignment, format, position, size and workspace image.
 * edge: the folding style, the color, the label alignment, format, position and size, the line and routing style, the size and the target and source arrow.
 
-If we set a workspace image on the _Influence_ diagram resulting from the "tree layout blog post":http://melb.enix.org/the_tree_layout_secret, we are able to see Frank Underwood's face instead of a simple white square.
+If we set a workspace image on the _Influence_ diagram resulting from the "tree layout blog post":http://melb.enix.org/sirius/the_tree_layout_secret, we are able to see Frank Underwood's face instead of a simple white square.
 !./images/set_image_on_existing_diag.png! 
 
 These customizations can be reset using:
