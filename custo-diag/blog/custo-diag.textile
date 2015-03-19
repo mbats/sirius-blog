@@ -1,6 +1,6 @@
 h1. Customize diagrams with images
 
-Continuing from the example of our previous blog post on House of Cards, we'll see today how one can customize the elements of diagrams by using pictures.
+Continuing from the example of our "previous blog post":http://melb.enix.org/the_tree_layout_secret on House of Cards, we'll see today how one can customize the elements of diagrams by using pictures.
 
 h2. Per-diagram instance customization
 
