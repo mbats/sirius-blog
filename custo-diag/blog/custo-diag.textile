@@ -73,3 +73,4 @@ And now if I update the name of a character, I get automatically the associated 
 With the next Sirius 3.0 version, if you use images with a transparent background, the edges will follow the image.
 !./images/Sirius_3_0_Edges_And_Transparency.png!
 
+The sample code from this example is available on github: "https://github.com/mbats/sirius-blog/tree/master/custo-diag":https://github.com/mbats/sirius-blog/tree/master/custo-diag
