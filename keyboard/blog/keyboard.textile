@@ -1,0 +1,79 @@
+h1. Keyboards shortcuts
+
+Usually when you are using a graphical modeler, you do most of the actions with the mouse. "Sirius":http://www.eclipse.org/sirius based modelers have several built-in shortcut keys that you can use to save time in your day to day workflow. Shortcut keys are commonly accessed by using the !./images/computer_key_Alt_T.png! key, !./images/computer_key_Ctrl_T.png! key, or !./images/computer_key_Shift_T.png! key in conjunction with other keys.
+
+h2. Navigate
+
+Shortcut keys help providing an easier and usually quicker method of navigation.
+|_. Action |_. Shortcut |_. Description |
+|Go to open editors|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_E_T.png!| To get a direct access to an editor, just press @Ctrl + E@, and either use the arrow buttons, or type the name of the representation you are editing.|
+|Navigate between visited representations|!./images/computer_key_Alt_T.png! + !./images/computer_key_Arrow_Left_T.png! or !./images/computer_key_Alt_T.png! + !./images/computer_key_Arrow_Right_T.png!|To cycle between visited representations use @Alt + Arrows@.|
+|Cycle between shapes on the diagram from left to right|!./images/computer_key_Tab_T.png!||
+|Cycle between shapes on the diagram from right to left |!./images/computer_key_Shift_T.png! + !./images/computer_key_Tab_T.png!||
+|Navigate between shapes on the diagram|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_Arrows_T.png!||
+|Navigate into a container|!./images/computer_key_Alt_T.png! + !./images/computer_key_Arrow_Down_T.png!|!./images/Navigate_into_container.png!:./images/full/Navigate_into_container.png|
+|Navigate out of a container|!./images/computer_key_Alt_T.png! + !./images/computer_key_Arrow_Up_T.png!|!./images/Navigate_out_container.png!:./images/full/Navigate_out_container.png|
+|Navigate clockwise among the existing edges|!./images/computer_key_slash_T.png!|!./images/Navigate_clockwise_edges.png!:./images/full/Navigate_clockwise_edges.png|
+|Navigate counter-clockwise among the existing edges|!./images/computer_key_Backslash_T.png!||
+|Show quick outline|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_O_T.png!|!./images/Quick_outline.png!:./images/full/Quick_outline.png|   
+
+h2. Select
+
+Below is a list of the shortcut keys that allow to select elements on the diagrams.
+|_. Action |_. Shortcut |_. Description |
+|Select All|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_A_T.png!|!./images/Select_All.png!:./images/full/Select_All.png|
+|Select in sequence|!./images/computer_key_Shift_T.png! + !./images/computer_key_Arrows_T.png!|Hold down @Shift@, use navigation keys to select additional components. !./images/Select_sequence.png!:./images/full/Select_sequence.png|
+|Select multiple|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_Arrows_T.png! + !./images/computer_key_Space_bar_T.png!|Hold down @Ctrl@, Use navigation keys to navigate to additional components, Press @Space@ to select additional components. !./images/Select_multiple.png!:./images/full/Select_multiple.png|
+|Deselect|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_Space_bar_T.png!|Deselect the selected shape/edge by showing the shape/edge in an @outline@. !./images/Deselect.png!:./images/full/Deselect.png|
+
+h2. Edit
+
+It is also possible to use shortcuts to edit a diagram.
+|_. Action |_. Shortcut |_. Description |
+|Direct Edit |!./images/computer_key_F2_T.png!|!./images/Direct_Edit.png!:./images/full/Direct_Edit.png|         
+|Refresh|!./images/computer_key_F5_T.png! | Force an update of the diagram according to the latest version of the semantic model.|                    
+|Open Help|!./images/computer_key_Shift_T.png! + !./images/computer_key_F1_T.png! |!./images/Open_Help.png!:./images/full/Open_Help.png|  
+|Copy semantic element|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_C_T.png! |  |               
+|Paste semantic element|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_V_T.png!       |   |        
+|Copy layout|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_Shift_T.png! + !./images/computer_key_Alt_T.png! + !./images/computer_key_C_T.png! |See Sirius "copy/paste layout":http://www.eclipse.org/sirius/doc/user/diagrams/Diagrams.html#Copypasteoflayout documentation.|                
+|Paste layout|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_Shift_T.png! + !./images/computer_key_Alt_T.png! + !./images/computer_key_V_T.png! |See Sirius "copy/paste layout":http://www.eclipse.org/sirius/doc/user/diagrams/Diagrams.html#Copypasteoflayout documentation.|           
+|Undo|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_Z_T.png!        |   |       
+|Redo|!./images/computer_key_Shift_T.png! + !./images/computer_key_Ctrl_T.png! + !./images/computer_key_Z_T.png!  ||
+|Hide element| !./images/computer_key_Ctrl_T.png! + !./images/computer_key_H_T.png! |See Sirius "hide elements":http://www.eclipse.org/sirius/doc/user/diagrams/Diagrams.html#Hidingelements documentation.|
+|Hide label|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_L_T.png! |See Sirius "hide elements":http://www.eclipse.org/sirius/doc/user/diagrams/Diagrams.html#Hidingelements documentation.|
+|Save |!./images/computer_key_Ctrl_T.png! + !./images/computer_key_S_T.png!    |      |         
+|Save all |!./images/computer_key_Shift_T.png! + !./images/computer_key_Ctrl_T.png! + !./images/computer_key_S_T.png! | |          
+|Move shape |!./images/computer_key_Arrows_T.png!| !./images/Move.png!  |
+|Cycle on element handles|!./images/computer_key_Period_T.png!|Cycle on Position Handle / 8 Side and Corner Size Handles / Position Handle. Clockwise rotation.|
+|Cycle through edge points|!./images/computer_key_Period_T.png!|Cycle through the endpoints, bendpoints, and midpoints of a connection. Clockwise rotation. |
+|Manage edge|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_Shift_T.png! + !./images/computer_key_Minus_T.png! |Remove all the bend-points to retrieve an original straight edge. See Sirius "manage edge":http://www.eclipse.org/sirius/doc/user/diagrams/Diagrams.html#Manageedges documentation.|
+|Move a component| !./images/computer_key_Period_T.png! + Move|Cycle once to the Move handle using the @period key (.)@, use navigation keys to move, press @Enter@ to accept new location or press @Escape@ to cancel the move.|
+|Resize a component|!./images/computer_key_Period_T.png! + Resize|Cycle to desired resize handle using the period key, use navigation keys to resize, press @Enter@ to accept new size or press @Escape@ to cancel the resize.|
+|Centered resize|!./images/mouse_pointer_large_T.png! + !./images/computer_key_Ctrl_T.png!|Expands the shape on both opposite sides. See Sirius "resize elements":http://www.eclipse.org/sirius/doc/user/diagrams/Diagrams.html#Resizingelements documentation.|
+|Resize that keeps the ratio|!./images/mouse_pointer_large_T.png! + !./images/computer_key_Shift_T.png!|See Sirius "resize elements":http://www.eclipse.org/sirius/doc/user/diagrams/Diagrams.html#Resizingelements documentation.|
+|Resize without snap|!./images/mouse_pointer_large_T.png! + !./images/computer_key_Alt_T.png!| Temporarily disables the snap during the resize if it is activated. See Sirius "resize elements":http://www.eclipse.org/sirius/doc/user/diagrams/Diagrams.html#Resizingelements documentation.|
+|Resize container keeping children relative|!./images/mouse_pointer_large_T.png! + !./images/computer_key_F3_T.png!|When the shape is resized using the left and/or top border, the children (contained nodes for container and border nodes for all shapes) are moved with the border. See Sirius "resize elements":http://www.eclipse.org/sirius/doc/user/diagrams/Diagrams.html#Resizingelements documentation.|
+|Reset diagram| !./images/computer_key_Ctrl_T.png! + !./images/computer_key_and_T.png!|The diagram can have a negative origin or can be shifted toward the bottom-right with a blank zone at the top-left. This action aims to move all diagram elements to retrieve its origin while keeping the element layout. See Sirius "reset diagram":http://www.eclipse.org/sirius/doc/user/diagrams/Diagrams.html#ResetDiagramorContainerOrigin documentation.|
+
+h2. Diagram
+
+The following shortcuts allow to zoom, scroll or invoke the context menu from the diagram.
+|_.  Action |_.  Shortcut |_. Description |
+|Zoom in |!./images/computer_key_Ctrl_T.png! + !./images/computer_key_num_row_Equals_T.png!|!./images/Zoom_in.png!:./images/full/Zoom_in.png|
+|Zoom out |!./images/computer_key_Ctrl_T.png! + !./images/computer_key_Minus_T.png! |!./images/Zoom_out.png!:./images/full/Zoom_out.png|
+|Pan when zoomed in|!./images/computer_key_Space_bar_T.png! + !./images/mouse_pointer_hand_small_T.png! |Hold down @spacebar@ and drag the mouse|
+|Scroll in diagram|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_Shift_T.png! + !./images/computer_key_Arrows_T.png!||
+|Invokes the context menu for the shape|!./images/computer_key_Shift_T.png! + !./images/computer_key_F10_T.png!|!./images/Context_menu.png!:./images/full/Context_menu.png|
+
+h2. Palette
+
+Keyboard shortcuts save you time by letting you explore the palette quickly.
+|_. Action |_. Shortcut|
+|Collapse or expand the selected group |!./images/computer_key_Space_bar_T.png! or !./images/computer_key_Enter_T.png!| 
+|Select tool|!./images/computer_key_Space_bar_T.png! or !./images/computer_key_Enter_T.png!| 
+|Stack popup list appears|!./images/computer_key_Alt_T.png! + !./images/computer_key_Space_bar_T.png! |
+|Navigate between group & tools|!./images/computer_key_Arrow_Up_T.png! or !./images/computer_key_Arrow_Down_T.png!| 	
+
+Use keyboard shortcuts and increase your productivity!
+
+This post is available on github : "https://github.com/mbats/sirius-blog/tree/master/keyboard":https://github.com/mbats/sirius-blog/tree/master/keyboard
