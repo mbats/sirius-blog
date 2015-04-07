@@ -1,1 +1,9 @@
-<table border="0" width="100%"><col style="width:20%"><col style="width:30%"><col style="width:50%">
+<table border="0" width="100%"><col style="width:20%"><col style="width:30%;text-align:center"><col style="width:50%">
+
+<style>
+table { border-collapse: collapse; }
+th { border: solid thin; }
+tr { border: solid thin; }
+td { border: solid thin;}
+td:nth-child(2) { border: solid thin; text-align:center}
+</style></head>
