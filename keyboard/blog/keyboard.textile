@@ -16,8 +16,8 @@ Some shortcuts are available for all the representations (diagram, table, tree..
 |Open Help|!./images/computer_key_Shift_T.png! + !./images/computer_key_F1_T.png! |!./images/Open_Help.png!:./images/full/Open_Help.png|  
 |Undo|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_Z_T.png!|On Mac: !./images/mac_cmd_key.png! + !./images/computer_key_Z_T.png!  |       
 |Redo|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_Y_T.png! |On Linux : !./images/computer_key_Shift_T.png! + !./images/computer_key_Ctrl_T.png! + !./images/computer_key_Z_T.png!, On Mac: !./images/computer_key_Shift_T.png! + !./images/mac_cmd_key.png! + !./images/computer_key_Z_T.png!  |
-|Save |!./images/computer_key_Ctrl_T.png! + !./images/computer_key_S_T.png!    |      |         
-|Save all |!./images/computer_key_Shift_T.png! + !./images/computer_key_Ctrl_T.png! + !./images/computer_key_S_T.png! | |          
+|Save |!./images/computer_key_Ctrl_T.png! + !./images/computer_key_S_T.png!    |&nbsp;|         
+|Save all |!./images/computer_key_Shift_T.png! + !./images/computer_key_Ctrl_T.png! + !./images/computer_key_S_T.png! | &nbsp;|          
 
 h2. Diagram shortcuts
 
@@ -25,13 +25,13 @@ h3. Navigate
 
 Shortcut keys help providing an easier and usually quicker method of navigation.
 |_. Action |_. Shortcut |_. Description |
-|Cycle between shapes on the diagram from left to right|!./images/computer_key_Tab_T.png!||
-|Cycle between shapes on the diagram from right to left |!./images/computer_key_Shift_T.png! + !./images/computer_key_Tab_T.png!||
-|Navigate between shapes on the diagram|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_Arrows_T.png!||
+|Cycle between shapes on the diagram from left to right|!./images/computer_key_Tab_T.png!|&nbsp;|
+|Cycle between shapes on the diagram from right to left |!./images/computer_key_Shift_T.png! + !./images/computer_key_Tab_T.png!|&nbsp;|
+|Navigate between shapes on the diagram|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_Arrows_T.png!|&nbsp;|
 |Navigate into a container|!./images/computer_key_Alt_T.png! + !./images/computer_key_Arrow_Down_T.png!|!./images/Navigate_into_container.png!:./images/full/Navigate_into_container.png|
 |Navigate out of a container|!./images/computer_key_Alt_T.png! + !./images/computer_key_Arrow_Up_T.png!|!./images/Navigate_out_container.png!:./images/full/Navigate_out_container.png|
 |Navigate clockwise among the existing edges|!./images/computer_key_slash_T.png!|!./images/Navigate_clockwise_edges.png!:./images/full/Navigate_clockwise_edges.png|
-|Navigate counter-clockwise among the existing edges|!./images/computer_key_Backslash_T.png!||
+|Navigate counter-clockwise among the existing edges|!./images/computer_key_Backslash_T.png!|&nbsp;|
 |Show quick outline|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_O_T.png!|!./images/Quick_outline.png!:./images/full/Quick_outline.png On Mac : !./images/mac_cmd_key.png! + !./images/computer_key_O_T.png!|   
 
 h3. Select
@@ -76,7 +76,7 @@ The following shortcuts allow to zoom, scroll or invoke the context menu from th
 |Zoom in |!./images/computer_key_Ctrl_T.png! + !./images/computer_key_num_row_Equals_T.png!|!./images/Zoom_in.png!:./images/full/Zoom_in.png|
 |Zoom out |!./images/computer_key_Ctrl_T.png! + !./images/computer_key_Minus_T.png! |!./images/Zoom_out.png!:./images/full/Zoom_out.png|
 |Pan when zoomed in|!./images/computer_key_Space_bar_T.png! + !./images/mouse_pointer_hand_small_T.png! |Hold down @spacebar@ and drag the mouse|
-|Scroll in diagram|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_Shift_T.png! + !./images/computer_key_Arrows_T.png!||
+|Scroll in diagram|!./images/computer_key_Ctrl_T.png! + !./images/computer_key_Shift_T.png! + !./images/computer_key_Arrows_T.png!|&nbsp;|
 |Invokes the context menu for the shape|!./images/computer_key_Shift_T.png! + !./images/computer_key_F10_T.png!|!./images/Context_menu.png!:./images/full/Context_menu.png|
 
 h3. Palette
