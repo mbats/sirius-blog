@@ -1,5 +1,6 @@
 h1. Refine diagrams with interpolated colors
 
+This article is part 4 of a series covering cool features of "Sirius":http://eclipse.org/sirius/  and tips to create advanced modelers. See "http://melb.enix.org/category/sirius/":http://melb.enix.org/category/sirius/ for the complete series.
 Today we will present how diagrams can be refined to display information using interpolated colors.
 
 h2. Diagrams with meaningful colors
@@ -44,4 +45,4 @@ On this sample:
 * p1122 has 10 EClasses and is displayed some kind of orange/brown as a result of beeing a mix of dark yellow and red;
 * p12 has 16 EClasses and is displayed as red.
 
-
+The sample code from this example is available on github: "https://github.com/mbats/sirius-blog/tree/master/interpolated-colors":https://github.com/mbats/sirius-blog/tree/master/interpolated-colors
