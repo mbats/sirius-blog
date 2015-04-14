@@ -10,7 +10,7 @@ In your Viewpoint Specification Model (VSM), the specifier is not limited to use
 
 However, using this new color in a mapping will paint every mapping candidates to this color. As our goal is giving colors a meaning, it needs to be defined by an expression. Sirius provides two solutions: @Computed Colors@ and @Interpolated Colors@.
 
-Note that RGB codes are defined with three integer values between 0 and 255. If the value is over 255, Sirius will use it as a 255 value. Furthermore you can find  RGB codes using tools like "www.colourlovers.com":http://www.colourlovers.com/.
+Note that RGB codes are defined with three integer values between 0 and 255. If the value is over 255, Sirius will use it as a 255 value.
 
 h3. Diagrams with computed colors
 
@@ -46,5 +46,7 @@ On this sample:
 * p111 has 8 EClasses and is displayed as dark yellow;
 * p1122 has 10 EClasses and is displayed some kind of orange/brown as a result of beeing a mix of dark yellow and red;
 * p12 has 16 EClasses and is displayed as red.
+
+Interpolated colors are an easy way to display meaningful information and an alternative from text display. Furthermore it can produce beautiful diagrams using nice colors that can be created using simple tools like "www.colourlovers.com":http://www.colourlovers.com/ or "colourco.de":http://colourco.de/.
 
 The sample code from this example is available on github: "https://github.com/mbats/sirius-blog/tree/master/interpolated-colors":https://github.com/mbats/sirius-blog/tree/master/interpolated-colors
