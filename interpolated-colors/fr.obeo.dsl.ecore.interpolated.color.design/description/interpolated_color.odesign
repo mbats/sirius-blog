@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="interpolated_color" version="8.1.0">
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="interpolated_color" version="10.0.0.201411061000">
   <ownedViewpoints name="Interpolated Color" modelFileExtension="ecore">
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Entities" domainClass="EPackage">
-      <defaultLayer name="Default">
+      <defaultLayer name="Default User Fixed Color">
         <containerMappings name="EPackage" semanticCandidatesExpression="feature:eSubpackages" domainClass="EPackage" reusedContainerMappings="//@ownedViewpoints[name='Interpolated%20Color']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EPackage']">
-          <style xsi:type="style:FlatContainerStyleDescription" labelSize="10" labelFormat="bold" backgroundColor="//@userColorsPalettes[name='Custom%20palette']/@entries[name='Package%20color%20depending%20on%20depth']" foregroundColor="//@userColorsPalettes[name='Custom%20palette']/@entries[name='Package%20color%20depending%20on%20depth']">
+          <style xsi:type="style:FlatContainerStyleDescription" labelSize="10" labelFormat="bold" backgroundColor="//@userColorsPalettes[name='Custom%20palette']/@entries[name='custom_light_purple']" foregroundColor="//@userColorsPalettes[name='Custom%20palette']/@entries[name='custom_light_purple']">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </containerMappings>
       </defaultLayer>
-      <additionalLayers name="Package containment">
-        <containerMappings xsi:type="description_1:ContainerMappingImport" name="Imported_EPackage" semanticCandidatesExpression="feature:eSubpackages" reusedContainerMappings="//@ownedViewpoints[name='Interpolated%20Color']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package%20containment']/@containerMappings[name='Imported_EPackage']" importedMapping="//@ownedViewpoints[name='Interpolated%20Color']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EPackage']">
+      <additionalLayers name="Computed Color">
+        <containerMappings xsi:type="description_1:ContainerMappingImport" name="EPackage_Computed_Color" semanticCandidatesExpression="feature:eSubpackages" reusedContainerMappings="//@ownedViewpoints[name='Interpolated%20Color']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Computed%20Color']/@containerMappings[name='EPackage_Computed_Color']" importedMapping="//@ownedViewpoints[name='Interpolated%20Color']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EPackage']">
+          <style xsi:type="style:FlatContainerStyleDescription" backgroundColor="//@userColorsPalettes[name='Custom%20palette']/@entries[name='CC_Package']" foregroundColor="//@userColorsPalettes[name='Custom%20palette']/@entries[name='CC_Package']">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </containerMappings>
+      </additionalLayers>
+      <additionalLayers name="Interpolated Color depending on package depth">
+        <containerMappings xsi:type="description_1:ContainerMappingImport" name="EPackage_Depth" semanticCandidatesExpression="feature:eSubpackages" reusedContainerMappings="//@ownedViewpoints[name='Interpolated%20Color']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Interpolated%20Color%20depending%20on%20package%20depth']/@containerMappings[name='EPackage_Depth']" importedMapping="//@ownedViewpoints[name='Interpolated%20Color']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EPackage']">
+          <style xsi:type="style:FlatContainerStyleDescription" backgroundColor="//@userColorsPalettes[name='Custom%20palette']/@entries[name='Package%20color%20depending%20on%20depth']" foregroundColor="//@userColorsPalettes[name='Custom%20palette']/@entries[name='Package%20color%20depending%20on%20depth']">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </containerMappings>
+      </additionalLayers>
+      <additionalLayers name="Interpolated Color depending on contained classes volume">
+        <containerMappings xsi:type="description_1:ContainerMappingImport" name="EPackage_Classes_Volume" semanticCandidatesExpression="feature:eSubpackages" reusedContainerMappings="//@ownedViewpoints[name='Interpolated%20Color']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Interpolated%20Color%20depending%20on%20contained%20classes%20volume']/@containerMappings[name='EPackage_Classes_Volume']" importedMapping="//@ownedViewpoints[name='Interpolated%20Color']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EPackage']">
           <style xsi:type="style:FlatContainerStyleDescription" backgroundColor="//@userColorsPalettes[name='Custom%20palette']/@entries[name='Package%20color%20depending%20on%20contained%20classes%20volume']" foregroundColor="//@userColorsPalettes[name='Custom%20palette']/@entries[name='Package%20color%20depending%20on%20contained%20classes%20volume']">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -41,6 +57,6 @@
     </entries>
     <entries xsi:type="description:UserFixedColor" red="227" green="170" blue="214" name="custom_light_purple"/>
     <entries xsi:type="description:UserFixedColor" red="114" green="75" blue="128" name="custom_dark_purple"/>
-    <entries xsi:type="description:ComputedColor" name="Package computed color depending on contained classes volume" red="[ancestors()->size()*5+50/]" green="[ancestors()->size()*20+80/]" blue="[ancestors()->size()*50+120/]"/>
+    <entries xsi:type="description:ComputedColor" name="CC_Package" red="[ancestors()->size()*5+50/]" green="[ancestors()->size()*20+80/]" blue="[ancestors()->size()*50+120/]"/>
   </userColorsPalettes>
 </description:Group>

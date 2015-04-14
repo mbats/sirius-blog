@@ -5,10 +5,12 @@ Today we will present how diagrams can be refined to display information using i
 
 h2. Diagrams with meaningful colors
 
-In your Viewpoint Specification Model (VSM), the specifier is not limited to use the provided colors but can define a palette with custom colors. A color can be defined using a RGB value.
+In your Viewpoint Specification Model (VSM), the specifier is not limited to use the provided colors but can define a palette with custom colors. A color can be defined using a RGB code (Red/Green/Blue).
 !images/custom_rgb.png!
 
-However, using this new color in a mapping will paint every mapping candidates to this color. As our goal is giving colors a meaning, it needs to be defined by an expression. Sirius provides two solutions: @Computed Colors@ and @Interpolated Colors@
+However, using this new color in a mapping will paint every mapping candidates to this color. As our goal is giving colors a meaning, it needs to be defined by an expression. Sirius provides two solutions: @Computed Colors@ and @Interpolated Colors@.
+
+Note that RGB codes are defined with three integer values between 0 and 255. If the value is over 255, Sirius will use it as a 255 value. Furthermore you can find  RGB codes using tools like "www.colourlovers.com":http://www.colourlovers.com/.
 
 h3. Diagrams with computed colors
 
