@@ -1430,7 +1430,7 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G0A_ou5PEeSts5PXfhqh5w"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_EWjesO5PEeSts5PXfhqh5w" fontName="Droid Sans" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EWjese5PEeSts5PXfhqh5w" width="100"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EWjese5PEeSts5PXfhqh5w" x="5" y="30" width="100" height="110"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_EY_usO5PEeSts5PXfhqh5w" type="2001" element="_EWDIZu5PEeSts5PXfhqh5w">
             <children xmi:type="notation:Node" xmi:id="_EZAVwu5PEeSts5PXfhqh5w" type="5002">
@@ -1441,7 +1441,7 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IFWEou5PEeSts5PXfhqh5w"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_EZAVwO5PEeSts5PXfhqh5w" fontName="Droid Sans" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EZAVwe5PEeSts5PXfhqh5w" x="160" width="100"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EZAVwe5PEeSts5PXfhqh5w" x="165" y="30" width="100" height="149"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_EZA80O5PEeSts5PXfhqh5w" type="2001" element="_EWDIa-5PEeSts5PXfhqh5w">
             <children xmi:type="notation:Node" xmi:id="_EZA80-5PEeSts5PXfhqh5w" type="5002">
@@ -1452,7 +1452,7 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JRegku5PEeSts5PXfhqh5w"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_EZA80e5PEeSts5PXfhqh5w" fontName="Droid Sans" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EZA80u5PEeSts5PXfhqh5w" x="320" width="100"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EZA80u5PEeSts5PXfhqh5w" x="325" y="30" width="100" height="156"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_EZBj4O5PEeSts5PXfhqh5w" type="2001" element="_EWDIcO5PEeSts5PXfhqh5w">
             <children xmi:type="notation:Node" xmi:id="_EZBj4-5PEeSts5PXfhqh5w" type="5002">
@@ -1463,7 +1463,7 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KWVP0u5PEeSts5PXfhqh5w"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_EZBj4e5PEeSts5PXfhqh5w" fontName="Droid Sans" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EZBj4u5PEeSts5PXfhqh5w" x="480" width="100"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EZBj4u5PEeSts5PXfhqh5w" x="485" y="30" width="100" height="146"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_EZCK8O5PEeSts5PXfhqh5w" type="2001" element="_EWDIde5PEeSts5PXfhqh5w">
             <children xmi:type="notation:Node" xmi:id="_EZCyAO5PEeSts5PXfhqh5w" type="5002">
@@ -1474,7 +1474,7 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LiZaUu5PEeSts5PXfhqh5w"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_EZCK8e5PEeSts5PXfhqh5w" fontName="Droid Sans" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EZCK8u5PEeSts5PXfhqh5w" x="640" width="100"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EZCK8u5PEeSts5PXfhqh5w" x="645" y="30" width="100" height="107"/>
           </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_EWYfku5PEeSts5PXfhqh5w"/>
         </data>
@@ -1482,6 +1482,9 @@
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_EWDIYe5PEeSts5PXfhqh5w" name="Darth Vader" width="10" height="10">
         <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
         <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_Gz2nkO5PEeSts5PXfhqh5w" showIcon="false" workspacePath="fr.obeo.dsl.starwars.example/images/Darth-Vader.jpg">
           <customFeatures>workspacePath</customFeatures>
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_Gz2nke5PEeSts5PXfhqh5w"/>
@@ -1493,6 +1496,9 @@
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_EWDIZu5PEeSts5PXfhqh5w" name="Luke Skywalker" width="10" height="10">
         <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
         <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_IFUPcO5PEeSts5PXfhqh5w" showIcon="false" workspacePath="fr.obeo.dsl.starwars.example/images/Luke_Skywalker.jpg">
           <customFeatures>workspacePath</customFeatures>
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_IFUPce5PEeSts5PXfhqh5w"/>
@@ -1504,6 +1510,9 @@
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_EWDIa-5PEeSts5PXfhqh5w" name="Leia Organa" width="10" height="10">
         <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.2"/>
         <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_JRcEUO5PEeSts5PXfhqh5w" showIcon="false" workspacePath="fr.obeo.dsl.starwars.example/images/Leia-Organa.jpg">
           <customFeatures>workspacePath</customFeatures>
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_JRcEUe5PEeSts5PXfhqh5w"/>
@@ -1515,6 +1524,9 @@
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_EWDIcO5PEeSts5PXfhqh5w" name="C3PO" width="10" height="10">
         <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.3"/>
         <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.3"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_KWTaoO5PEeSts5PXfhqh5w" showIcon="false" workspacePath="fr.obeo.dsl.starwars.example/images/C3PO.jpg">
           <customFeatures>workspacePath</customFeatures>
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_KWTaoe5PEeSts5PXfhqh5w"/>
@@ -1526,6 +1538,9 @@
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_EWDIde5PEeSts5PXfhqh5w" name="R2D2" width="10" height="10">
         <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.4"/>
         <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.4"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_LiXlIO5PEeSts5PXfhqh5w" showIcon="false" workspacePath="fr.obeo.dsl.starwars.example/images/R2D2.jpg">
           <customFeatures>workspacePath</customFeatures>
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_LiXlIe5PEeSts5PXfhqh5w"/>
@@ -1604,7 +1619,7 @@
               <styles xmi:type="notation:FilteringStyle" xmi:id="_M8pKwu5PEeSts5PXfhqh5w"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_M8nVke5PEeSts5PXfhqh5w" fontName="Droid Sans" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M8nVku5PEeSts5PXfhqh5w"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M8nVku5PEeSts5PXfhqh5w" x="15" y="25"/>
           </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_M8lgYu5PEeSts5PXfhqh5w"/>
         </data>
@@ -1612,6 +1627,9 @@
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_M8jrMe5PEeSts5PXfhqh5w" name="Skywalker">
         <target xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
         <semanticElements xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_M8jrMu5PEeSts5PXfhqh5w" showIcon="false" backgroundStyle="Liquid">
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_M8jrM-5PEeSts5PXfhqh5w"/>
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@style"/>
@@ -1764,7 +1782,7 @@
               <styles xmi:type="notation:FilteringStyle" xmi:id="_VE98wu5PEeSts5PXfhqh5w"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_VE9VtO5PEeSts5PXfhqh5w" fontName="Droid Sans" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VE9Vte5PEeSts5PXfhqh5w"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VE9Vte5PEeSts5PXfhqh5w" x="20" y="25"/>
           </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_VE9Vsu5PEeSts5PXfhqh5w"/>
         </data>
@@ -1772,6 +1790,9 @@
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_VE8Hke5PEeSts5PXfhqh5w" name="Skywalker">
         <target xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
         <semanticElements xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_VE8Hku5PEeSts5PXfhqh5w" showIcon="false" backgroundStyle="Liquid">
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_VE8Hk-5PEeSts5PXfhqh5w"/>
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@style"/>
