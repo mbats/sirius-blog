@@ -1,0 +1,48 @@
+h1. "I am your container", Darth Sirius
+
+Continuing the "Sirius":http://www.eclipse.org/sirius/ blog "posts series":http://melb.enix.org/category/sirius/, today we will see a small tip : how to create artificial container in your diagram?
+One of the main advantage of Sirius is that the graphical representations are independent from the metamodel's structure. This means that you can choose to not respect the containment hierarchy of your model when you represent it graphically. This is possible because Sirius is based on "queries":http://www.eclipse.org/sirius/doc/specifier/general/Writing_Queries.html.
+
+In the following example, we define a metamodel which represents a family :
+!./images/Metamodel.png! 
+
+We define a first _Flat_ diagram, to represent all the members of the family at the same level :
+!./images/Flat_VSM.png!
+
+In the _Person_ mapping, we use the _Semantic Candidates Expression_ to provide which semantic elements must be represented. These expressions can return model elements in which case we call them "queries":http://www.eclipse.org/sirius/doc/specifier/general/Writing_Queries.html. To write these queries, it exists different languages in Sirius provided by default : specialized interpreters (@var@, @feature@, @service@), Acceleo, raw OCL or Java. Here, we use the _feature_ interpreter to get for a family all the persons referenced by the @members@ reference. You can easily identify _interpreted expressions_ by their yellow background in the Properties sheet of an element.
+
+We create a first diagram which represents the flatten Skywalker family:
+!./images/Flat.png!
+
+Next step is to add a level to represent the _Family_ as a container. We create a new _Family_ diagram which contains a _Family_ container mapping and a _Person_ mapping as sub nodes:
+!./images/Family_VSM.png!
+
+The _Family_ diagram is created and all the members are represented inside the Skywalker container.
+!./images/Family.png!
+
+Here we represent graphically the containment reference @members@. But what to do if we want to create an _artificial_ container which does not exist in the metamodel as a containment reference?
+
+Let's see! Now imagine, that we want to add a level to represent "The Force":http://en.wikipedia.org/wiki/The_Force_(Star_Wars) and if the person is related to the dark side or the light side. To do this we create a new _ForceSide_ diagram :
+!./images/ForceSide_VSM.png!
+
+We add a new container to represent the _DarkSide_ of the force :
+!./images/DarkSide_VSM.png!
+
+The dark side must be represented once for each family, the semantic candidate returns _var:self_ which means the current family. As it should contain persons, it is defined as a _FreeForm_ container.
+
+We need to represent, in the Dark Side container, the persons that are from the dark side of the force. So we define a new sub node _Sith_ with the Semantic expression set to : @[self.members->select(p|p.oclAsType(Person).dark)/]@
+This query returns all the members of a family and selects only the _Person_ which has the attribute @dark@ set to true.
+
+!./images/Sith_VSM.png!
+
+Then we reuse the _Person_ mapping to represent the person in its force side container.
+
+Finally, we do the same for the light side of the force and create a @LightSide@ container and the @Person@ mapping to represent members of the family in this new container who are influenced by the ligth side : @[not self.members->select(p|p.oclAsType(Person).dark)/]@
+A new @ForceSide@ diagram is created in the Skywalker family and we discover that only Darth Vader is from the dark side of the force and that his children are driven by the light side of the force. 
+!./images/ForceSide.png!
+
+As we saw thanks to the queries in Sirius, it is easy to create artificial containers which are not related to containment reference in the metamodel. 
+
+_"May the *Sirius* Force be with you"_ ;)
+
+The sample code from this example is available on github: "https://github.com/mbats/sirius-blog/tree/master/artificial-container":https://github.com/mbats/sirius-blog/tree/master/artificial-container

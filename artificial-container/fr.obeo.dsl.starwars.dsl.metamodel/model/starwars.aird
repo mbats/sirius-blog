@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_V0jBoO11EeSTatsVuzV9rQ" selectedViews="_V2EroO11EeSTatsVuzV9rQ" version="8.1.1">
+  <models xmi:type="ecore:EPackage" href="starwars.ecore#/"/>
+  <models xmi:type="genmodel:GenModel" href="starwars.genmodel#/"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_V2EroO11EeSTatsVuzV9rQ" initialized="true">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_V-pY0O11EeSTatsVuzV9rQ" name="starwars class diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_V-_-IO11EeSTatsVuzV9rQ" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_V-_-Ie11EeSTatsVuzV9rQ" type="Sirius" element="_V-pY0O11EeSTatsVuzV9rQ" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_XO8jEO11EeSTatsVuzV9rQ" type="2003" element="_XOP_gO11EeSTatsVuzV9rQ">
+            <children xmi:type="notation:Node" xmi:id="_XO9KIO11EeSTatsVuzV9rQ" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_XO9xMO11EeSTatsVuzV9rQ" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_5HDtAO11EeSTatsVuzV9rQ" type="3010" element="_5G1qkO11EeSTatsVuzV9rQ">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_5HDtAe11EeSTatsVuzV9rQ"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_9rLYcO11EeSTatsVuzV9rQ" type="3010" element="_9q8u8O11EeSTatsVuzV9rQ">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_9rLYce11EeSTatsVuzV9rQ"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_XO9xMe11EeSTatsVuzV9rQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_XO9xMu11EeSTatsVuzV9rQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XO8jEe11EeSTatsVuzV9rQ" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XO8jEu11EeSTatsVuzV9rQ" x="420" y="180" width="120" height="100"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_SbF1sO15EeSTatsVuzV9rQ" type="2003" element="_Sa4aUO15EeSTatsVuzV9rQ">
+            <children xmi:type="notation:Node" xmi:id="_SbGcwO15EeSTatsVuzV9rQ" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_SbGcwe15EeSTatsVuzV9rQ" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_nkMx0O5HEeSTatsVuzV9rQ" type="3010" element="_nj86MO5HEeSTatsVuzV9rQ">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_nkMx0e5HEeSTatsVuzV9rQ"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_SbGcwu15EeSTatsVuzV9rQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_SbGcw-15EeSTatsVuzV9rQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_SbF1se15EeSTatsVuzV9rQ" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SbF1su15EeSTatsVuzV9rQ" x="420" y="40" width="120" height="100"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_V-_-Iu11EeSTatsVuzV9rQ"/>
+          <edges xmi:type="notation:Edge" xmi:id="_V_S8QO15EeSTatsVuzV9rQ" type="4001" element="_V_GvAO15EeSTatsVuzV9rQ" source="_SbF1sO15EeSTatsVuzV9rQ" target="_XO8jEO11EeSTatsVuzV9rQ">
+            <children xmi:type="notation:Node" xmi:id="_V_S8RO15EeSTatsVuzV9rQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V_S8Re15EeSTatsVuzV9rQ" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_V_S8Ru15EeSTatsVuzV9rQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V_S8R-15EeSTatsVuzV9rQ" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_V_S8SO15EeSTatsVuzV9rQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V_S8Se15EeSTatsVuzV9rQ" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_V_S8Qe15EeSTatsVuzV9rQ" routing="Rectilinear" jumpLinkStatus="Above"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_V_S8Qu15EeSTatsVuzV9rQ" fontColor="7490599" fontName="Droid Sans" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V_S8Q-15EeSTatsVuzV9rQ" points="[1, 49, 1, -47]$[1, 91, 1, -5]"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_V_TjUO15EeSTatsVuzV9rQ" id="(0.5,0.06)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_th8rEO11EeSTatsVuzV9rQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_th8rEe11EeSTatsVuzV9rQ">
+          <computedStyleDescriptions xmi:type="style:EdgeStyleDescription" xmi:id="_V_HWEe15EeSTatsVuzV9rQ" sourceArrow="FillDiamond" sizeComputationExpression="1" routingStyle="manhattan">
+            <strokeColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription xmi:type="style:CenterLabelStyleDescription" xmi:id="_V_HWEu15EeSTatsVuzV9rQ" showIcon="false" labelExpression="service:render">
+              <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+            <endLabelStyleDescription xmi:type="style:EndLabelStyleDescription" xmi:id="_V_HWE-15EeSTatsVuzV9rQ" labelSize="6" showIcon="false" labelExpression="service:eKeysLabel">
+              <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+            </endLabelStyleDescription>
+          </computedStyleDescriptions>
+          <cache xmi:type="diagram:DiagramElementMapping2ModelElement" xmi:id="_th9SIO11EeSTatsVuzV9rQ">
+            <key xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
+            <value xmi:type="diagram:ModelElement2ViewVariable" xmi:id="_V_GvAe15EeSTatsVuzV9rQ">
+              <key xmi:type="ecore:EReference" href="starwars.ecore#//Family/members"/>
+              <value xmi:type="diagram:ViewVariable2ContainerVariable" xmi:id="_V_HWEO15EeSTatsVuzV9rQ" key="_V_GvAO15EeSTatsVuzV9rQ">
+                <value xmi:type="diagram:ContainerVariable2StyleDescription" xmi:id="_V_HWFO15EeSTatsVuzV9rQ" value="_V_HWEe15EeSTatsVuzV9rQ">
+                  <key xmi:type="ecore:EPackage" href="starwars.ecore#/"/>
+                </value>
+              </value>
+            </value>
+          </cache>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_XOP_gO11EeSTatsVuzV9rQ" name="Person" tooltipText="" incomingEdges="_V_GvAO15EeSTatsVuzV9rQ" width="12" height="10">
+        <target xmi:type="ecore:EClass" href="starwars.ecore#//Person"/>
+        <semanticElements xmi:type="ecore:EClass" href="starwars.ecore#//Person"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="__R3CYO11EeSTatsVuzV9rQ" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="__R3CYe11EeSTatsVuzV9rQ"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="__R3CYu11EeSTatsVuzV9rQ"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="__R3CY-11EeSTatsVuzV9rQ" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="__R3CZO11EeSTatsVuzV9rQ" red="255" green="252" blue="216"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_5G1qkO11EeSTatsVuzV9rQ" name="name : EString" tooltipText="&#xA;ERROR : The required feature 'eAttributeType' of 'org.eclipse.emf.ecore.impl.EAttributeImpl@29565081{platform:/resource/fr.obeo.dsl.starwars.dsl.metamodel/model/starwars.ecore#//Character/newAttribute}' must be set&#xA;ERROR : The typed element must have a type">
+          <target xmi:type="ecore:EAttribute" href="starwars.ecore#//Person/name"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="starwars.ecore#//Person/name"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_51UhMO11EeSTatsVuzV9rQ" labelAlignment="LEFT">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_51UhMe11EeSTatsVuzV9rQ"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_51UhMu11EeSTatsVuzV9rQ"/>
+            <color xmi:type="viewpoint:RGBValues" xmi:id="_51UhM-11EeSTatsVuzV9rQ"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_9q8u8O11EeSTatsVuzV9rQ" name="dark : EBoolean = false" tooltipText="&#xA;ERROR : The required feature 'eAttributeType' of 'org.eclipse.emf.ecore.impl.EAttributeImpl@7ab78c83{platform:/resource/fr.obeo.dsl.starwars.dsl.metamodel/model/starwars.ecore#//Character/newAttribute}' must be set&#xA;ERROR : The typed element must have a type">
+          <target xmi:type="ecore:EAttribute" href="starwars.ecore#//Person/dark"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="starwars.ecore#//Person/dark"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="__R43kO11EeSTatsVuzV9rQ" labelAlignment="LEFT">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="__R43ke11EeSTatsVuzV9rQ"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="__R43ku11EeSTatsVuzV9rQ"/>
+            <color xmi:type="viewpoint:RGBValues" xmi:id="__R43k-11EeSTatsVuzV9rQ"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Sa4aUO15EeSTatsVuzV9rQ" name="Family" tooltipText="" outgoingEdges="_V_GvAO15EeSTatsVuzV9rQ" width="12" height="10">
+        <target xmi:type="ecore:EClass" href="starwars.ecore#//Family"/>
+        <semanticElements xmi:type="ecore:EClass" href="starwars.ecore#//Family"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_oj0bwO5HEeSTatsVuzV9rQ" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_oj0bwe5HEeSTatsVuzV9rQ"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_oj0bwu5HEeSTatsVuzV9rQ"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_oj0bw-5HEeSTatsVuzV9rQ" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_oj0bxO5HEeSTatsVuzV9rQ" red="255" green="252" blue="216"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_nj86MO5HEeSTatsVuzV9rQ" name="name : EString" tooltipText="&#xA;ERROR : The required feature 'eAttributeType' of 'org.eclipse.emf.ecore.impl.EAttributeImpl@5f7e6633{platform:/resource/fr.obeo.dsl.starwars.dsl.metamodel/model/starwars.ecore#//Family/newAttribute}' must be set&#xA;ERROR : The typed element must have a type">
+          <target xmi:type="ecore:EAttribute" href="starwars.ecore#//Family/name"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="starwars.ecore#//Family/name"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_oj24AO5HEeSTatsVuzV9rQ" labelAlignment="LEFT">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_oj24Ae5HEeSTatsVuzV9rQ"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_oj24Au5HEeSTatsVuzV9rQ"/>
+            <color xmi:type="viewpoint:RGBValues" xmi:id="_oj24A-5HEeSTatsVuzV9rQ"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_V_GvAO15EeSTatsVuzV9rQ" name="[0..*] members" sourceNode="_Sa4aUO15EeSTatsVuzV9rQ" targetNode="_XOP_gO11EeSTatsVuzV9rQ">
+        <target xmi:type="ecore:EReference" href="starwars.ecore#//Family/members"/>
+        <semanticElements xmi:type="ecore:EReference" href="starwars.ecore#//Family/members"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_V_HWFe15EeSTatsVuzV9rQ" description="_V_HWEe15EeSTatsVuzV9rQ" sourceArrow="FillDiamond" routingStyle="manhattan">
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_V_HWFu15EeSTatsVuzV9rQ"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_V_HWF-15EeSTatsVuzV9rQ" showIcon="false">
+            <customFeatures>labelSize</customFeatures>
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_V_HWGO15EeSTatsVuzV9rQ"/>
+          </centerLabelStyle>
+          <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_V_HWGe15EeSTatsVuzV9rQ" showIcon="false">
+            <customFeatures>labelSize</customFeatures>
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_V_HWGu15EeSTatsVuzV9rQ" red="39" green="76" blue="114"/>
+          </endLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_V-pY1e11EeSTatsVuzV9rQ"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
+      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
+      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
+      <target xmi:type="ecore:EPackage" href="starwars.ecore#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<starwars:Family xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:starwars="http://www.obeo.fr/starwars/metamodel" name="Skywalker">
+  <members name="Darth Vader" dark="true"/>
+  <members name="Luke Skywalker"/>
+  <members name="Leia Organa"/>
+  <members name="C3PO"/>
+  <members name="R2D2"/>
+</starwars:Family>

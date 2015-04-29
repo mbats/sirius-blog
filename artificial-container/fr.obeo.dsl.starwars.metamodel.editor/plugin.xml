@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated starwars -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="fr.obeo.starwars.dsl.starwars.presentation.StarwarsModelWizardID"
+            name="%_UI_StarwarsModelWizard_label"
+            class="fr.obeo.starwars.dsl.starwars.presentation.StarwarsModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/StarwarsModelFile.gif">
+         <description>%_UI_StarwarsModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated starwars -->
+      <editor
+            id="fr.obeo.starwars.dsl.starwars.presentation.StarwarsEditorID"
+            name="%_UI_StarwarsEditor_label"
+            icon="icons/full/obj16/StarwarsModelFile.gif"
+            extensions="starwars"
+            class="fr.obeo.starwars.dsl.starwars.presentation.StarwarsEditor"
+            contributorClass="fr.obeo.starwars.dsl.starwars.presentation.StarwarsActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
