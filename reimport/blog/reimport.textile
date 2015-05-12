@@ -4,7 +4,7 @@ h1. Unravelling the container within the container within the container...
 Last time in the "Sirius":http://www.eclipse.org/sirius/ blog "post series":http://melb.enix.org/category/sirius/, you learned how to create an "artificial container":http://melb.enix.org/sirius/artificial-container/, today we will see how to create an infinite hierarchy of containers.
 
 As an example we will represent the different dream levels featured in "Inception":http://en.wikipedia.org/wiki/Inception : 
-!./images/inception_poster.jpg! 
+"!./images/inception_poster.jpg!":http://minimalmovieposters.tumblr.com/post/32154330691/inception-by-ojasvi-mohanty
 
 We need to model dream levels and that levels can refer to other sub levels :
 !./images/metamodel.png!
@@ -41,6 +41,8 @@ At this point we are able to represent only the first two levels. To get an infi
 
 We create a new _Inception_ diagram and...It's working like a dream! We see all the levels hierarchy.
 !./images/inception.png!
+
+Pay attention, as this method uses recursion, if you set the semantic candidates expression to _eAllContents_ a stack overflow exception will occur.
 
 Last point, using this method we need to define the style for the first level and then we set the same style values to the sublevel mapping in order that all the levels appears with the same look.
 !./images/inception_vsm_styles.png!
