@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:metamodel="http://www.obeo.fr/inception" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_cNZnkPfdEeSTv-LJreYQ1g" selectedViews="_dFBzIPfdEeSTv-LJreYQ1g" version="8.1.1">
+  <models xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_dFBzIPfdEeSTv-LJreYQ1g" initialized="true">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_hshisPfdEeSTv-LJreYQ1g" name="Inception">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_hs0doPfdEeSTv-LJreYQ1g" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_hs0doffdEeSTv-LJreYQ1g" type="Sirius" element="_hshisPfdEeSTv-LJreYQ1g" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_hs_cwPfdEeSTv-LJreYQ1g" visible="false" type="2002" element="_hshisffdEeSTv-LJreYQ1g">
+            <children xmi:type="notation:Node" xmi:id="_hvPfgPfdEeSTv-LJreYQ1g" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_hvRUsPfdEeSTv-LJreYQ1g" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_hvRUsffdEeSTv-LJreYQ1g"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_hvRUsvfdEeSTv-LJreYQ1g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_hs_cwffdEeSTv-LJreYQ1g" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hs_cwvfdEeSTv-LJreYQ1g"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qUYwYPfdEeSTv-LJreYQ1g" type="2002" element="_qUVtEPfdEeSTv-LJreYQ1g">
+            <children xmi:type="notation:Node" xmi:id="_qUYwY_fdEeSTv-LJreYQ1g" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_qUZXcPfdEeSTv-LJreYQ1g" type="7001">
+              <children xmi:type="notation:Node" xmi:id="_vFrVIPfdEeSTv-LJreYQ1g" type="3008" element="_vFo44PfdEeSTv-LJreYQ1g">
+                <children xmi:type="notation:Node" xmi:id="_vFsjQPfdEeSTv-LJreYQ1g" type="5005"/>
+                <children xmi:type="notation:Node" xmi:id="_vFtKUPfdEeSTv-LJreYQ1g" type="7002">
+                  <children xmi:type="notation:Node" xmi:id="_x55wQPfdEeSTv-LJreYQ1g" type="3008" element="_x5zCkPfdEeSTv-LJreYQ1g">
+                    <children xmi:type="notation:Node" xmi:id="_x55wQ_fdEeSTv-LJreYQ1g" type="5005"/>
+                    <children xmi:type="notation:Node" xmi:id="_x56XUPfdEeSTv-LJreYQ1g" type="7002">
+                      <children xmi:type="notation:Node" xmi:id="_x56-YPfdEeSTv-LJreYQ1g" type="3008" element="_x50QsPfdEeSTv-LJreYQ1g">
+                        <children xmi:type="notation:Node" xmi:id="_x56-Y_fdEeSTv-LJreYQ1g" type="5005"/>
+                        <children xmi:type="notation:Node" xmi:id="_x56-ZPfdEeSTv-LJreYQ1g" type="7002">
+                          <children xmi:type="notation:Node" xmi:id="_x57lcPfdEeSTv-LJreYQ1g" type="3008" element="_x52F4PfdEeSTv-LJreYQ1g">
+                            <children xmi:type="notation:Node" xmi:id="_x57lc_fdEeSTv-LJreYQ1g" type="5005"/>
+                            <children xmi:type="notation:Node" xmi:id="_x57ldPfdEeSTv-LJreYQ1g" type="7002">
+                              <styles xmi:type="notation:SortingStyle" xmi:id="_x57ldffdEeSTv-LJreYQ1g"/>
+                              <styles xmi:type="notation:FilteringStyle" xmi:id="_x57ldvfdEeSTv-LJreYQ1g"/>
+                            </children>
+                            <styles xmi:type="notation:ShapeStyle" xmi:id="_x57lcffdEeSTv-LJreYQ1g" fontName="Droid Sans" fontHeight="8"/>
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x57lcvfdEeSTv-LJreYQ1g" x="30" y="30"/>
+                          </children>
+                          <styles xmi:type="notation:SortingStyle" xmi:id="_x56-ZffdEeSTv-LJreYQ1g"/>
+                          <styles xmi:type="notation:FilteringStyle" xmi:id="_x56-ZvfdEeSTv-LJreYQ1g"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_x56-YffdEeSTv-LJreYQ1g" fontName="Droid Sans" fontHeight="8"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x56-YvfdEeSTv-LJreYQ1g" x="30" y="30"/>
+                      </children>
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_x56XUffdEeSTv-LJreYQ1g"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_x56XUvfdEeSTv-LJreYQ1g"/>
+                    </children>
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_x55wQffdEeSTv-LJreYQ1g" fontName="Droid Sans" fontHeight="8"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x55wQvfdEeSTv-LJreYQ1g" x="30" y="29"/>
+                  </children>
+                  <styles xmi:type="notation:SortingStyle" xmi:id="_vFtKUffdEeSTv-LJreYQ1g"/>
+                  <styles xmi:type="notation:FilteringStyle" xmi:id="_vFtKUvfdEeSTv-LJreYQ1g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_vFrVIffdEeSTv-LJreYQ1g" fontName="Droid Sans"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vFrVIvfdEeSTv-LJreYQ1g" x="30" y="29"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_qUZXcffdEeSTv-LJreYQ1g"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_qUZXcvfdEeSTv-LJreYQ1g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qUYwYffdEeSTv-LJreYQ1g" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qUYwYvfdEeSTv-LJreYQ1g"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_hs0dovfdEeSTv-LJreYQ1g"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_hshisffdEeSTv-LJreYQ1g" name="Airplane" visible="false">
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_hshisvfdEeSTv-LJreYQ1g" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hshis_fdEeSTv-LJreYQ1g"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Dream']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_hshitPfdEeSTv-LJreYQ1g"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_hshitffdEeSTv-LJreYQ1g" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_hshitvfdEeSTv-LJreYQ1g" red="209" green="209" blue="209"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Dream']"/>
+        <target xmi:type="metamodel:Dream" href="model/Inception.metamodel#//@inceptions.0"/>
+        <semanticElements xmi:type="metamodel:Dream" href="model/Inception.metamodel#//@inceptions.0"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_qUVtEPfdEeSTv-LJreYQ1g" name="Airplane">
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_qUWUIPfdEeSTv-LJreYQ1g" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_qUWUIffdEeSTv-LJreYQ1g"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_qUWUIvfdEeSTv-LJreYQ1g"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_qUWUI_fdEeSTv-LJreYQ1g" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_qUWUJPfdEeSTv-LJreYQ1g" red="209" green="209" blue="209"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_vFo44PfdEeSTv-LJreYQ1g" name="Van">
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_v8CVYPfdEeSTv-LJreYQ1g" backgroundStyle="Liquid">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_v8CVYffdEeSTv-LJreYQ1g"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@subContainerMappings[name='Dream']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_v8CVYvfdEeSTv-LJreYQ1g"/>
+            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_v8CVY_fdEeSTv-LJreYQ1g" red="255" green="255" blue="255"/>
+            <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_v8CVZPfdEeSTv-LJreYQ1g" red="209" green="209" blue="209"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@subContainerMappings[name='Dream']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_x5zCkPfdEeSTv-LJreYQ1g" name="Hotel">
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_x5zpoPfdEeSTv-LJreYQ1g" backgroundStyle="Liquid">
+              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_x5zpoffdEeSTv-LJreYQ1g"/>
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@subContainerMappings[name='Dream']/@style"/>
+              <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_x5zpovfdEeSTv-LJreYQ1g"/>
+              <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_x5zpo_fdEeSTv-LJreYQ1g" red="255" green="255" blue="255"/>
+              <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_x5zppPfdEeSTv-LJreYQ1g" red="209" green="209" blue="209"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@subContainerMappings[name='Dream']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_x50QsPfdEeSTv-LJreYQ1g" name="Snow fortress">
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_x503wPfdEeSTv-LJreYQ1g" backgroundStyle="Liquid">
+                <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_x503wffdEeSTv-LJreYQ1g"/>
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@subContainerMappings[name='Dream']/@style"/>
+                <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_x503wvfdEeSTv-LJreYQ1g"/>
+                <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_x503w_fdEeSTv-LJreYQ1g" red="255" green="255" blue="255"/>
+                <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_x503xPfdEeSTv-LJreYQ1g" red="209" green="209" blue="209"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@subContainerMappings[name='Dream']"/>
+              <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_x52F4PfdEeSTv-LJreYQ1g" name="Limbo">
+                <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_x52F4ffdEeSTv-LJreYQ1g" backgroundStyle="Liquid">
+                  <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_x52F4vfdEeSTv-LJreYQ1g"/>
+                  <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@subContainerMappings[name='Dream']/@style"/>
+                  <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_x52F4_fdEeSTv-LJreYQ1g"/>
+                  <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_x52F5PfdEeSTv-LJreYQ1g" red="255" green="255" blue="255"/>
+                  <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_x52F5ffdEeSTv-LJreYQ1g" red="209" green="209" blue="209"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@subContainerMappings[name='Dream']"/>
+                <target xmi:type="metamodel:Dream" href="model/Inception.metamodel#//@inceptions.0/@dreams.0/@dreams.0/@dreams.0/@dreams.0"/>
+                <semanticElements xmi:type="metamodel:Dream" href="model/Inception.metamodel#//@inceptions.0/@dreams.0/@dreams.0/@dreams.0/@dreams.0"/>
+              </ownedDiagramElements>
+              <target xmi:type="metamodel:Dream" href="model/Inception.metamodel#//@inceptions.0/@dreams.0/@dreams.0/@dreams.0"/>
+              <semanticElements xmi:type="metamodel:Dream" href="model/Inception.metamodel#//@inceptions.0/@dreams.0/@dreams.0/@dreams.0"/>
+            </ownedDiagramElements>
+            <target xmi:type="metamodel:Dream" href="model/Inception.metamodel#//@inceptions.0/@dreams.0/@dreams.0"/>
+            <semanticElements xmi:type="metamodel:Dream" href="model/Inception.metamodel#//@inceptions.0/@dreams.0/@dreams.0"/>
+          </ownedDiagramElements>
+          <target xmi:type="metamodel:Dream" href="model/Inception.metamodel#//@inceptions.0/@dreams.0"/>
+          <semanticElements xmi:type="metamodel:Dream" href="model/Inception.metamodel#//@inceptions.0/@dreams.0"/>
+        </ownedDiagramElements>
+        <target xmi:type="metamodel:Dream" href="model/Inception.metamodel#//@inceptions.0"/>
+        <semanticElements xmi:type="metamodel:Dream" href="model/Inception.metamodel#//@inceptions.0"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_hshiz_fdEeSTv-LJreYQ1g"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer"/>
+      <target xmi:type="metamodel:Inception" href="model/Inception.metamodel#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="__y2noPfeEeS3PpfDN1lWTA" name="Inception">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="__y98YPfeEeS3PpfDN1lWTA" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="__y98YffeEeS3PpfDN1lWTA" type="Sirius" element="__y2noPfeEeS3PpfDN1lWTA" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_KhLykPffEeS3PpfDN1lWTA" visible="false" type="2002" element="_KhJWUPffEeS3PpfDN1lWTA">
+            <children xmi:type="notation:Node" xmi:id="_KhMZoPffEeS3PpfDN1lWTA" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_KhMZofffEeS3PpfDN1lWTA" type="7001">
+              <children xmi:type="notation:Node" xmi:id="_LboooPffEeS3PpfDN1lWTA" visible="false" type="3008" element="_Lbgs0PffEeS3PpfDN1lWTA">
+                <children xmi:type="notation:Node" xmi:id="_LbpPsPffEeS3PpfDN1lWTA" type="5005"/>
+                <children xmi:type="notation:Node" xmi:id="_LbpPsfffEeS3PpfDN1lWTA" type="7002">
+                  <children xmi:type="notation:Node" xmi:id="_Lbp2wPffEeS3PpfDN1lWTA" visible="false" type="3008" element="_LbhT4PffEeS3PpfDN1lWTA">
+                    <children xmi:type="notation:Node" xmi:id="_Lbp2w_ffEeS3PpfDN1lWTA" type="5005"/>
+                    <children xmi:type="notation:Node" xmi:id="_Lbp2xPffEeS3PpfDN1lWTA" type="7002">
+                      <children xmi:type="notation:Node" xmi:id="_Lbqd0PffEeS3PpfDN1lWTA" visible="false" type="3008" element="_LbiiAPffEeS3PpfDN1lWTA">
+                        <children xmi:type="notation:Node" xmi:id="_Lbqd0_ffEeS3PpfDN1lWTA" type="5005"/>
+                        <children xmi:type="notation:Node" xmi:id="_LbrE4PffEeS3PpfDN1lWTA" type="7002">
+                          <children xmi:type="notation:Node" xmi:id="_Lbrr8PffEeS3PpfDN1lWTA" visible="false" type="3008" element="_LbjJEPffEeS3PpfDN1lWTA">
+                            <children xmi:type="notation:Node" xmi:id="_Lbrr8_ffEeS3PpfDN1lWTA" type="5005"/>
+                            <children xmi:type="notation:Node" xmi:id="_Lbrr9PffEeS3PpfDN1lWTA" type="7002">
+                              <styles xmi:type="notation:SortingStyle" xmi:id="_Lbrr9fffEeS3PpfDN1lWTA"/>
+                              <styles xmi:type="notation:FilteringStyle" xmi:id="_Lbrr9vffEeS3PpfDN1lWTA"/>
+                            </children>
+                            <styles xmi:type="notation:ShapeStyle" xmi:id="_Lbrr8fffEeS3PpfDN1lWTA" fontName="Droid Sans" fontHeight="8"/>
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lbrr8vffEeS3PpfDN1lWTA" x="30" y="30"/>
+                          </children>
+                          <styles xmi:type="notation:SortingStyle" xmi:id="_LbrE4fffEeS3PpfDN1lWTA"/>
+                          <styles xmi:type="notation:FilteringStyle" xmi:id="_LbrE4vffEeS3PpfDN1lWTA"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_Lbqd0fffEeS3PpfDN1lWTA" fontName="Droid Sans" fontHeight="8"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lbqd0vffEeS3PpfDN1lWTA" x="30" y="30"/>
+                      </children>
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_Lbp2xfffEeS3PpfDN1lWTA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_Lbp2xvffEeS3PpfDN1lWTA"/>
+                    </children>
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_Lbp2wfffEeS3PpfDN1lWTA" fontName="Droid Sans" fontHeight="8"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lbp2wvffEeS3PpfDN1lWTA" x="30" y="28"/>
+                  </children>
+                  <styles xmi:type="notation:SortingStyle" xmi:id="_LbpPsvffEeS3PpfDN1lWTA"/>
+                  <styles xmi:type="notation:FilteringStyle" xmi:id="_LbpPs_ffEeS3PpfDN1lWTA"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_LbooofffEeS3PpfDN1lWTA" fontName="Droid Sans" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LbooovffEeS3PpfDN1lWTA" x="30" y="29"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_KhMZovffEeS3PpfDN1lWTA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_KhMZo_ffEeS3PpfDN1lWTA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_KhLykfffEeS3PpfDN1lWTA" fontName="Droid Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KhLykvffEeS3PpfDN1lWTA" x="35" y="35"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_QT4VQPh0EeSCQ5hSNUNBDQ" type="2002" element="_QT0q4Ph0EeSCQ5hSNUNBDQ">
+            <children xmi:type="notation:Node" xmi:id="_QT48UPh0EeSCQ5hSNUNBDQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_QT48Ufh0EeSCQ5hSNUNBDQ" type="7001">
+              <children xmi:type="notation:Node" xmi:id="_QT48VPh0EeSCQ5hSNUNBDQ" type="3008" element="_QT1R9fh0EeSCQ5hSNUNBDQ">
+                <children xmi:type="notation:Node" xmi:id="_QT5jYPh0EeSCQ5hSNUNBDQ" type="5005"/>
+                <children xmi:type="notation:Node" xmi:id="_QT5jYfh0EeSCQ5hSNUNBDQ" type="7002">
+                  <children xmi:type="notation:Node" xmi:id="_QT5jZPh0EeSCQ5hSNUNBDQ" type="3008" element="_QT15APh0EeSCQ5hSNUNBDQ">
+                    <children xmi:type="notation:Node" xmi:id="_QT6KcPh0EeSCQ5hSNUNBDQ" type="5005"/>
+                    <children xmi:type="notation:Node" xmi:id="_QT6Kcfh0EeSCQ5hSNUNBDQ" type="7002">
+                      <children xmi:type="notation:Node" xmi:id="_QT6KdPh0EeSCQ5hSNUNBDQ" type="3008" element="_QT2gEPh0EeSCQ5hSNUNBDQ">
+                        <children xmi:type="notation:Node" xmi:id="_QT6xgPh0EeSCQ5hSNUNBDQ" type="5005"/>
+                        <children xmi:type="notation:Node" xmi:id="_QT6xgfh0EeSCQ5hSNUNBDQ" type="7002">
+                          <children xmi:type="notation:Node" xmi:id="_QT6xhPh0EeSCQ5hSNUNBDQ" type="3008" element="_QT3HIPh0EeSCQ5hSNUNBDQ">
+                            <children xmi:type="notation:Node" xmi:id="_QT6xh_h0EeSCQ5hSNUNBDQ" type="5005"/>
+                            <children xmi:type="notation:Node" xmi:id="_QT7YkPh0EeSCQ5hSNUNBDQ" type="7002">
+                              <styles xmi:type="notation:SortingStyle" xmi:id="_QT7Ykfh0EeSCQ5hSNUNBDQ"/>
+                              <styles xmi:type="notation:FilteringStyle" xmi:id="_QT7Ykvh0EeSCQ5hSNUNBDQ"/>
+                            </children>
+                            <styles xmi:type="notation:ShapeStyle" xmi:id="_QT6xhfh0EeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QT6xhvh0EeSCQ5hSNUNBDQ" x="30" y="30"/>
+                          </children>
+                          <styles xmi:type="notation:SortingStyle" xmi:id="_QT6xgvh0EeSCQ5hSNUNBDQ"/>
+                          <styles xmi:type="notation:FilteringStyle" xmi:id="_QT6xg_h0EeSCQ5hSNUNBDQ"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_QT6Kdfh0EeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QT6Kdvh0EeSCQ5hSNUNBDQ" x="30" y="30"/>
+                      </children>
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_QT6Kcvh0EeSCQ5hSNUNBDQ"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_QT6Kc_h0EeSCQ5hSNUNBDQ"/>
+                    </children>
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_QT5jZfh0EeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QT5jZvh0EeSCQ5hSNUNBDQ" x="30" y="28"/>
+                  </children>
+                  <styles xmi:type="notation:SortingStyle" xmi:id="_QT5jYvh0EeSCQ5hSNUNBDQ"/>
+                  <styles xmi:type="notation:FilteringStyle" xmi:id="_QT5jY_h0EeSCQ5hSNUNBDQ"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_QT48Vfh0EeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QT48Vvh0EeSCQ5hSNUNBDQ" x="30" y="29"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_QT48Uvh0EeSCQ5hSNUNBDQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_QT48U_h0EeSCQ5hSNUNBDQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_QT4VQfh0EeSCQ5hSNUNBDQ" fontName="Droid Sans" fontHeight="8" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QT4VQvh0EeSCQ5hSNUNBDQ" x="20" y="15"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="__y98YvfeEeS3PpfDN1lWTA"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KhJWUPffEeS3PpfDN1lWTA" name="Airplane" visible="false">
+        <target xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+        <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_LbgFwPffEeS3PpfDN1lWTA" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_DfFzYPfgEeS3PpfDN1lWTA"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_V-FaEPfnEeS3PpfDN1lWTA" red="69" green="69" blue="69"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_LbgFw_ffEeS3PpfDN1lWTA" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="__AF4gvffEeS3PpfDN1lWTA" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_Lbgs0PffEeS3PpfDN1lWTA" name="Van" visible="false">
+          <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+          <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Lbgs0fffEeS3PpfDN1lWTA" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_TQt04PfnEeS3PpfDN1lWTA" red="69" green="69" blue="69"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@subContainerMappings[name='Level']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_VPqN0PfnEeS3PpfDN1lWTA" red="69" green="69" blue="69"/>
+            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_Lbgs1PffEeS3PpfDN1lWTA" red="255" green="255" blue="255"/>
+            <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_e5qHkvffEeS3PpfDN1lWTA" red="255" green="255" blue="255"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@subContainerMappings[name='Level']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_LbhT4PffEeS3PpfDN1lWTA" name="Hotel" visible="false">
+            <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0"/>
+            <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0"/>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_LbhT4fffEeS3PpfDN1lWTA" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_TQub8PfnEeS3PpfDN1lWTA" red="69" green="69" blue="69"/>
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@subContainerMappings[name='Level']/@style"/>
+              <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_VPq04PfnEeS3PpfDN1lWTA" red="69" green="69" blue="69"/>
+              <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_LbhT5PffEeS3PpfDN1lWTA" red="255" green="255" blue="255"/>
+              <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_e5quovffEeS3PpfDN1lWTA" red="255" green="255" blue="255"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@subContainerMappings[name='Level']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_LbiiAPffEeS3PpfDN1lWTA" name="Snow fortress" visible="false">
+              <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0"/>
+              <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0"/>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_LbiiAfffEeS3PpfDN1lWTA" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+                <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_TQvDAPfnEeS3PpfDN1lWTA" red="69" green="69" blue="69"/>
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@subContainerMappings[name='Level']/@style"/>
+                <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_VPq04ffnEeS3PpfDN1lWTA" red="69" green="69" blue="69"/>
+                <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_LbiiBPffEeS3PpfDN1lWTA" red="255" green="255" blue="255"/>
+                <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_e5rVsvffEeS3PpfDN1lWTA" red="255" green="255" blue="255"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@subContainerMappings[name='Level']"/>
+              <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_LbjJEPffEeS3PpfDN1lWTA" name="Limbo" visible="false">
+                <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0/@levels.0"/>
+                <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0/@levels.0"/>
+                <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_LbjwIPffEeS3PpfDN1lWTA" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+                  <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_TQvqEPfnEeS3PpfDN1lWTA" red="69" green="69" blue="69"/>
+                  <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@subContainerMappings[name='Level']/@style"/>
+                  <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_VPrb8PfnEeS3PpfDN1lWTA" red="69" green="69" blue="69"/>
+                  <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_LbjwI_ffEeS3PpfDN1lWTA" red="255" green="255" blue="255"/>
+                  <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_e5r8wvffEeS3PpfDN1lWTA" red="255" green="255" blue="255"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Inception']/@subContainerMappings[name='Level']"/>
+              </ownedDiagramElements>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_QT0q4Ph0EeSCQ5hSNUNBDQ" name="Airplane">
+        <target xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+        <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_QT1R8Ph0EeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_QT1R8fh0EeSCQ5hSNUNBDQ"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Level']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_QT1R8vh0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_QT1R8_h0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_QT1R9Ph0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Level']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_QT1R9fh0EeSCQ5hSNUNBDQ" name="Van">
+          <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+          <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_QT1R9vh0EeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_QT1R9_h0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Level']/@subContainerMappings[name='SubLevel']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_QT1R-Ph0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_QT1R-fh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+            <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_QT1R-vh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Level']/@subContainerMappings[name='SubLevel']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_QT15APh0EeSCQ5hSNUNBDQ" name="Hotel">
+            <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0"/>
+            <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0"/>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_QT15Afh0EeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_QT15Avh0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Level']/@subContainerMappings[name='SubLevel']/@style"/>
+              <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_QT15A_h0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+              <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_QT15BPh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+              <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_QT15Bfh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Level']/@subContainerMappings[name='SubLevel']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_QT2gEPh0EeSCQ5hSNUNBDQ" name="Snow fortress">
+              <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0"/>
+              <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0"/>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_QT2gEfh0EeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+                <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_QT2gEvh0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Level']/@subContainerMappings[name='SubLevel']/@style"/>
+                <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_QT2gE_h0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+                <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_QT2gFPh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+                <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_QT2gFfh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Level']/@subContainerMappings[name='SubLevel']"/>
+              <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_QT3HIPh0EeSCQ5hSNUNBDQ" name="Limbo">
+                <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0/@levels.0"/>
+                <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0/@levels.0"/>
+                <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_QT3HIfh0EeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+                  <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_QT3HIvh0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+                  <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Level']/@subContainerMappings[name='SubLevel']/@style"/>
+                  <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_QT3HI_h0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+                  <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_QT3HJPh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+                  <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_QT3HJfh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Level']/@subContainerMappings[name='SubLevel']"/>
+              </ownedDiagramElements>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="__y2nuffeEeS3PpfDN1lWTA"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer"/>
+      <target xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_uuM-YPffEeS3PpfDN1lWTA" name="Inception2">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_uuOMgPffEeS3PpfDN1lWTA" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_uuOMgfffEeS3PpfDN1lWTA" type="Sirius" element="_uuM-YPffEeS3PpfDN1lWTA" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_uuOzlPffEeS3PpfDN1lWTA" visible="false" type="2002" element="_uuM-Z_ffEeS3PpfDN1lWTA">
+            <children xmi:type="notation:Node" xmi:id="_uuPaoPffEeS3PpfDN1lWTA" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_uuPaofffEeS3PpfDN1lWTA" type="7001">
+              <children xmi:type="notation:Node" xmi:id="_yu5zsPffEeS3PpfDN1lWTA" visible="false" type="3008" element="_yu07MPffEeS3PpfDN1lWTA">
+                <children xmi:type="notation:Node" xmi:id="_yu6awPffEeS3PpfDN1lWTA" type="5005"/>
+                <children xmi:type="notation:Node" xmi:id="_yu6awfffEeS3PpfDN1lWTA" type="7002">
+                  <children xmi:type="notation:Node" xmi:id="_0sbQUPffEeS3PpfDN1lWTA" visible="false" type="3008" element="_0sWX0PffEeS3PpfDN1lWTA">
+                    <children xmi:type="notation:Node" xmi:id="_0sb3YPffEeS3PpfDN1lWTA" type="5005"/>
+                    <children xmi:type="notation:Node" xmi:id="_0sb3YfffEeS3PpfDN1lWTA" type="7002">
+                      <children xmi:type="notation:Node" xmi:id="_0sb3ZPffEeS3PpfDN1lWTA" visible="false" type="3008" element="_0sW-4PffEeS3PpfDN1lWTA">
+                        <children xmi:type="notation:Node" xmi:id="_0sdFgPffEeS3PpfDN1lWTA" type="5005"/>
+                        <children xmi:type="notation:Node" xmi:id="_0sdFgfffEeS3PpfDN1lWTA" type="7002">
+                          <children xmi:type="notation:Node" xmi:id="_0sdFhPffEeS3PpfDN1lWTA" visible="false" type="3008" element="_0sXl8PffEeS3PpfDN1lWTA">
+                            <children xmi:type="notation:Node" xmi:id="_0sdskPffEeS3PpfDN1lWTA" type="5005"/>
+                            <children xmi:type="notation:Node" xmi:id="_0sdskfffEeS3PpfDN1lWTA" type="7002">
+                              <styles xmi:type="notation:SortingStyle" xmi:id="_0sdskvffEeS3PpfDN1lWTA"/>
+                              <styles xmi:type="notation:FilteringStyle" xmi:id="_0sdsk_ffEeS3PpfDN1lWTA"/>
+                            </children>
+                            <styles xmi:type="notation:ShapeStyle" xmi:id="_0sdFhfffEeS3PpfDN1lWTA" fontName="Droid Sans" fontHeight="8"/>
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sdFhvffEeS3PpfDN1lWTA" x="30" y="30"/>
+                          </children>
+                          <styles xmi:type="notation:SortingStyle" xmi:id="_0sdFgvffEeS3PpfDN1lWTA"/>
+                          <styles xmi:type="notation:FilteringStyle" xmi:id="_0sdFg_ffEeS3PpfDN1lWTA"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_0sb3ZfffEeS3PpfDN1lWTA" fontName="Droid Sans" fontHeight="8"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sb3ZvffEeS3PpfDN1lWTA" x="30" y="30"/>
+                      </children>
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_0sb3YvffEeS3PpfDN1lWTA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_0sb3Y_ffEeS3PpfDN1lWTA"/>
+                    </children>
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_0sbQUfffEeS3PpfDN1lWTA" fontName="Droid Sans" fontHeight="8"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sbQUvffEeS3PpfDN1lWTA" x="30" y="29"/>
+                  </children>
+                  <styles xmi:type="notation:SortingStyle" xmi:id="_yu6awvffEeS3PpfDN1lWTA"/>
+                  <styles xmi:type="notation:FilteringStyle" xmi:id="_yu6aw_ffEeS3PpfDN1lWTA"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_yu5zsfffEeS3PpfDN1lWTA" fontName="Droid Sans" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yu5zsvffEeS3PpfDN1lWTA" x="30" y="29"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_uuPaovffEeS3PpfDN1lWTA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_uuPao_ffEeS3PpfDN1lWTA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uuOzlfffEeS3PpfDN1lWTA" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uuOzlvffEeS3PpfDN1lWTA"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_yu4lkPffEeS3PpfDN1lWTA" visible="false" type="2002" element="_yuzGAPffEeS3PpfDN1lWTA">
+            <children xmi:type="notation:Node" xmi:id="_yu5MoPffEeS3PpfDN1lWTA" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_yu5MofffEeS3PpfDN1lWTA" type="7001">
+              <children xmi:type="notation:Node" xmi:id="_0sdslPffEeS3PpfDN1lWTA" visible="false" type="3008" element="_0sT7kPffEeS3PpfDN1lWTA">
+                <children xmi:type="notation:Node" xmi:id="_0seToPffEeS3PpfDN1lWTA" type="5005"/>
+                <children xmi:type="notation:Node" xmi:id="_0seTofffEeS3PpfDN1lWTA" type="7002">
+                  <children xmi:type="notation:Node" xmi:id="_0seTpPffEeS3PpfDN1lWTA" visible="false" type="3008" element="_0sUioPffEeS3PpfDN1lWTA">
+                    <children xmi:type="notation:Node" xmi:id="_0se6sPffEeS3PpfDN1lWTA" type="5005"/>
+                    <children xmi:type="notation:Node" xmi:id="_0se6sfffEeS3PpfDN1lWTA" type="7002">
+                      <children xmi:type="notation:Node" xmi:id="_0se6tPffEeS3PpfDN1lWTA" visible="false" type="3008" element="_0sVJsPffEeS3PpfDN1lWTA">
+                        <children xmi:type="notation:Node" xmi:id="_0sfhwPffEeS3PpfDN1lWTA" type="5005"/>
+                        <children xmi:type="notation:Node" xmi:id="_0sfhwfffEeS3PpfDN1lWTA" type="7002">
+                          <styles xmi:type="notation:SortingStyle" xmi:id="_0sfhwvffEeS3PpfDN1lWTA"/>
+                          <styles xmi:type="notation:FilteringStyle" xmi:id="_0sfhw_ffEeS3PpfDN1lWTA"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_0se6tfffEeS3PpfDN1lWTA" fontName="Droid Sans" fontHeight="8"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0se6tvffEeS3PpfDN1lWTA"/>
+                      </children>
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_0se6svffEeS3PpfDN1lWTA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_0se6s_ffEeS3PpfDN1lWTA"/>
+                    </children>
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_0seTpfffEeS3PpfDN1lWTA" fontName="Droid Sans" fontHeight="8"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0seTpvffEeS3PpfDN1lWTA"/>
+                  </children>
+                  <styles xmi:type="notation:SortingStyle" xmi:id="_0seTovffEeS3PpfDN1lWTA"/>
+                  <styles xmi:type="notation:FilteringStyle" xmi:id="_0seTo_ffEeS3PpfDN1lWTA"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0sdslfffEeS3PpfDN1lWTA" fontName="Droid Sans" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sdslvffEeS3PpfDN1lWTA"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_yu5MovffEeS3PpfDN1lWTA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_yu5Mo_ffEeS3PpfDN1lWTA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_yu4lkfffEeS3PpfDN1lWTA" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yu4lkvffEeS3PpfDN1lWTA"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o6kXIPh0EeSCQ5hSNUNBDQ" visible="false" type="2002" element="_o6eQgPh0EeSCQ5hSNUNBDQ">
+            <children xmi:type="notation:Node" xmi:id="_o6kXI_h0EeSCQ5hSNUNBDQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_o6kXJPh0EeSCQ5hSNUNBDQ" type="7001">
+              <children xmi:type="notation:Node" xmi:id="_o6llQPh0EeSCQ5hSNUNBDQ" visible="false" type="3008" element="_o6e3kPh0EeSCQ5hSNUNBDQ">
+                <children xmi:type="notation:Node" xmi:id="_o6llQ_h0EeSCQ5hSNUNBDQ" type="5005"/>
+                <children xmi:type="notation:Node" xmi:id="_o6llRPh0EeSCQ5hSNUNBDQ" type="7002">
+                  <children xmi:type="notation:Node" xmi:id="_o6mMUPh0EeSCQ5hSNUNBDQ" visible="false" type="3008" element="_o6feoPh0EeSCQ5hSNUNBDQ">
+                    <children xmi:type="notation:Node" xmi:id="_o6mMU_h0EeSCQ5hSNUNBDQ" type="5005"/>
+                    <children xmi:type="notation:Node" xmi:id="_o6mMVPh0EeSCQ5hSNUNBDQ" type="7002">
+                      <children xmi:type="notation:Node" xmi:id="_o6mMV_h0EeSCQ5hSNUNBDQ" visible="false" type="3008" element="_o6gFsPh0EeSCQ5hSNUNBDQ">
+                        <children xmi:type="notation:Node" xmi:id="_o6mzYPh0EeSCQ5hSNUNBDQ" type="5005"/>
+                        <children xmi:type="notation:Node" xmi:id="_o6mzYfh0EeSCQ5hSNUNBDQ" type="7002">
+                          <styles xmi:type="notation:SortingStyle" xmi:id="_o6mzYvh0EeSCQ5hSNUNBDQ"/>
+                          <styles xmi:type="notation:FilteringStyle" xmi:id="_o6mzY_h0EeSCQ5hSNUNBDQ"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_o6mMWPh0EeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o6mMWfh0EeSCQ5hSNUNBDQ"/>
+                      </children>
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_o6mMVfh0EeSCQ5hSNUNBDQ"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_o6mMVvh0EeSCQ5hSNUNBDQ"/>
+                    </children>
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_o6mMUfh0EeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o6mMUvh0EeSCQ5hSNUNBDQ"/>
+                  </children>
+                  <styles xmi:type="notation:SortingStyle" xmi:id="_o6llRfh0EeSCQ5hSNUNBDQ"/>
+                  <styles xmi:type="notation:FilteringStyle" xmi:id="_o6llRvh0EeSCQ5hSNUNBDQ"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_o6llQfh0EeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o6llQvh0EeSCQ5hSNUNBDQ"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_o6kXJfh0EeSCQ5hSNUNBDQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_o6kXJvh0EeSCQ5hSNUNBDQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_o6kXIfh0EeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o6kXIvh0EeSCQ5hSNUNBDQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o6k-MPh0EeSCQ5hSNUNBDQ" type="2002" element="_o6gswPh0EeSCQ5hSNUNBDQ">
+            <children xmi:type="notation:Node" xmi:id="_o6k-M_h0EeSCQ5hSNUNBDQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_o6k-NPh0EeSCQ5hSNUNBDQ" type="7001">
+              <children xmi:type="notation:Node" xmi:id="_o6mzZPh0EeSCQ5hSNUNBDQ" type="3008" element="_o6hT0Ph0EeSCQ5hSNUNBDQ">
+                <children xmi:type="notation:Node" xmi:id="_o6nacPh0EeSCQ5hSNUNBDQ" type="5005"/>
+                <children xmi:type="notation:Node" xmi:id="_o6nacfh0EeSCQ5hSNUNBDQ" type="7002">
+                  <children xmi:type="notation:Node" xmi:id="_o6nadPh0EeSCQ5hSNUNBDQ" type="3008" element="_o6h64Ph0EeSCQ5hSNUNBDQ">
+                    <children xmi:type="notation:Node" xmi:id="_o6oBgPh0EeSCQ5hSNUNBDQ" type="5005"/>
+                    <children xmi:type="notation:Node" xmi:id="_o6oBgfh0EeSCQ5hSNUNBDQ" type="7002">
+                      <children xmi:type="notation:Node" xmi:id="_o6oBhPh0EeSCQ5hSNUNBDQ" type="3008" element="_o6h65vh0EeSCQ5hSNUNBDQ">
+                        <children xmi:type="notation:Node" xmi:id="_o6ookPh0EeSCQ5hSNUNBDQ" type="5005"/>
+                        <children xmi:type="notation:Node" xmi:id="_o6ookfh0EeSCQ5hSNUNBDQ" type="7002">
+                          <children xmi:type="notation:Node" xmi:id="_o6oolPh0EeSCQ5hSNUNBDQ" type="3008" element="_o6ih9fh0EeSCQ5hSNUNBDQ">
+                            <children xmi:type="notation:Node" xmi:id="_o6ool_h0EeSCQ5hSNUNBDQ" type="5005"/>
+                            <children xmi:type="notation:Node" xmi:id="_o6pPoPh0EeSCQ5hSNUNBDQ" type="7002">
+                              <styles xmi:type="notation:SortingStyle" xmi:id="_o6pPofh0EeSCQ5hSNUNBDQ"/>
+                              <styles xmi:type="notation:FilteringStyle" xmi:id="_o6pPovh0EeSCQ5hSNUNBDQ"/>
+                            </children>
+                            <styles xmi:type="notation:ShapeStyle" xmi:id="_o6oolfh0EeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o6oolvh0EeSCQ5hSNUNBDQ" x="30" y="30"/>
+                          </children>
+                          <styles xmi:type="notation:SortingStyle" xmi:id="_o6ookvh0EeSCQ5hSNUNBDQ"/>
+                          <styles xmi:type="notation:FilteringStyle" xmi:id="_o6ook_h0EeSCQ5hSNUNBDQ"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_o6oBhfh0EeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o6oBhvh0EeSCQ5hSNUNBDQ" x="30" y="30"/>
+                      </children>
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_o6oBgvh0EeSCQ5hSNUNBDQ"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_o6oBg_h0EeSCQ5hSNUNBDQ"/>
+                    </children>
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_o6nadfh0EeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o6nadvh0EeSCQ5hSNUNBDQ" x="30" y="28"/>
+                  </children>
+                  <styles xmi:type="notation:SortingStyle" xmi:id="_o6nacvh0EeSCQ5hSNUNBDQ"/>
+                  <styles xmi:type="notation:FilteringStyle" xmi:id="_o6nac_h0EeSCQ5hSNUNBDQ"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_o6mzZfh0EeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o6mzZvh0EeSCQ5hSNUNBDQ" x="30" y="29"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_o6k-Nfh0EeSCQ5hSNUNBDQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_o6k-Nvh0EeSCQ5hSNUNBDQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_o6k-Mfh0EeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o6k-Mvh0EeSCQ5hSNUNBDQ" x="10" y="15"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_uuOMgvffEeS3PpfDN1lWTA"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_uuM-Z_ffEeS3PpfDN1lWTA" name="Airplane" visible="false">
+        <target xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+        <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_uuM-aPffEeS3PpfDN1lWTA" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_SeBzsPfnEeS3PpfDN1lWTA" red="69" green="69" blue="69"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_WkWv4PfnEeS3PpfDN1lWTA" red="69" green="69" blue="69"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_uuM-a_ffEeS3PpfDN1lWTA" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_AkIeIvfgEeS3PpfDN1lWTA" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_yu07MPffEeS3PpfDN1lWTA" name="Van" visible="false">
+          <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+          <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_RHr2YPfoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_RHr2YffoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@subContainerMappings[name='Level2']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_RHr2YvfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RHr2Y_foEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+            <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RHr2ZPfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@subContainerMappings[name='Level2']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_0sWX0PffEeS3PpfDN1lWTA" name="Hotel" visible="false">
+            <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0"/>
+            <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0"/>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_RHr2ZffoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_RHr2ZvfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@subContainerMappings[name='Level2']/@style"/>
+              <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_RHr2Z_foEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+              <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RHr2aPfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+              <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RHr2affoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@subContainerMappings[name='Level2']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_0sW-4PffEeS3PpfDN1lWTA" name="Snow fortress" visible="false">
+              <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0"/>
+              <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0"/>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_RHsdcPfoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+                <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_RHsdcffoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@subContainerMappings[name='Level2']/@style"/>
+                <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_RHsdcvfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+                <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RHsdc_foEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+                <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RHsddPfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@subContainerMappings[name='Level2']"/>
+              <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_0sXl8PffEeS3PpfDN1lWTA" name="Limbo" visible="false">
+                <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0/@levels.0"/>
+                <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0/@levels.0"/>
+                <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_RHtEgPfoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+                  <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_RHtEgffoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+                  <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@subContainerMappings[name='Level2']/@style"/>
+                  <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_RHtEgvfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+                  <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RHtEg_foEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+                  <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RHtEhPfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@subContainerMappings[name='Level2']"/>
+              </ownedDiagramElements>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_yuzGAPffEeS3PpfDN1lWTA" name="Van" visible="false">
+        <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+        <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_RHpaIPfoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_RHpaIffoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@subContainerMappings[name='Level2']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_RHpaIvfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RHpaI_foEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RHpaJPfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@subContainerMappings[name='Level2']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_0sT7kPffEeS3PpfDN1lWTA" name="Hotel" visible="false">
+          <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0"/>
+          <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0"/>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_RHqBMPfoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_RHqBMffoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@subContainerMappings[name='Level2']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_RHqBMvfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RHqBM_foEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+            <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RHqBNPfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@subContainerMappings[name='Level2']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_0sUioPffEeS3PpfDN1lWTA" name="Snow fortress" visible="false">
+            <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0"/>
+            <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0"/>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_RHqoQPfoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_RHqoQffoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@subContainerMappings[name='Level2']/@style"/>
+              <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_RHqoQvfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+              <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RHqoQ_foEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+              <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RHqoRPfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@subContainerMappings[name='Level2']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_0sVJsPffEeS3PpfDN1lWTA" name="Limbo" visible="false">
+              <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0/@levels.0"/>
+              <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0/@levels.0"/>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_RHqoRffoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+                <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_RHqoRvfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@subContainerMappings[name='Level2']/@style"/>
+                <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_RHqoR_foEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+                <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RHqoSPfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+                <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RHqoSffoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Inception2']/@subContainerMappings[name='Level2']"/>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_o6eQgPh0EeSCQ5hSNUNBDQ" name="Van" visible="false">
+        <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+        <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_o6eQgfh0EeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_o6eQgvh0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_o6eQg_h0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6eQhPh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6eQhfh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@subContainerMappings[name='SubLevel2']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_o6e3kPh0EeSCQ5hSNUNBDQ" name="Hotel" visible="false">
+          <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0"/>
+          <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0"/>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_o6e3kfh0EeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_o6e3kvh0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_o6e3k_h0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6e3lPh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+            <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6e3lfh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@subContainerMappings[name='SubLevel2']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_o6feoPh0EeSCQ5hSNUNBDQ" name="Snow fortress" visible="false">
+            <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0"/>
+            <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0"/>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_o6feofh0EeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_o6feovh0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@style"/>
+              <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_o6feo_h0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+              <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6fepPh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+              <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6fepfh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@subContainerMappings[name='SubLevel2']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_o6gFsPh0EeSCQ5hSNUNBDQ" name="Limbo" visible="false">
+              <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0/@levels.0"/>
+              <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0/@levels.0"/>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_o6gFsfh0EeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+                <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_o6gFsvh0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@style"/>
+                <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_o6gFs_h0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+                <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6gFtPh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+                <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6gFtfh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@subContainerMappings[name='SubLevel2']"/>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_o6gswPh0EeSCQ5hSNUNBDQ" name="Airplane">
+        <target xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+        <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_o6gswfh0EeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_o6gswvh0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_o6gsw_h0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6gsxPh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6gsxfh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_o6hT0Ph0EeSCQ5hSNUNBDQ" name="Van">
+          <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+          <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_o6hT0fh0EeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_o6hT0vh0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_o6hT0_h0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6hT1Ph0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+            <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6hT1fh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@subContainerMappings[name='SubLevel2']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_o6h64Ph0EeSCQ5hSNUNBDQ" name="Hotel">
+            <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0"/>
+            <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0"/>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_o6h64fh0EeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_o6h64vh0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@style"/>
+              <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_o6h64_h0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+              <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6h65Ph0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+              <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6h65fh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@subContainerMappings[name='SubLevel2']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_o6h65vh0EeSCQ5hSNUNBDQ" name="Snow fortress">
+              <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0"/>
+              <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0"/>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_o6ih8Ph0EeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+                <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_o6ih8fh0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@style"/>
+                <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_o6ih8vh0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+                <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6ih8_h0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+                <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6ih9Ph0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@subContainerMappings[name='SubLevel2']"/>
+              <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_o6ih9fh0EeSCQ5hSNUNBDQ" name="Limbo">
+                <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0/@levels.0"/>
+                <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0/@levels.0"/>
+                <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_o6ih9vh0EeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+                  <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_o6ih9_h0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+                  <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@style"/>
+                  <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_o6ih-Ph0EeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+                  <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6ih-fh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+                  <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_o6ih-vh0EeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@subContainerMappings[name='SubLevel2']"/>
+              </ownedDiagramElements>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_uuM-c_ffEeS3PpfDN1lWTA"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer"/>
+      <target xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_LtHrIPfoEeSCQ5hSNUNBDQ" name="Flat">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_LtamEPfoEeSCQ5hSNUNBDQ" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_LtamEffoEeSCQ5hSNUNBDQ" type="Sirius" element="_LtHrIPfoEeSCQ5hSNUNBDQ" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_ZyMIYPfoEeSCQ5hSNUNBDQ" visible="false" type="2002" element="_ZyKTMPfoEeSCQ5hSNUNBDQ">
+            <children xmi:type="notation:Node" xmi:id="_ZyMvcPfoEeSCQ5hSNUNBDQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_ZyMvcffoEeSCQ5hSNUNBDQ" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_ZyMvcvfoEeSCQ5hSNUNBDQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_ZyMvc_foEeSCQ5hSNUNBDQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ZyMIYffoEeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZyMIYvfoEeSCQ5hSNUNBDQ" x="75" y="70"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tAYbkPfoEeSCQ5hSNUNBDQ" type="2002" element="_tAUxMPfoEeSCQ5hSNUNBDQ">
+            <children xmi:type="notation:Node" xmi:id="_tAYbk_foEeSCQ5hSNUNBDQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_tAZCoPfoEeSCQ5hSNUNBDQ" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_tAZCoffoEeSCQ5hSNUNBDQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_tAZCovfoEeSCQ5hSNUNBDQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_tAYbkffoEeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tAYbkvfoEeSCQ5hSNUNBDQ" x="15" y="35"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tAZpsPfoEeSCQ5hSNUNBDQ" type="2002" element="_tAVYQPfoEeSCQ5hSNUNBDQ">
+            <children xmi:type="notation:Node" xmi:id="_tAZps_foEeSCQ5hSNUNBDQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_tAZptPfoEeSCQ5hSNUNBDQ" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_tAZptffoEeSCQ5hSNUNBDQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_tAZptvfoEeSCQ5hSNUNBDQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_tAZpsffoEeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tAZpsvfoEeSCQ5hSNUNBDQ" x="225" y="35"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tAZpt_foEeSCQ5hSNUNBDQ" type="2002" element="_tAVYRvfoEeSCQ5hSNUNBDQ">
+            <children xmi:type="notation:Node" xmi:id="_tAaQwPfoEeSCQ5hSNUNBDQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_tAaQwffoEeSCQ5hSNUNBDQ" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_tAaQwvfoEeSCQ5hSNUNBDQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_tAaQw_foEeSCQ5hSNUNBDQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_tAZpuPfoEeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tAZpuffoEeSCQ5hSNUNBDQ" x="435" y="35"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tAaQxPfoEeSCQ5hSNUNBDQ" type="2002" element="_tAV_VffoEeSCQ5hSNUNBDQ">
+            <children xmi:type="notation:Node" xmi:id="_tAa30PfoEeSCQ5hSNUNBDQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_tAa30ffoEeSCQ5hSNUNBDQ" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_tAa30vfoEeSCQ5hSNUNBDQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_tAa30_foEeSCQ5hSNUNBDQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_tAaQxffoEeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tAaQxvfoEeSCQ5hSNUNBDQ" x="645" y="35"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tAa31PfoEeSCQ5hSNUNBDQ" type="2002" element="_tAWmYPfoEeSCQ5hSNUNBDQ">
+            <children xmi:type="notation:Node" xmi:id="_tAbe4PfoEeSCQ5hSNUNBDQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_tAbe4ffoEeSCQ5hSNUNBDQ" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_tAbe4vfoEeSCQ5hSNUNBDQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_tAbe4_foEeSCQ5hSNUNBDQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_tAa31ffoEeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tAa31vfoEeSCQ5hSNUNBDQ" x="855" y="35"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_LtamEvfoEeSCQ5hSNUNBDQ"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_ZyKTMPfoEeSCQ5hSNUNBDQ" name="Van" visible="false">
+        <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+        <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_ZyKTMffoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_ZyKTMvfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Flat']/@defaultLayer/@containerMappings[name='Level2']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_ZyKTM_foEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_ZyKTNPfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_ZyKTNffoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Flat']/@defaultLayer/@containerMappings[name='Level2']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_tAUxMPfoEeSCQ5hSNUNBDQ" name="Van">
+        <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+        <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_tAUxMffoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_tAUxMvfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Flat']/@defaultLayer/@containerMappings[name='Level']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_tAUxM_foEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_tAUxNPfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_tAUxNffoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Flat']/@defaultLayer/@containerMappings[name='Level']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_tAVYQPfoEeSCQ5hSNUNBDQ" name="Hotel">
+        <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0"/>
+        <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_tAVYQffoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_tAVYQvfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Flat']/@defaultLayer/@containerMappings[name='Level']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_tAVYQ_foEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_tAVYRPfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_tAVYRffoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Flat']/@defaultLayer/@containerMappings[name='Level']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_tAVYRvfoEeSCQ5hSNUNBDQ" name="Snow fortress">
+        <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0"/>
+        <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_tAV_UPfoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_tAV_UffoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Flat']/@defaultLayer/@containerMappings[name='Level']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_tAV_UvfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_tAV_U_foEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_tAV_VPfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Flat']/@defaultLayer/@containerMappings[name='Level']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_tAV_VffoEeSCQ5hSNUNBDQ" name="Limbo">
+        <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0/@levels.0"/>
+        <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0/@levels.0/@levels.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_tAV_VvfoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_tAV_V_foEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Flat']/@defaultLayer/@containerMappings[name='Level']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_tAV_WPfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_tAV_WffoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_tAV_WvfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Flat']/@defaultLayer/@containerMappings[name='Level']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_tAWmYPfoEeSCQ5hSNUNBDQ" name="Airplane">
+        <target xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+        <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_tAWmYffoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_tAWmYvfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Flat']/@defaultLayer/@containerMappings[name='Level']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_tAWmY_foEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_tAWmZPfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_tAWmZffoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Flat']/@defaultLayer/@containerMappings[name='Level']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Flat']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_LtHrIvfoEeSCQ5hSNUNBDQ"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Flat']/@defaultLayer"/>
+      <target xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_5Pn_oPfoEeSCQ5hSNUNBDQ" name="SubLevel">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_5PomsPfoEeSCQ5hSNUNBDQ" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_5PomsffoEeSCQ5hSNUNBDQ" type="Sirius" element="_5Pn_oPfoEeSCQ5hSNUNBDQ" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_5Poms_foEeSCQ5hSNUNBDQ" type="2002" element="_5Pn_offoEeSCQ5hSNUNBDQ">
+            <children xmi:type="notation:Node" xmi:id="_5PomtvfoEeSCQ5hSNUNBDQ" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_5PpNwPfoEeSCQ5hSNUNBDQ" type="7001">
+              <children xmi:type="notation:Node" xmi:id="_5PpNw_foEeSCQ5hSNUNBDQ" type="3008" element="_5Pn_p_foEeSCQ5hSNUNBDQ">
+                <children xmi:type="notation:Node" xmi:id="_5PpNxvfoEeSCQ5hSNUNBDQ" type="5005"/>
+                <children xmi:type="notation:Node" xmi:id="_5Pp00PfoEeSCQ5hSNUNBDQ" type="7002">
+                  <children xmi:type="notation:Node" xmi:id="_-qiJIPfoEeSCQ5hSNUNBDQ" type="3008" element="_-qfF0PfoEeSCQ5hSNUNBDQ">
+                    <children xmi:type="notation:Node" xmi:id="_-qiwMPfoEeSCQ5hSNUNBDQ" type="5005"/>
+                    <children xmi:type="notation:Node" xmi:id="_-qiwMffoEeSCQ5hSNUNBDQ" type="7002">
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_-qiwMvfoEeSCQ5hSNUNBDQ"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_-qiwM_foEeSCQ5hSNUNBDQ"/>
+                    </children>
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_-qiJIffoEeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-qiJIvfoEeSCQ5hSNUNBDQ" x="30" y="29"/>
+                  </children>
+                  <styles xmi:type="notation:SortingStyle" xmi:id="_5Pp00ffoEeSCQ5hSNUNBDQ"/>
+                  <styles xmi:type="notation:FilteringStyle" xmi:id="_5Pp00vfoEeSCQ5hSNUNBDQ"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_5PpNxPfoEeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5PpNxffoEeSCQ5hSNUNBDQ" x="30" y="29"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_5PpNwffoEeSCQ5hSNUNBDQ"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_5PpNwvfoEeSCQ5hSNUNBDQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_5PomtPfoEeSCQ5hSNUNBDQ" fontColor="4539717" fontName="Droid Sans" fontHeight="8" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5PomtffoEeSCQ5hSNUNBDQ" x="10" y="10"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_5PomsvfoEeSCQ5hSNUNBDQ"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_5Pn_offoEeSCQ5hSNUNBDQ" name="Airplane">
+        <target xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+        <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_5Pn_ovfoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_5Pn_o_foEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='SubLevel']/@defaultLayer/@containerMappings[name='Level']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_5Pn_pPfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_5Pn_pffoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_5Pn_pvfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='SubLevel']/@defaultLayer/@containerMappings[name='Level']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_5Pn_p_foEeSCQ5hSNUNBDQ" name="Van">
+          <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+          <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0"/>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_5Pn_qPfoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_5Pn_qffoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='SubLevel']/@defaultLayer/@containerMappings[name='Level']/@subContainerMappings[name='SubLevel']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_5Pn_qvfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_5Pn_q_foEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+            <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_5Pn_rPfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='SubLevel']/@defaultLayer/@containerMappings[name='Level']/@subContainerMappings[name='SubLevel']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_-qfF0PfoEeSCQ5hSNUNBDQ" name="Hotel">
+            <target xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0"/>
+            <semanticElements xmi:type="metamodel:Level" href="model/Inception.metamodel#//@levels.0/@levels.0"/>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_-qfs4PfoEeSCQ5hSNUNBDQ" labelFormat="bold" showIcon="false" backgroundStyle="Liquid">
+              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-qfs4ffoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='SubLevel']/@defaultLayer/@containerMappings[name='Level']/@subContainerMappings[name='SubLevel']/@subContainerMappings[name='SubSubLevel']/@style"/>
+              <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_-qfs4vfoEeSCQ5hSNUNBDQ" red="69" green="69" blue="69"/>
+              <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_-qfs4_foEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+              <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_-qfs5PfoEeSCQ5hSNUNBDQ" red="255" green="255" blue="255"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='SubLevel']/@defaultLayer/@containerMappings[name='Level']/@subContainerMappings[name='SubLevel']/@subContainerMappings[name='SubSubLevel']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='SubLevel']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_5Pn_rffoEeSCQ5hSNUNBDQ"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='SubLevel']/@defaultLayer"/>
+      <target xmi:type="metamodel:Level" href="model/Inception.metamodel#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.obeo.dsl.inception.design/description/Inception.odesign#//@ownedViewpoints[name='Inception']"/>
+  </ownedViews>
+  <models xmi:type="metamodel:Inception" href="model/Inception.metamodel#/"/>
+</viewpoint:DAnalysis>

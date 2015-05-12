@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metamodel:Level xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:metamodel="http://www.obeo.fr/inception" name="Airplane">
+  <levels name="Van">
+    <levels name="Hotel">
+      <levels name="Snow fortress">
+        <levels name="Limbo"/>
+      </levels>
+    </levels>
+  </levels>
+</metamodel:Level>

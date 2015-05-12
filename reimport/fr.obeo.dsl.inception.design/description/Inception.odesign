@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="Inception" version="8.1.0">
+  <ownedViewpoints name="Inception">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Flat" domainClass="metamodel.Level">
+      <metamodel href="http://www.obeo.fr/inception#/"/>
+      <defaultLayer name="Default">
+        <containerMappings name="Level" semanticCandidatesExpression="[self.eAllContents()->including(self)/]" domainClass="metamodel.Level">
+          <style xsi:type="style:FlatContainerStyleDescription" arcWidth="5" arcHeight="5" labelFormat="bold" showIcon="false" roundedCorner="true" backgroundStyle="Liquid">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </containerMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="SubLevel" domainClass="metamodel.Level">
+      <metamodel href="http://www.obeo.fr/inception#/"/>
+      <defaultLayer name="Default">
+        <containerMappings name="Level" semanticCandidatesExpression="var:self" domainClass="metamodel.Level">
+          <subContainerMappings name="SubLevel" semanticCandidatesExpression="feature:levels" domainClass="metamodel.Level">
+            <subContainerMappings name="SubSubLevel" semanticCandidatesExpression="feature:levels" domainClass="metamodel.Level">
+              <style xsi:type="style:FlatContainerStyleDescription" arcWidth="5" arcHeight="5" labelFormat="bold" showIcon="false" roundedCorner="true" backgroundStyle="Liquid">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </subContainerMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" arcWidth="5" arcHeight="5" labelFormat="bold" showIcon="false" roundedCorner="true" backgroundStyle="Liquid">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" arcWidth="5" arcHeight="5" labelFormat="bold" showIcon="false" roundedCorner="true" backgroundStyle="Liquid">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </containerMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Inception" domainClass="metamodel.Level">
+      <metamodel href="http://www.obeo.fr/inception#/"/>
+      <defaultLayer name="Default">
+        <containerMappings name="Level" semanticCandidatesExpression="var:self" domainClass="metamodel.Level">
+          <subContainerMappings name="SubLevel" semanticCandidatesExpression="feature:levels" domainClass="metamodel.Level" reusedContainerMappings="//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception']/@defaultLayer/@containerMappings[name='Level']/@subContainerMappings[name='SubLevel']">
+            <style xsi:type="style:FlatContainerStyleDescription" arcWidth="5" arcHeight="5" labelFormat="bold" showIcon="false" roundedCorner="true" backgroundStyle="Liquid">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" arcWidth="5" arcHeight="5" labelFormat="bold" showIcon="false" roundedCorner="true" backgroundStyle="Liquid">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </containerMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Inception2" domainClass="metamodel.Level">
+      <metamodel href="http://www.obeo.fr/inception#/"/>
+      <defaultLayer name="Default">
+        <containerMappings name="Level2" semanticCandidatesExpression="var:self" domainClass="metamodel.Level">
+          <subContainerMappings xsi:type="description_1:ContainerMappingImport" name="SubLevel2" semanticCandidatesExpression="feature:levels" domainClass="metamodel.Level" reusedContainerMappings="//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']/@subContainerMappings[name='SubLevel2']" importedMapping="//@ownedViewpoints[name='Inception']/@ownedRepresentations[name='Inception2']/@defaultLayer/@containerMappings[name='Level2']"/>
+          <style xsi:type="style:FlatContainerStyleDescription" arcWidth="5" arcHeight="5" labelFormat="bold" showIcon="false" roundedCorner="true" backgroundStyle="Liquid">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </containerMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>
