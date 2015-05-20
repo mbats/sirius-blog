@@ -1,0 +1,61 @@
+h1. The SVenGers : Age of Sirius
+
+Today we swing the "Sirius":http://eclipse.org/sirius posts "series":http://melb.enix.org/category/sirius/ onto another topic : using "SVG":https://en.wikipedia.org/wiki/Scalable_Vector_Graphics images in your designers.
+
+Maybe you do not know yet but we will have to fight "Pixels":https://en.wikipedia.org/wiki/Pixels_(2015_film) monsters this summer :
+!./images/PixelsMovieTeaserPoster.jpg!
+
+Our mission: save the world.
+Our superpowered team: the SVenGers.
+
+h2. BMP
+
+The story begins as any superhero blockbuster movie : a bad experiment generates a monster.
+So our first step in this post is to introduce a pixel monster in the world. We define as usual a metamodel. This time, it represents our SVenGers team :
+!./images/metamodel.png!
+
+Then we provide a Sirius specification project with a new kind of representation named _PixelatedDiagram_ and a _ScalableGirl_ mapping. 
+!./images/pixelateddiagram_vsm.png!
+
+As we already saw in a "previous post":http://melb.enix.org/sirius/customize-diagrams-with-images/ we use the @Workspace Image@ style to modelize our team member.
+!./images/workspace_image.png!
+
+We create a new instance of our metamodel which defines the team with the SVenGers superheroes:
+!./images/model.png!
+
+And finally, a new diagram is created :
+!./images/pixelateddiagram.png!
+
+Up to there everything is fine.
+
+But in our mapping definition we set that the node is resizable:
+!./images/resizable.png!
+
+Consequently, the diagram can be updated 
+!./images/resize.png!
+And we are able to make the _Scalable girl_ bigger:
+!./images/pixelateddiagram_resized.png!
+
+And here is the point where the pixels attack.
+Thankfully, Sirius came to our rescue.
+
+h2. SVG
+
+To fix this problem, Sirius supports the SVG images. A Scalable girl SVG image is created thanks to an appropriate vector graphics editor like "Inkscape":https://inkscape.org/en/.
+
+As mentioned in the "Sirius best practices":http://www.obeonetwork.com/group/obeo-designer/page/best-practices, we need to clean the SVG file. On the @<svg>@ container node, we must add the following attributes: @viewBox="0 0 width height"@ and @preserveAspectRatio="none"@.
+
+Then when you define the mapping workspace image style instead of giving a bitmap image, you need to provide an SVG file. 
+
+To continue with our example, we create a new representation named _SVGDiagram_ and this time, we select an SVG image for the @Workspace Image@ style and we create two other mappings to represent the other SVenGers team members:
+!./images/svgdiagram_vsm.png!
+
+After creating a new _SVGDiagram_ on our example model, we resize the _Scalable girl_ again:
+!./images/svgdiagram.png!
+
+This time, she looks perfect after the resize, there is no more pixel artifact.
+
+Caution, the current Sirius 2.0 version has a "reported bug (442268)":https://bugs.eclipse.org/bugs/show_bug.cgi?id=442268 about SVG images. When you use the zoom, the SVG images quality gets as bad as if it was bitmap images. This is a known issue that should be fixed for the next 3.1 version. Do not hesitate when you find a bug to report it on the "Sirius bugzilla":https://bugs.eclipse.org/bugs/buglist.cgi?classification=Modeling&list_id=6776579&product=Sirius&query_format=advanced!
+
+
+By using SVG images, you are able to create designers which still look great after resize. So join us and use SVGs to fight against pixels!

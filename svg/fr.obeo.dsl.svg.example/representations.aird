@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:metamodel="http://www.obeo.fr/metamodel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_d3t_wP49EeSAC4ChJNzVyA" selectedViews="_gRabAP49EeSAC4ChJNzVyA" version="8.1.1">
+  <models xmi:type="metamodel:Team" href="SVenGers.metamodel#/"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_gRabAP49EeSAC4ChJNzVyA" initialized="true">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_hU8UkP49EeSAC4ChJNzVyA" name="PixeledDiagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_hVLlIP49EeSAC4ChJNzVyA" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_hVLlIf49EeSAC4ChJNzVyA" type="Sirius" element="_hU8UkP49EeSAC4ChJNzVyA" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_hVUvEP49EeSAC4ChJNzVyA" type="2001" element="_hU8Ukf49EeSAC4ChJNzVyA">
+            <children xmi:type="notation:Node" xmi:id="_hXhHcP49EeSAC4ChJNzVyA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_hXhHcf49EeSAC4ChJNzVyA" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hXui0P49EeSAC4ChJNzVyA" type="3005" element="_hU8Ukv49EeSAC4ChJNzVyA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_hXui0f49EeSAC4ChJNzVyA" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hXui0v49EeSAC4ChJNzVyA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_hVUvEf49EeSAC4ChJNzVyA" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hVUvEv49EeSAC4ChJNzVyA" width="961" height="1251"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_hVLlIv49EeSAC4ChJNzVyA"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_hU8Ukf49EeSAC4ChJNzVyA" name="Scalable Girl" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="metamodel:SuperHero" href="SVenGers.metamodel#//@members.0"/>
+        <semanticElements xmi:type="metamodel:SuperHero" href="SVenGers.metamodel#//@members.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_hU8Ukv49EeSAC4ChJNzVyA" showIcon="false" workspacePath="/fr.obeo.dsl.svg.design/images/S_SuperHero.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hU8Uk_49EeSAC4ChJNzVyA"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='PixeledDiagram']/@defaultLayer/@nodeMappings[name='ScalableGirl']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_hU8UlP49EeSAC4ChJNzVyA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='PixeledDiagram']/@defaultLayer/@nodeMappings[name='ScalableGirl']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='PixeledDiagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_hU8Ulf49EeSAC4ChJNzVyA"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='PixeledDiagram']/@defaultLayer"/>
+      <target xmi:type="metamodel:Team" href="SVenGers.metamodel#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_NmVTIP7FEeSkQLTCVMrZ5w" name="SVGDiagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_NmWhQP7FEeSkQLTCVMrZ5w" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_NmWhQf7FEeSkQLTCVMrZ5w" type="Sirius" element="_NmVTIP7FEeSkQLTCVMrZ5w" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_NmWhQ_7FEeSkQLTCVMrZ5w" type="2001" element="_NmVTIf7FEeSkQLTCVMrZ5w">
+            <children xmi:type="notation:Node" xmi:id="_NmXIUP7FEeSkQLTCVMrZ5w" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_NmXIUf7FEeSkQLTCVMrZ5w" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_NmxYAP7FEeSkQLTCVMrZ5w" type="3005" element="_NmVTIv7FEeSkQLTCVMrZ5w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_NmxYAf7FEeSkQLTCVMrZ5w" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NmxYAv7FEeSkQLTCVMrZ5w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_NmWhRP7FEeSkQLTCVMrZ5w" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NmWhRf7FEeSkQLTCVMrZ5w" x="-455" y="40" width="676" height="1167"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NmhgYP7FEeSkQLTCVMrZ5w" type="2001" element="_NmVTJf7FEeSkQLTCVMrZ5w">
+            <children xmi:type="notation:Node" xmi:id="_NmiHcP7FEeSkQLTCVMrZ5w" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_NmiHcf7FEeSkQLTCVMrZ5w" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Nmx_EP7FEeSkQLTCVMrZ5w" type="3005" element="_NmVTJv7FEeSkQLTCVMrZ5w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Nmx_Ef7FEeSkQLTCVMrZ5w" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nmx_Ev7FEeSkQLTCVMrZ5w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_NmhgYf7FEeSkQLTCVMrZ5w" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NmhgYv7FEeSkQLTCVMrZ5w" x="221" y="40" width="154" height="250"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NmpcMP7FEeSkQLTCVMrZ5w" type="2001" element="_NmVTKf7FEeSkQLTCVMrZ5w">
+            <children xmi:type="notation:Node" xmi:id="_NmqDQP7FEeSkQLTCVMrZ5w" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_NmqDQf7FEeSkQLTCVMrZ5w" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Nmx_E_7FEeSkQLTCVMrZ5w" type="3005" element="_NmVTKv7FEeSkQLTCVMrZ5w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Nmx_FP7FEeSkQLTCVMrZ5w" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nmx_Ff7FEeSkQLTCVMrZ5w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_NmpcMf7FEeSkQLTCVMrZ5w" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NmpcMv7FEeSkQLTCVMrZ5w" x="430" y="40" width="149" height="252"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_NmWhQv7FEeSkQLTCVMrZ5w"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_NmVTIf7FEeSkQLTCVMrZ5w" name="Scalable Girl" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="metamodel:SuperHero" href="SVenGers.metamodel#//@members.0"/>
+        <semanticElements xmi:type="metamodel:SuperHero" href="SVenGers.metamodel#//@members.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_NmVTIv7FEeSkQLTCVMrZ5w" showIcon="false" workspacePath="/fr.obeo.dsl.svg.design/images/S_SuperHero.svg">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_NmVTI_7FEeSkQLTCVMrZ5w"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='SVGDiagram']/@defaultLayer/@nodeMappings[name='ScalableGirl']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_NmVTJP7FEeSkQLTCVMrZ5w"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='SVGDiagram']/@defaultLayer/@nodeMappings[name='ScalableGirl']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_NmVTJf7FEeSkQLTCVMrZ5w" name="Vector" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="metamodel:SuperHero" href="SVenGers.metamodel#//@members.1"/>
+        <semanticElements xmi:type="metamodel:SuperHero" href="SVenGers.metamodel#//@members.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_NmVTJv7FEeSkQLTCVMrZ5w" showIcon="false" workspacePath="/fr.obeo.dsl.svg.design/images/V_SuperHero.svg">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_NmVTJ_7FEeSkQLTCVMrZ5w"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='SVGDiagram']/@defaultLayer/@nodeMappings[name='Vector']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_NmVTKP7FEeSkQLTCVMrZ5w"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='SVGDiagram']/@defaultLayer/@nodeMappings[name='Vector']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_NmVTKf7FEeSkQLTCVMrZ5w" name="Graphics Man" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="metamodel:SuperHero" href="SVenGers.metamodel#//@members.2"/>
+        <semanticElements xmi:type="metamodel:SuperHero" href="SVenGers.metamodel#//@members.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_NmVTKv7FEeSkQLTCVMrZ5w" showIcon="false" workspacePath="/fr.obeo.dsl.svg.design/images/G_SuperHero.svg">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_NmVTK_7FEeSkQLTCVMrZ5w"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='SVGDiagram']/@defaultLayer/@nodeMappings[name='Graphics%20Man']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_NmVTLP7FEeSkQLTCVMrZ5w"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='SVGDiagram']/@defaultLayer/@nodeMappings[name='Graphics%20Man']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='SVGDiagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_NmVTLf7FEeSkQLTCVMrZ5w"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='SVGDiagram']/@defaultLayer"/>
+      <target xmi:type="metamodel:Team" href="SVenGers.metamodel#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_hLRt4P7PEeSkQLTCVMrZ5w" name="PixelatedDiagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_hLRt5v7PEeSkQLTCVMrZ5w" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_hLRt5_7PEeSkQLTCVMrZ5w" type="Sirius" element="_hLRt4P7PEeSkQLTCVMrZ5w" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_hLSU8P7PEeSkQLTCVMrZ5w" type="2001" element="_hLRt4f7PEeSkQLTCVMrZ5w">
+            <children xmi:type="notation:Node" xmi:id="_hLSU8_7PEeSkQLTCVMrZ5w" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_hLSU9P7PEeSkQLTCVMrZ5w" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_hLS8AP7PEeSkQLTCVMrZ5w" type="3005" element="_hLRt4v7PEeSkQLTCVMrZ5w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_hLS8Af7PEeSkQLTCVMrZ5w" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hLS8Av7PEeSkQLTCVMrZ5w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_hLSU8f7PEeSkQLTCVMrZ5w" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hLSU8v7PEeSkQLTCVMrZ5w" x="195" y="30" width="145" height="250"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_hLRt6P7PEeSkQLTCVMrZ5w"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_hLRt4f7PEeSkQLTCVMrZ5w" name="Scalable Girl" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="metamodel:SuperHero" href="SVenGers.metamodel#//@members.0"/>
+        <semanticElements xmi:type="metamodel:SuperHero" href="SVenGers.metamodel#//@members.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_hLRt4v7PEeSkQLTCVMrZ5w" showIcon="false" workspacePath="/fr.obeo.dsl.svg.design/images/S_SuperHero.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hLRt4_7PEeSkQLTCVMrZ5w"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='PixelatedDiagram']/@defaultLayer/@nodeMappings[name='ScalableGirl']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_hLRt5P7PEeSkQLTCVMrZ5w"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='PixelatedDiagram']/@defaultLayer/@nodeMappings[name='ScalableGirl']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='PixelatedDiagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_hLRt5f7PEeSkQLTCVMrZ5w"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='PixelatedDiagram']/@defaultLayer"/>
+      <target xmi:type="metamodel:Team" href="SVenGers.metamodel#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_k23SAP7TEeSkQLTCVMrZ5w" name="PixelatedDiagram Resized">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_k235EP7TEeSkQLTCVMrZ5w" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_k235Ef7TEeSkQLTCVMrZ5w" type="Sirius" element="_k23SAP7TEeSkQLTCVMrZ5w" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_k235E_7TEeSkQLTCVMrZ5w" type="2001" element="_k23SAf7TEeSkQLTCVMrZ5w">
+            <children xmi:type="notation:Node" xmi:id="_k24gIP7TEeSkQLTCVMrZ5w" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_k24gIf7TEeSkQLTCVMrZ5w" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_k25HMP7TEeSkQLTCVMrZ5w" type="3005" element="_k23SAv7TEeSkQLTCVMrZ5w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_k25HMf7TEeSkQLTCVMrZ5w" fontName="Droid Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k25HMv7TEeSkQLTCVMrZ5w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_k235FP7TEeSkQLTCVMrZ5w" fontName="Droid Sans" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k235Ff7TEeSkQLTCVMrZ5w" width="796" height="646"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_k235Ev7TEeSkQLTCVMrZ5w"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_k23SAf7TEeSkQLTCVMrZ5w" name="Scalable Girl" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="metamodel:SuperHero" href="SVenGers.metamodel#//@members.0"/>
+        <semanticElements xmi:type="metamodel:SuperHero" href="SVenGers.metamodel#//@members.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_k23SAv7TEeSkQLTCVMrZ5w" showIcon="false" workspacePath="/fr.obeo.dsl.svg.design/images/S_SuperHero.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_k23SA_7TEeSkQLTCVMrZ5w"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='PixelatedDiagram']/@defaultLayer/@nodeMappings[name='ScalableGirl']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_k23SBP7TEeSkQLTCVMrZ5w"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='PixelatedDiagram']/@defaultLayer/@nodeMappings[name='ScalableGirl']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='PixelatedDiagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_k23SBf7TEeSkQLTCVMrZ5w"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']/@ownedRepresentations[name='PixelatedDiagram']/@defaultLayer"/>
+      <target xmi:type="metamodel:Team" href="SVenGers.metamodel#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.obeo.dsl.svg.design/description/svg.odesign#//@ownedViewpoints[name='SVG']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

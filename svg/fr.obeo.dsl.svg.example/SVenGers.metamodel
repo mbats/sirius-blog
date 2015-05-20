@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metamodel:Team xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:metamodel="http://www.obeo.fr/metamodel">
+  <members name="Scalable Girl"/>
+  <members name="Vector"/>
+  <members name="Graphics Man"/>
+</metamodel:Team>
