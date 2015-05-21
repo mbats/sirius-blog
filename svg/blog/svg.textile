@@ -41,7 +41,7 @@ Thankfully, Sirius came to our rescue.
 
 h2. SVG
 
-To fix this problem, Sirius supports the SVG images. A Scalable girl SVG image is created thanks to an appropriate vector graphics editor like "Inkscape":https://inkscape.org/en/.
+To fix this problem, Sirius supports SVG images. A Scalable girl SVG image is created thanks to an appropriate vector graphics editor like "Inkscape":https://inkscape.org/en/.
 
 As mentioned in the "Sirius best practices":http://www.obeonetwork.com/group/obeo-designer/page/best-practices, we need to clean the SVG file. On the @<svg>@ container node, we must add the following attributes: @viewBox="0 0 width height"@ and @preserveAspectRatio="none"@.
 
@@ -56,6 +56,5 @@ After creating a new _SVGDiagram_ on our example model, we resize the _Scalable 
 This time, she looks perfect after the resize, there is no more pixel artifact.
 
 Caution, the current Sirius 2.0 version has a "reported bug (442268)":https://bugs.eclipse.org/bugs/show_bug.cgi?id=442268 about SVG images. When you use the zoom, the SVG images quality gets as bad as if it was bitmap images. This is a known issue that should be fixed for the next 3.1 version. Do not hesitate when you find a bug to report it on the "Sirius bugzilla":https://bugs.eclipse.org/bugs/buglist.cgi?classification=Modeling&list_id=6776579&product=Sirius&query_format=advanced!
-
 
 By using SVG images, you are able to create designers which still look great after resize. So join us and use SVGs to fight against pixels!
