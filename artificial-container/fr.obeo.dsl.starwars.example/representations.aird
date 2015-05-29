@@ -306,33 +306,33 @@
         <semanticElements xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_AygHAO18EeSqmr_0NfQqUw" backgroundStyle="Liquid">
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_AygHAe18EeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Sith']/@style"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Sith']/@style"/>
           <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_AygHAu18EeSqmr_0NfQqUw"/>
           <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_AygHA-18EeSqmr_0NfQqUw"/>
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_AygHBO18EeSqmr_0NfQqUw" red="209" green="209" blue="209"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Sith']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Sith']"/>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_xITxIO2eEeSqmr_0NfQqUw" name="Dark Vador" visible="false" width="3" height="3" resizeKind="NSEW">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
           <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_xIUYMO2eEeSqmr_0NfQqUw">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_xIUYMe2eEeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Sith']/@subNodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Sith']/@subNodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_xIUYMu2eEeSqmr_0NfQqUw"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_xIUYM-2eEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Sith']/@subNodeMappings[name='Person']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Sith']/@subNodeMappings[name='Person']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_tx1nwO2iEeSqmr_0NfQqUw" name="Dark Vador" visible="false" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
           <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_wMMKUO2iEeSqmr_0NfQqUw" showIcon="false" labelPosition="node">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_wMMKUe2iEeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_wMMKUu2iEeSqmr_0NfQqUw"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_wMMKU-2iEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Sith']/@subNodeMappings[name='PersonImport']"/>
+          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Sith']/@subNodeMappings[name='PersonImport']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_CBKSgO18EeSqmr_0NfQqUw" visible="false">
@@ -343,33 +343,33 @@
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_CBKSge18EeSqmr_0NfQqUw" backgroundStyle="Liquid">
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_CBKSgu18EeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Jedi']/@style"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Jedi']/@style"/>
           <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_CBKSg-18EeSqmr_0NfQqUw"/>
           <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_0jDUUO2LEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_z5eL0O2LEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Jedi']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Jedi']"/>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_lbDjAO2iEeSqmr_0NfQqUw" name="Luke Skywalker" visible="false" width="3" height="3" resizeKind="NSEW">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
           <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_lbEKEO2iEeSqmr_0NfQqUw">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_lbEKEe2iEeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Jedi']/@subNodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Jedi']/@subNodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_lbEKEu2iEeSqmr_0NfQqUw"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_lbEKE-2iEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Jedi']/@subNodeMappings[name='Person']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Jedi']/@subNodeMappings[name='Person']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_lbEKFO2iEeSqmr_0NfQqUw" name="Leia Organa" visible="false" width="3" height="3" resizeKind="NSEW">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.2"/>
           <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.2"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_lbExIO2iEeSqmr_0NfQqUw">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_lbExIe2iEeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Jedi']/@subNodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Jedi']/@subNodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_lbExIu2iEeSqmr_0NfQqUw"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_lbExI-2iEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Jedi']/@subNodeMappings[name='Person']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='Jedi']/@subNodeMappings[name='Person']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_4UegEO2iEeSqmr_0NfQqUw" visible="false">
@@ -377,22 +377,22 @@
         <semanticElements xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_4UegEe2iEeSqmr_0NfQqUw" showIcon="false" backgroundStyle="Liquid">
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_4UegEu2iEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='SithGroup']/@style"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='SithGroup']/@style"/>
           <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_4UegE-2iEeSqmr_0NfQqUw"/>
           <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_4UegFO2iEeSqmr_0NfQqUw"/>
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_4UegFe2iEeSqmr_0NfQqUw" red="209" green="209" blue="209"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='SithGroup']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='SithGroup']"/>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_4UfuMO2iEeSqmr_0NfQqUw" name="Dark Vador" visible="false" outgoingEdges="_sV5YwO2jEeSqmr_0NfQqUw _sV5_0O2jEeSqmr_0NfQqUw" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
           <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_4UgVQO2iEeSqmr_0NfQqUw" showIcon="false" labelPosition="node">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_4UgVQe2iEeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_4UgVQu2iEeSqmr_0NfQqUw"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_4UgVQ-2iEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='SithGroup']/@subNodeMappings[name='DarkPerson']"/>
+          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='SithGroup']/@subNodeMappings[name='DarkPerson']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_4Ug8UO2iEeSqmr_0NfQqUw" visible="false">
@@ -400,89 +400,89 @@
         <semanticElements xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_4Ug8Ue2iEeSqmr_0NfQqUw" showIcon="false" backgroundStyle="Liquid">
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_4Ug8Uu2iEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='JediGroup']/@style"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='JediGroup']/@style"/>
           <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_4Ug8U-2iEeSqmr_0NfQqUw"/>
           <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_4Ug8VO2iEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_4Ug8Ve2iEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='JediGroup']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='JediGroup']"/>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_5eRZsO2iEeSqmr_0NfQqUw" name="Luke Skywalker" visible="false" incomingEdges="_sV5_0O2jEeSqmr_0NfQqUw" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
           <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_5eRZse2iEeSqmr_0NfQqUw" showIcon="false" labelPosition="node">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_5eRZsu2iEeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_5eRZs-2iEeSqmr_0NfQqUw"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_5eRZtO2iEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='JediGroup']/@subNodeMappings[name='OtherPerson']"/>
+          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='JediGroup']/@subNodeMappings[name='OtherPerson']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_5eSAwO2iEeSqmr_0NfQqUw" name="Leia Organa" visible="false" incomingEdges="_sV5YwO2jEeSqmr_0NfQqUw" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.2"/>
           <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.2"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_5eSAwe2iEeSqmr_0NfQqUw" showIcon="false" labelPosition="node">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_5eSAwu2iEeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_5eSAw-2iEeSqmr_0NfQqUw"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_5eSAxO2iEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='JediGroup']/@subNodeMappings[name='OtherPerson']"/>
+          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='JediGroup']/@subNodeMappings[name='OtherPerson']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_sV5YwO2jEeSqmr_0NfQqUw" visible="false" sourceNode="_4UfuMO2iEeSqmr_0NfQqUw" targetNode="_5eSAwO2iEeSqmr_0NfQqUw">
         <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_sV5Ywe2jEeSqmr_0NfQqUw" size="2">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']/@style"/>
           <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_sV5Ywu2jEeSqmr_0NfQqUw" red="136" green="136" blue="136"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_sV5Yw-2jEeSqmr_0NfQqUw">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_sV5YxO2jEeSqmr_0NfQqUw"/>
           </centerLabelStyle>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_sV5_0O2jEeSqmr_0NfQqUw" visible="false" sourceNode="_4UfuMO2iEeSqmr_0NfQqUw" targetNode="_5eRZsO2iEeSqmr_0NfQqUw">
         <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_sV5_0e2jEeSqmr_0NfQqUw" size="2">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']/@style"/>
           <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_sV5_0u2jEeSqmr_0NfQqUw" red="136" green="136" blue="136"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_sV5_0-2jEeSqmr_0NfQqUw">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_sV5_1O2jEeSqmr_0NfQqUw"/>
           </centerLabelStyle>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_OQQlcO2kEeSqmr_0NfQqUw" name="Dark Side">
         <target xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
         <semanticElements xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_OQQlce2kEeSqmr_0NfQqUw" showIcon="false" backgroundStyle="Liquid">
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_OQQlcu2kEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='DarkSide']/@style"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='DarkSide']/@style"/>
           <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_OQQlc-2kEeSqmr_0NfQqUw"/>
           <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_OQQldO2kEeSqmr_0NfQqUw"/>
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_OQQlde2kEeSqmr_0NfQqUw" red="209" green="209" blue="209"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='DarkSide']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='DarkSide']"/>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_OQRzkO2kEeSqmr_0NfQqUw" name="Dark Vador" visible="false" outgoingEdges="_OQU24O2kEeSqmr_0NfQqUw _OQVd9O2kEeSqmr_0NfQqUw" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
           <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OQRzke2kEeSqmr_0NfQqUw" showIcon="false" labelPosition="node">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_OQRzku2kEeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_OQRzk-2kEeSqmr_0NfQqUw"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_OQRzlO2kEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='DarkSide']/@subNodeMappings[name='DarkPerson']"/>
+          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='DarkSide']/@subNodeMappings[name='DarkPerson']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QbOoMO2kEeSqmr_0NfQqUw" name="Dark Vador" outgoingEdges="_QbREcO2kEeSqmr_0NfQqUw _QbRrhO2kEeSqmr_0NfQqUw" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
           <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_jfEskO2kEeSqmr_0NfQqUw" showIcon="false" labelPosition="node">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jfEske2kEeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jfEsku2kEeSqmr_0NfQqUw"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_jfEsk-2kEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='DarkSide']/@subNodeMappings[name='Sith']"/>
+          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='DarkSide']/@subNodeMappings[name='Sith']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_OQSaoO2kEeSqmr_0NfQqUw" name="Light Side">
@@ -490,104 +490,104 @@
         <semanticElements xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_OQSaoe2kEeSqmr_0NfQqUw" showIcon="false" backgroundStyle="Liquid">
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_bFSXIO2kEeSqmr_0NfQqUw"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='LightSide']/@style"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='LightSide']/@style"/>
           <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_OQSao-2kEeSqmr_0NfQqUw"/>
           <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_OQSapO2kEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_OQSape2kEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='LightSide']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='LightSide']"/>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_OQTowO2kEeSqmr_0NfQqUw" name="Luke Skywalker" visible="false" incomingEdges="_OQVd9O2kEeSqmr_0NfQqUw" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
           <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OQTowe2kEeSqmr_0NfQqUw" showIcon="false" labelPosition="node">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_OQTowu2kEeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_OQTow-2kEeSqmr_0NfQqUw"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_OQToxO2kEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='LightSide']/@subNodeMappings[name='LightPerson']"/>
+          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='LightSide']/@subNodeMappings[name='LightPerson']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_OQUP0O2kEeSqmr_0NfQqUw" name="Leia Organa" visible="false" incomingEdges="_OQU24O2kEeSqmr_0NfQqUw" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.2"/>
           <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.2"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OQUP0e2kEeSqmr_0NfQqUw" showIcon="false" labelPosition="node">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_OQUP0u2kEeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_OQUP0-2kEeSqmr_0NfQqUw"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_OQUP1O2kEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='LightSide']/@subNodeMappings[name='LightPerson']"/>
+          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='LightSide']/@subNodeMappings[name='LightPerson']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QbP2UO2kEeSqmr_0NfQqUw" name="Luke Skywalker" incomingEdges="_QbRrhO2kEeSqmr_0NfQqUw" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
           <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_jfGhwO2kEeSqmr_0NfQqUw" showIcon="false" labelPosition="node">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jfGhwe2kEeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jfGhwu2kEeSqmr_0NfQqUw"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_jfGhw-2kEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
+          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QbQdYO2kEeSqmr_0NfQqUw" name="Leia Organa" incomingEdges="_QbREcO2kEeSqmr_0NfQqUw" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.2"/>
           <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.2"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_jfHI0O2kEeSqmr_0NfQqUw" showIcon="false" labelPosition="node">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jfHI0e2kEeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jfHI0u2kEeSqmr_0NfQqUw"/>
             <color xmi:type="viewpoint:RGBValues" xmi:id="_jfHI0-2kEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
+          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@containerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_OQU24O2kEeSqmr_0NfQqUw" visible="false" sourceNode="_OQRzkO2kEeSqmr_0NfQqUw" targetNode="_OQUP0O2kEeSqmr_0NfQqUw">
         <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_OQVd8O2kEeSqmr_0NfQqUw" size="2">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']/@style"/>
           <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_OQVd8e2kEeSqmr_0NfQqUw" red="136" green="136" blue="136"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_OQVd8u2kEeSqmr_0NfQqUw">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_OQVd8-2kEeSqmr_0NfQqUw"/>
           </centerLabelStyle>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_OQVd9O2kEeSqmr_0NfQqUw" visible="false" sourceNode="_OQRzkO2kEeSqmr_0NfQqUw" targetNode="_OQTowO2kEeSqmr_0NfQqUw">
         <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_OQWFAO2kEeSqmr_0NfQqUw" size="2">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']/@style"/>
           <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_OQWFAe2kEeSqmr_0NfQqUw" red="136" green="136" blue="136"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_OQWFAu2kEeSqmr_0NfQqUw">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_OQWFA-2kEeSqmr_0NfQqUw"/>
           </centerLabelStyle>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_QbREcO2kEeSqmr_0NfQqUw" sourceNode="_QbOoMO2kEeSqmr_0NfQqUw" targetNode="_QbQdYO2kEeSqmr_0NfQqUw">
         <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_QbRrgO2kEeSqmr_0NfQqUw" size="2">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']/@style"/>
           <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_QbRrge2kEeSqmr_0NfQqUw" red="136" green="136" blue="136"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_QbRrgu2kEeSqmr_0NfQqUw">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_QbRrg-2kEeSqmr_0NfQqUw"/>
           </centerLabelStyle>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_QbRrhO2kEeSqmr_0NfQqUw" sourceNode="_QbOoMO2kEeSqmr_0NfQqUw" targetNode="_QbP2UO2kEeSqmr_0NfQqUw">
         <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_QbRrhe2kEeSqmr_0NfQqUw" size="2">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']/@style"/>
           <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_QbRrhu2kEeSqmr_0NfQqUw" red="136" green="136" blue="136"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_QbRrh-2kEeSqmr_0NfQqUw">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_QbRriO2kEeSqmr_0NfQqUw"/>
           </centerLabelStyle>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer/@edgeMappings[name='Children']"/>
       </ownedDiagramElements>
-      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']"/>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']"/>
       <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_5Tq98O17EeSqmr_0NfQqUw"/>
-      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ArtificialContainer']/@defaultLayer"/>
       <target xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
     </ownedRepresentations>
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_1obMsO2mEeSqmr_0NfQqUw" name="ForceSide">
@@ -814,22 +814,22 @@
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_1obMsu2mEeSqmr_0NfQqUw" showIcon="false" backgroundStyle="Liquid">
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_1obMs-2mEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='DarkSide']/@style"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='DarkSide']/@style"/>
           <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_1obMtO2mEeSqmr_0NfQqUw"/>
           <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_1obMte2mEeSqmr_0NfQqUw"/>
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_1obMtu2mEeSqmr_0NfQqUw" red="209" green="209" blue="209"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='DarkSide']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='DarkSide']"/>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_1obMt-2mEeSqmr_0NfQqUw" name="Darth Vader" visible="false" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
           <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
           <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_nexvcO28EeSqmr_0NfQqUw" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Darth-Vader.jpg">
             <customFeatures>workspacePath</customFeatures>
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_nexvce28EeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_nexvcu28EeSqmr_0NfQqUw"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='DarkSide']/@subNodeMappings[name='Sith']"/>
+          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='DarkSide']/@subNodeMappings[name='Sith']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_1obMvO2mEeSqmr_0NfQqUw" name="Light Side" visible="false">
@@ -840,22 +840,22 @@
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_1obMve2mEeSqmr_0NfQqUw" showIcon="false" backgroundStyle="Liquid">
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_1obMvu2mEeSqmr_0NfQqUw"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='LightSide']/@style"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='LightSide']/@style"/>
           <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_1obMv-2mEeSqmr_0NfQqUw"/>
           <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_1obMwO2mEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_1obMwe2mEeSqmr_0NfQqUw" red="255" green="255" blue="255"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='LightSide']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='LightSide']"/>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_1obMwu2mEeSqmr_0NfQqUw" name="Luke Skywalker" visible="false" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
           <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
           <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_qJhecO28EeSqmr_0NfQqUw" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Luke_Skywalker.jpg">
             <customFeatures>workspacePath</customFeatures>
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_qJhece28EeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_qJhecu28EeSqmr_0NfQqUw"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
+          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_1obMx-2mEeSqmr_0NfQqUw" name="Leia Organa" visible="false" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.2"/>
@@ -863,10 +863,10 @@
           <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_reTgEO28EeSqmr_0NfQqUw" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Leia-Organa.jpg">
             <customFeatures>workspacePath</customFeatures>
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_reTgEe28EeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_reTgEu28EeSqmr_0NfQqUw"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
+          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_1obMzO2mEeSqmr_0NfQqUw" name="C3PO" visible="false" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.3"/>
@@ -874,10 +874,10 @@
           <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_szWAYO28EeSqmr_0NfQqUw" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/C3PO.jpg">
             <customFeatures>workspacePath</customFeatures>
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_szWAYe28EeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_szWAYu28EeSqmr_0NfQqUw"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
+          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_1obM0e2mEeSqmr_0NfQqUw" name="R2D2" visible="false" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.4"/>
@@ -885,10 +885,10 @@
           <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t7UVEO28EeSqmr_0NfQqUw" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/R2D2.jpg">
             <customFeatures>workspacePath</customFeatures>
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_t7UVEe28EeSqmr_0NfQqUw"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_t7UVEu28EeSqmr_0NfQqUw"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
+          <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_uTMj8O5IEeSMXtjimMLYMQ" name="Skywalker">
@@ -896,33 +896,33 @@
         <semanticElements xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_uTMj8e5IEeSMXtjimMLYMQ" showIcon="false" backgroundStyle="Liquid">
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_uTNLAO5IEeSMXtjimMLYMQ"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@style"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@style"/>
           <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_uTNLAe5IEeSMXtjimMLYMQ" red="136" green="136" blue="136"/>
           <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_uTNLAu5IEeSMXtjimMLYMQ" red="255" green="255" blue="255"/>
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_uTNLA-5IEeSMXtjimMLYMQ" red="255" green="255" blue="255"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']"/>
         <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_uTNyEO5IEeSMXtjimMLYMQ" name="Light Side">
           <target xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
           <semanticElements xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
           <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_uTOZIO5IEeSMXtjimMLYMQ" showIcon="false" backgroundStyle="Liquid">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_uTOZIe5IEeSMXtjimMLYMQ"/>
-            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@style"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_uTOZIu5IEeSMXtjimMLYMQ"/>
             <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_uTOZI-5IEeSMXtjimMLYMQ" red="255" green="255" blue="255"/>
             <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_uTOZJO5IEeSMXtjimMLYMQ" red="255" green="255" blue="255"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']"/>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']"/>
           <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_uTQOUO5IEeSMXtjimMLYMQ" name="Luke Skywalker" visible="false" width="10" height="10">
             <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
             <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
             <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_wK8vwO5IEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Luke_Skywalker.jpg">
               <customFeatures>workspacePath</customFeatures>
               <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_wK8vwe5IEeSMXtjimMLYMQ"/>
-              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
               <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_wK8vwu5IEeSMXtjimMLYMQ"/>
             </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
+            <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
           </ownedDiagramElements>
           <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_uTRccO5IEeSMXtjimMLYMQ" name="Leia Organa" visible="false" width="10" height="10">
             <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.2"/>
@@ -930,10 +930,10 @@
             <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_xRorAO5IEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Leia-Organa.jpg">
               <customFeatures>workspacePath</customFeatures>
               <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_xRorAe5IEeSMXtjimMLYMQ"/>
-              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
               <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_xRorAu5IEeSMXtjimMLYMQ"/>
             </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
+            <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
           </ownedDiagramElements>
           <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_uTSDgO5IEeSMXtjimMLYMQ" name="C3PO" visible="false" width="10" height="10">
             <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.3"/>
@@ -941,10 +941,10 @@
             <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_yXA-sO5IEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/C3PO.jpg">
               <customFeatures>workspacePath</customFeatures>
               <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_yXA-se5IEeSMXtjimMLYMQ"/>
-              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
               <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_yXA-su5IEeSMXtjimMLYMQ"/>
             </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
+            <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
           </ownedDiagramElements>
           <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_uTSqkO5IEeSMXtjimMLYMQ" name="R2D2" visible="false" width="10" height="10">
             <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.4"/>
@@ -952,10 +952,10 @@
             <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_zZqugO5IEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/R2D2.jpg">
               <customFeatures>workspacePath</customFeatures>
               <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_zZquge5IEeSMXtjimMLYMQ"/>
-              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
               <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_zZqugu5IEeSMXtjimMLYMQ"/>
             </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
+            <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Jedi']"/>
           </ownedDiagramElements>
           <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_NJWjUO5KEeSMXtjimMLYMQ" name="Luke Skywalker" width="10" height="10">
             <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
@@ -963,10 +963,10 @@
             <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_O8et0O5KEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Luke_Skywalker.jpg">
               <customFeatures>workspacePath</customFeatures>
               <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_O8et0e5KEeSMXtjimMLYMQ"/>
-              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Person']/@style"/>
+              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Person']/@style"/>
               <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_O8et0u5KEeSMXtjimMLYMQ"/>
             </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Person']"/>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Person']"/>
           </ownedDiagramElements>
           <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_NJXKYO5KEeSMXtjimMLYMQ" name="Leia Organa" width="10" height="10">
             <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.2"/>
@@ -974,10 +974,10 @@
             <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_QMKNAO5KEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Leia-Organa.jpg">
               <customFeatures>workspacePath</customFeatures>
               <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_QMKNAe5KEeSMXtjimMLYMQ"/>
-              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Person']/@style"/>
+              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Person']/@style"/>
               <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_QMKNAu5KEeSMXtjimMLYMQ"/>
             </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Person']"/>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Person']"/>
           </ownedDiagramElements>
           <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_NJXxcO5KEeSMXtjimMLYMQ" name="C3PO" width="10" height="10">
             <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.3"/>
@@ -985,10 +985,10 @@
             <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_RfO-cO5KEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/C3PO.jpg">
               <customFeatures>workspacePath</customFeatures>
               <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_RfO-ce5KEeSMXtjimMLYMQ"/>
-              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Person']/@style"/>
+              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Person']/@style"/>
               <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_RfO-cu5KEeSMXtjimMLYMQ"/>
             </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Person']"/>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Person']"/>
           </ownedDiagramElements>
           <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_NJYYgO5KEeSMXtjimMLYMQ" name="R2D2" width="10" height="10">
             <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.4"/>
@@ -996,10 +996,10 @@
             <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_SmObsO5KEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/R2D2.jpg">
               <customFeatures>workspacePath</customFeatures>
               <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_SmObse5KEeSMXtjimMLYMQ"/>
-              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Person']/@style"/>
+              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Person']/@style"/>
               <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_SmObsu5KEeSMXtjimMLYMQ"/>
             </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Person']"/>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='LightSide']/@subNodeMappings[name='Person']"/>
           </ownedDiagramElements>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_uTTRoO5IEeSMXtjimMLYMQ" name="Dark Side">
@@ -1007,22 +1007,22 @@
           <semanticElements xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
           <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_uTTRoe5IEeSMXtjimMLYMQ" showIcon="false" backgroundStyle="Liquid">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_uTTRou5IEeSMXtjimMLYMQ" red="255" green="255" blue="255"/>
-            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='DarkSide']/@style"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='DarkSide']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_uTTRo-5IEeSMXtjimMLYMQ"/>
             <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_uTT4sO5IEeSMXtjimMLYMQ"/>
             <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_uTT4se5IEeSMXtjimMLYMQ" red="209" green="209" blue="209"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='DarkSide']"/>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='DarkSide']"/>
           <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_uTUfwO5IEeSMXtjimMLYMQ" name="Darth Vader" visible="false" width="10" height="10">
             <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
             <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
             <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_0mS5sO5IEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Darth-Vader.jpg">
               <customFeatures>workspacePath</customFeatures>
               <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_0mS5se5IEeSMXtjimMLYMQ"/>
-              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
               <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_0mS5su5IEeSMXtjimMLYMQ"/>
             </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='DarkSide']/@subNodeMappings[name='Sith']"/>
+            <actualMapping xmi:type="description_1:NodeMappingImport" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='DarkSide']/@subNodeMappings[name='Sith']"/>
           </ownedDiagramElements>
           <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_NJaNsO5KEeSMXtjimMLYMQ" name="Darth Vader" width="10" height="10">
             <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
@@ -1030,16 +1030,16 @@
             <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_Tp5fMO5KEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Darth-Vader.jpg">
               <customFeatures>workspacePath</customFeatures>
               <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_Tp5fMe5KEeSMXtjimMLYMQ"/>
-              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='DarkSide']/@subNodeMappings[name='Person']/@style"/>
+              <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='DarkSide']/@subNodeMappings[name='Person']/@style"/>
               <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_Tp5fMu5KEeSMXtjimMLYMQ"/>
             </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='DarkSide']/@subNodeMappings[name='Person']"/>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer/@containerMappings[name='Family']/@subContainerMappings[name='DarkSide']/@subNodeMappings[name='Person']"/>
           </ownedDiagramElements>
         </ownedDiagramElements>
       </ownedDiagramElements>
-      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']"/>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']"/>
       <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_1obM1u2mEeSqmr_0NfQqUw"/>
-      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='ForceSide']/@defaultLayer"/>
       <target xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
     </ownedRepresentations>
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_lmoXgO27EeSqmr_0NfQqUw" name="Flat">
@@ -1109,10 +1109,10 @@
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_ndADQO27EeSqmr_0NfQqUw" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Darth-Vader.jpg">
           <customFeatures>workspacePath</customFeatures>
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_ndADQe27EeSqmr_0NfQqUw"/>
-          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
           <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_ndADQu27EeSqmr_0NfQqUw"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_lmoXhu27EeSqmr_0NfQqUw" name="Luke Skywalker" width="10" height="10">
         <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
@@ -1120,10 +1120,10 @@
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_pQezEO27EeSqmr_0NfQqUw" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Luke_Skywalker.jpg">
           <customFeatures>workspacePath</customFeatures>
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_pQezEe27EeSqmr_0NfQqUw"/>
-          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
           <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_pQezEu27EeSqmr_0NfQqUw"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_lmoXi-27EeSqmr_0NfQqUw" name="Leia Organa" width="10" height="10">
         <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.2"/>
@@ -1131,10 +1131,10 @@
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_qZH2IO27EeSqmr_0NfQqUw" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Leia-Organa.jpg">
           <customFeatures>workspacePath</customFeatures>
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_qZH2Ie27EeSqmr_0NfQqUw"/>
-          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
           <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_qZH2Iu27EeSqmr_0NfQqUw"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_lmoXkO27EeSqmr_0NfQqUw" name="C3PO" width="10" height="10">
         <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.3"/>
@@ -1142,10 +1142,10 @@
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_rlAacO27EeSqmr_0NfQqUw" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/C3PO.jpg">
           <customFeatures>workspacePath</customFeatures>
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_rlAace27EeSqmr_0NfQqUw"/>
-          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
           <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_rlAacu27EeSqmr_0NfQqUw"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_lmoXle27EeSqmr_0NfQqUw" name="R2D2" width="10" height="10">
         <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.4"/>
@@ -1153,14 +1153,14 @@
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_uaZTMO27EeSqmr_0NfQqUw" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/R2D2.jpg">
           <customFeatures>workspacePath</customFeatures>
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_uaZTMe27EeSqmr_0NfQqUw"/>
-          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
           <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_uaZTMu27EeSqmr_0NfQqUw"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
       </ownedDiagramElements>
-      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']"/>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']"/>
       <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_lmoXmu27EeSqmr_0NfQqUw"/>
-      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer"/>
       <target xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
     </ownedRepresentations>
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_J0zUQO5IEeSMXtjimMLYMQ" name="Family">
@@ -1293,22 +1293,22 @@
         <semanticElements xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_J0zUQu5IEeSMXtjimMLYMQ" showIcon="false" backgroundStyle="Liquid">
           <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_J0zUQ-5IEeSMXtjimMLYMQ"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@style"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@style"/>
           <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_J0zURO5IEeSMXtjimMLYMQ" red="136" green="136" blue="136"/>
           <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_J0zURe5IEeSMXtjimMLYMQ" red="255" green="255" blue="255"/>
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_J0zURu5IEeSMXtjimMLYMQ" red="255" green="255" blue="255"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']"/>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_OolzYO5IEeSMXtjimMLYMQ" name="Darth Vader" visible="false" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
           <semanticElements xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
           <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_ZLZDwO5IEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Darth-Vader.jpg">
             <customFeatures>workspacePath</customFeatures>
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_ZLZDwe5IEeSMXtjimMLYMQ"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_ZLZDwu5IEeSMXtjimMLYMQ"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_OonBgO5IEeSMXtjimMLYMQ" name="Luke Skywalker" visible="false" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
@@ -1316,10 +1316,10 @@
           <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_adQ7UO5IEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Luke_Skywalker.jpg">
             <customFeatures>workspacePath</customFeatures>
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_adQ7Ue5IEeSMXtjimMLYMQ"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_adQ7Uu5IEeSMXtjimMLYMQ"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_OonolO5IEeSMXtjimMLYMQ" name="Leia Organa" visible="false" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.2"/>
@@ -1327,10 +1327,10 @@
           <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_b7z88O5IEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Leia-Organa.jpg">
             <customFeatures>workspacePath</customFeatures>
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_b7z88e5IEeSMXtjimMLYMQ"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_b7z88u5IEeSMXtjimMLYMQ"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Ooo2sO5IEeSMXtjimMLYMQ" name="C3PO" visible="false" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.3"/>
@@ -1338,10 +1338,10 @@
           <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_dwx6gO5IEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/C3PO.jpg">
             <customFeatures>workspacePath</customFeatures>
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_dwx6ge5IEeSMXtjimMLYMQ"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_dwx6gu5IEeSMXtjimMLYMQ"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_OopdwO5IEeSMXtjimMLYMQ" name="R2D2" visible="false" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.4"/>
@@ -1349,10 +1349,10 @@
           <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_fUqIEO5IEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/R2D2.jpg">
             <customFeatures>workspacePath</customFeatures>
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fUqIEe5IEeSMXtjimMLYMQ"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fUqIEu5IEeSMXtjimMLYMQ"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Flat']/@defaultLayer/@nodeMappings[name='Person']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_GQSZwO5KEeSMXtjimMLYMQ" name="Darth Vader" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.0"/>
@@ -1360,10 +1360,10 @@
           <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_IEY0oO5KEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Darth-Vader.jpg">
             <customFeatures>workspacePath</customFeatures>
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_IEY0oe5KEeSMXtjimMLYMQ"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_IEY0ou5KEeSMXtjimMLYMQ"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_GQTA0O5KEeSMXtjimMLYMQ" name="Luke Skywalker" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.1"/>
@@ -1371,10 +1371,10 @@
           <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_JK-pQO5KEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Luke_Skywalker.jpg">
             <customFeatures>workspacePath</customFeatures>
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_JK-pQe5KEeSMXtjimMLYMQ"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_JK-pQu5KEeSMXtjimMLYMQ"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_GQTn4O5KEeSMXtjimMLYMQ" name="Leia Organa" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.2"/>
@@ -1382,10 +1382,10 @@
           <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_KQYyIO5KEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/Leia-Organa.jpg">
             <customFeatures>workspacePath</customFeatures>
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_KQYyIe5KEeSMXtjimMLYMQ"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_KQYyIu5KEeSMXtjimMLYMQ"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_GQUO8O5KEeSMXtjimMLYMQ" name="C3PO" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.3"/>
@@ -1393,10 +1393,10 @@
           <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_LWnaYO5KEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/C3PO.jpg">
             <customFeatures>workspacePath</customFeatures>
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_LWnaYe5KEeSMXtjimMLYMQ"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_LWnaYu5KEeSMXtjimMLYMQ"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_GQU2AO5KEeSMXtjimMLYMQ" name="R2D2" width="10" height="10">
           <target xmi:type="starwars:Person" href="Skywalker.starwars#//@members.4"/>
@@ -1404,18 +1404,18 @@
           <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_MTOzoO5KEeSMXtjimMLYMQ" showIcon="false" workspacePath="fr.obeo.starwars.dsl.example/images/R2D2.jpg">
             <customFeatures>workspacePath</customFeatures>
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_MTOzoe5KEeSMXtjimMLYMQ"/>
-            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']/@style"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']/@style"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_MTOzou5KEeSMXtjimMLYMQ"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer/@containerMappings[name='Family']/@subNodeMappings[name='Person']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
-      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']"/>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']"/>
       <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_J0zUR-5IEeSMXtjimMLYMQ"/>
-      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']/@ownedRepresentations[name='Family']/@defaultLayer"/>
       <target xmi:type="starwars:Family" href="Skywalker.starwars#/"/>
     </ownedRepresentations>
-    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.obeo.stawars.dsl.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']"/>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.obeo.dsl.starwars.design/description/Starwars.odesign#//@ownedViewpoints[name='Starwars']"/>
   </ownedViews>
   <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_CQWAIO5PEeSts5PXfhqh5w" initialized="true">
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_EWDIYO5PEeSts5PXfhqh5w" name="Flat">

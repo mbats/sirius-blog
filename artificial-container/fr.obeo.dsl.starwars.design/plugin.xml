@@ -2,8 +2,8 @@
 <?eclipse version="3.0"?>
 <plugin>
   <extension point="org.eclipse.sirius.componentization">
-    <component class="fr.obeo.stawars.dsl.design.Activator"
-               id="fr.obeo.stawars.dsl.design"
+    <component class="fr.obeo.dsl.starwars.design.Activator"
+               id="fr.obeo.dsl.starwars.design"
 	       name="Starwars">
     </component>
   </extension>
