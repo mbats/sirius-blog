@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: fr.obeo.stawars.dsl.design
+Bundle-Name: fr.obeo.dsl.starwars.design
 Bundle-SymbolicName: fr.obeo.dsl.starwars.design;singleton:=true
 Bundle-Version: 1.0.0
-Bundle-Activator: fr.obeo.stawars.dsl.design.Activator
+Bundle-Activator: fr.obeo.dsl.starwars.design.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.sirius,
