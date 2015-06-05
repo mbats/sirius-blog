@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated felix -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="felix.presentation.FelixModelWizardID"
+            name="%_UI_FelixModelWizard_label"
+            class="felix.presentation.FelixModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/FelixModelFile.gif">
+         <description>%_UI_FelixModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated felix -->
+      <editor
+            id="felix.presentation.FelixEditorID"
+            name="%_UI_FelixEditor_label"
+            icon="icons/full/obj16/FelixModelFile.gif"
+            extensions="felix"
+            class="felix.presentation.FelixEditor"
+            contributorClass="felix.presentation.FelixActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

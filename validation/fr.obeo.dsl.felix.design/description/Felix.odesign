@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/description/tool/1.1.0" xmlns:validation="http://www.eclipse.org/sirius/description/validation/1.1.0" name="Felix" version="8.1.0">
+  <ownedViewpoints name="Felix">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="SemanticValidation" domainClass="felix.Game">
+      <metamodel href="http://www.obeo.fr/felix#/"/>
+      <validationSet name="Validate building">
+        <ownedRules xsi:type="validation:SemanticValidationRule" level="ERROR" message="The building needs to be fixed!" targetClass="felix.Building">
+          <audits auditExpression="feature:isFixed"/>
+          <fixes name="Fix it Felix!">
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:self">
+                <subModelOperations xsi:type="tool:SetValue" featureName="isFixed" valueExpression="true"/>
+              </firstModelOperations>
+            </initialOperation>
+          </fixes>
+        </ownedRules>
+      </validationSet>
+      <defaultLayer name="Default">
+        <nodeMappings name="Building" domainClass="felix.Building">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="" sizeComputationExpression="-1" workspacePath="/fr.obeo.dsl.felix.design/images/building.jpg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+          <conditionnalStyles predicateExpression="[not self.isFixed/]">
+            <style xsi:type="style:WorkspaceImageDescription" borderSizeComputationExpression="10" showIcon="false" labelExpression="" sizeComputationExpression="-1" workspacePath="/fr.obeo.dsl.felix.design/images/brokenbuilding.jpg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </conditionnalStyles>
+        </nodeMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:ToolDescription" name="Wreck it" iconPath="/fr.obeo.dsl.felix.design/images/wreck-it-ralph.jpg">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="var:self">
+                <subModelOperations xsi:type="tool:SetValue" featureName="isFixed" valueExpression="false"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="ViewValidation" domainClass="felix.Game">
+      <metamodel href="http://www.obeo.fr/felix#/"/>
+      <validationSet name="Validate building">
+        <ownedRules xsi:type="validation:ViewValidationRule" level="WARNING" message="The building is broken!" targets="//@ownedViewpoints[name='Felix']/@ownedRepresentations[name='SemanticValidation']/@defaultLayer/@nodeMappings[name='Building']">
+          <audits auditExpression="[self.ownedStyle.borderColor.red&lt;>239/]"/>
+          <fixes name="Fix it Felix!">
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="feature:target">
+                <subModelOperations xsi:type="tool:SetValue" featureName="isFixed" valueExpression="true"/>
+              </firstModelOperations>
+            </initialOperation>
+          </fixes>
+        </ownedRules>
+      </validationSet>
+      <defaultLayer name="Default" reusedMappings="//@ownedViewpoints[name='Felix']/@ownedRepresentations[name='SemanticValidation']/@defaultLayer/@nodeMappings[name='Building']">
+        <toolSections reusedTools="//@ownedViewpoints[name='Felix']/@ownedRepresentations[name='SemanticValidation']/@defaultLayer/@toolSections.0/@ownedTools[name='Wreck%20it']"/>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>
