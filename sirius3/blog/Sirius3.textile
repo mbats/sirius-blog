@@ -1,0 +1,158 @@
+h1. Sirius 3.0 "Harder, Better, Faster, Stronger"
+
+It is a great day, within the announcement of Eclipse Mars, many great projects are released. Sirius 3.0 is part of this train.
+When I have a look to what is the status of the Sirius project today, one soundtrack is running through my mind :
+"Harder, Better, Faster, Stronger":
+!https://upload.wikimedia.org/wikipedia/en/d/d2/Hbfs_single.jpg! 
+
+h2. Work it harder
+
+One first fact, looking at the project's statistics, the Sirius team worked hard on this release to deliver some new cool features and fix the existing ones:
+
+|Version	|Date	|Total Closed|Feature Requests|
+|1.0.0(Luna)|June 14|100	     |2|
+|1.0.1      |Aug  14|20	         |-|
+|2.0.0      |Oct 14 |113         |27|
+|2.0.1      |Nov 14 |2           |-|
+|2.0.2      |Dec 14 |15          |-|
+|2.0.3      |Jan 15 |16	         |-|
+|2.0.4      |Feb 15 |8           |-|
+|2.0.5      |Apr 15 |8	         |-|
+|3.0.0(Mars)|Jun 14 |213         |35|
+|           |       |*426*	     |*64*|
+
+h2. Make it better
+
+Their purpose was to make a better tooling for the end user by improving the diagram user experience. This work started with Sirius 2.0 and some of the following features are there since this version. 
+
+h3. Resizing a container
+
+!./images/containerResize-changedBehavior_old.gif!
+!./images/containerResize-changedBehavior_new.gif!
+
+h3. Positioning things
+
+| _Snap To Shape_ enabled by default for new diagrams|!./images/snap_to_shape.png!|
+| _Snap To Grid_ now used when an element is created|!./images/snap_to_grid.png!|
+| _Resize_ no longer change ports or children's location|!./images/!|
+| Actions to _distribute_ shapes|!./images/shapes_distribution.png!|
+| Action to _reset the diagram origin_|!./images/!|
+
+h3. Edges layouting
+
+!./images/moveNode-edgeImpact-changedBehavior_old.gif!
+!./images/moveNode-edgeImpact-changedBehavior_new.gif!
+
+h3. Beautiful editor
+
+The editor was also improved to provide :
+* Anchor on borders: Now the edges are linked closely to the images, you just need to define images with an transparent background.
+!./images/imageborder-after.png!
+
+* Underlined and strike through style for labels
+!./images/underline.png!
+
+* Compartments: There are two new values available for a container mapping @Vertical Stack@ and @Horizontal Stack@. This means that the defined container will show its children as a vertical/horizontal stack of compartments. Thanks to this new feature, you are able to define a dynamic number of compartments.
+
+!./images/compartments.png!
+
+As compartments also use "queries":http://www.eclipse.org/sirius/doc/specifier/general/Writing_Queries.html, it is easy to create any "artificial level":http://melb.enix.org/sirius/artificial-container/ of compartments independently from the metamodel structure.
+
+Have a look to the "Sirius compartments documentation":view-source:http://www.eclipse.org/sirius/doc/specifier/diagrams/Diagrams.html#compartments for more details.
+
+h2. Do it faster
+
+The goal is to be able to manage 1 million model elements. 
+!./images/sirius2-bigmodel2.png!
+
+Sirius performances are in constant improvements. With this version their is big enhancements 
+on heap consumption and time execution.
+|                           |Time (sec)	|Heap (Mb)	|Time Variation	|Heap Variation|
+|Open Huge Project	        |80	        |276	    |-31,00%	    |-20,00%|
+|Open Big Class Diagram	    |11      	|24	        |-54,00%	    |+20,00%|
+|Refresh Big Class Diagram	|0,731	    |0	        |-18,00%	    |0,00%|
+|Save After Diagram Change	|26	        |0	        |-23,00%	    |0,00%|
+|Close Diagram	            |0,1	    |-6       	|0,00%	        |0,00%|
+|Close Project	            |55	        |294	    |0,00%	        |0,00%|
+
+On big operations, the models footprint is around 20% improvement. To do so hard work was done on:
+* using MinimalEObject
+* Colors to transform them from full-blown EObject to Immutable DataType
+* Detecting and fixing leaks
+* Reducing the usage of adapters.
+
+Then the save strategy was reviewed as well as the diagram refresh and the Image cache.
+
+Another big task was to reduce the latency. First, on the UI runtime:
+* model element selection dialogs must be used for big models.
+* the right-click in the explorer was optimized.
+* and the property views made with "EEF":https://eclipse.org/eef/ are better integrated.
+
+And then reduce the latency on tables. Now the SWT refreshes are done as a batch and the team improve also the table model refresh.
+
+Performances is also your matter! It really depends on your .odesign specification. You should focus on queries : measure, improve and repeat! Think about using the Sirius embedded profiler:
+!./images/sirius-profiler.png!
+
+h2. Makes us stronger
+
+h3. Definition tooling
+
+The Sirius team also works to polish the specifier editor:
+* Workspace class loading is BACK. ??
+* Image path validation and selection wizard : Now, there is a selection wizard to choose an image and then validation exists on image path. You will never _not found _ an image.
+!./images/image_path_validation.png!
+* Quick Outline : An awesome improvements, it is possible to find quickly any element in a _odesign_ thanks to the quick outline. Just call @Ctrl+O@ and a wizard open to help you searching the viewpoint specification.
+!./images/quick_outline.png!
+* Prioritized sub menus : Another great thing, the menus where reordered and now the most used elements are available at the top.
+
+h3. Query languages
+
+If you are used to work with Sirius, you already know that writing queries can turn to a severe headache because of _types_.
+!./images/queries-in-odesign.png!
+Actually, it exists in Sirius 5 different interpreters to write your queries:
+* Feature: @feature:@
+* Service: @service:@
+* Var: @var:@
+* MTL: @[/]@
+* and the legacy one: @<%%>@ 
+
+For example, if we have a look to the following query : _What is the type of var:source?_
+!./images/typed-edge-mapping.png!
+!./images/typed-edge-creation.png!
+
+Type analysis within the action language requires a stronger type information from interpreters. It is implemented in feature:, var:. We made some improvements in [/] and there is simply no support in legacy <%%> and ocl:. WHat we want is a good reference support.
+
+The Acceleo Query Language also known as AQL comes to our rescue. The implementation of AQL is specifically tailored for the Sirius use case. We have many variables for a given expression and _null_ values are common. The usage is really interactive and so the context is constantly changing.
+I can hear you "Hoooo no, not yet _another_ language...". Do not be afraid! You know OCL ? Then you know AQL.
+
+The most important things to know is that:
+* You will find the classic operations like @filter@,  @collect@
+* And some convenient ones as: @eInverse()@, @eResource()@...
+* There is *no* implicit variables
+
+bc. 
+[name/] is invalid become self.name [self.eContents()->select(name.startsWith('A'))/] is invalid and become self.eContents()->select(i | i.name.startsWith('A') self.referenceWithNoValue.someOtherAttribute has no evaluation error, returns "Nothing"
+
+AQL is not strictly compatible with MTL but a subset of MTL works for both.
+
+We did some benchmarks with the different queries engines available in Sirius:
+!./images/sirius-query-bench.png!
+
+AQL is very impressive! In Sirius 3.0, it is delivered as experimental. 
+!./images/install-aql.png!
+
+But it will be available officially for the next 3.1. So consider to use it right now, if you are still using Acceleo 2 expressions (@<%%>@) else if you are using MTL (@[/]@), you can prepare your queries so that migrating will be easy.
+
+Finally, with these third version we will meet a new 
+
+To get more details about what is arriving with Sirius 3.0, have a look to the "release notes":http://www.eclipse.org/sirius/doc/Release_Notes.html.
+Even if Sirius 3.0 is major version, don't be afraid! The models are automatically migrated by Sirius, the API changed are well documented in the release notes and some projects has "EcoreTools":http://www.eclipse.org/ecoretools/ or "UML Designer":http://www.umldesigner.org already use it with no major issues.
+
+The 3.1 version is planned for November and then next lines of work will be: more flexibility for diagram UX, compartments feature complete, bullet-proof AQL and again more performance and scalability improvements... and your priority is our priority for the future. So don't be shy and report what you need and want on the "bugzilla":https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Sirius
+
+Let's the Daft punk conclude this post :
+
+"More than ever
+Hour after
+Our work is
+Never over"

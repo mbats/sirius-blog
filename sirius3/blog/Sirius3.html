@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='utf-8' ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	</head>
+	<body>
+		<h1 id="Sirius3.0HarderBetterFasterStronger">Sirius 3.0 "Harder, Better, Faster, Stronger"</h1>
+		<p>It is a great day, within the announcement of Eclipse Mars, many great projects are released. Sirius 3.0 is part of this train.
+			<br/>When I have a look to what is the status of the Sirius project today, one soundtrack is running through my mind :
+			<br/>&#171;Harder, Better, Faster, Stronger&#187;:
+			<br/>
+			<img border="0" src="https://upload.wikimedia.org/wikipedia/en/d/d2/Hbfs_single.jpg"/> 
+		</p>
+		<h2 id="Workitharder">Work it harder</h2>
+		<p>One first fact, looking at the project&#8217;s statistics, the Sirius team worked hard on this release to deliver some new cool features and fix the existing ones:</p>
+		<table>
+			<tr>
+				<td>Version</td>
+				<td>Date</td>
+				<td>Total Closed</td>
+				<td>Feature Requests</td>
+			</tr>
+			<tr>
+				<td>1.0.0(Luna)</td>
+				<td>June 14</td>
+				<td>100</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>1.0.1</td>
+				<td>Aug  14</td>
+				<td>20</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2.0.0</td>
+				<td>Oct 14</td>
+				<td>113</td>
+				<td>27</td>
+			</tr>
+			<tr>
+				<td>2.0.1</td>
+				<td>Nov 14</td>
+				<td>2</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2.0.2</td>
+				<td>Dec 14</td>
+				<td>15</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2.0.3</td>
+				<td>Jan 15</td>
+				<td>16</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2.0.4</td>
+				<td>Feb 15</td>
+				<td>8</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2.0.5</td>
+				<td>Apr 15</td>
+				<td>8</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>3.0.0(Mars)</td>
+				<td>Jun 14</td>
+				<td>213</td>
+				<td>35</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>426</td>
+				<td>64</td>
+			</tr>
+		</table>
+		<h2 id="Makeitbetter">Make it better</h2>
+		<p>Their purpose was to make a better tooling for the end user and to improve the diagram user experience. This work started with Sirius 2.0 and some of the following features are there since this version. </p>
+		<h3 id="Resizingacontainer">Resizing a container</h3>
+		<p>
+			<img border="0" src="containerResize-changedBehavior_old.gif"/>
+			<br/>
+			<img border="0" src="containerResize-changedBehavior_new.gif"/>
+		</p>
+		<h3 id="Positioningthings">Positioning things</h3>
+		<table>
+			<tr>
+				<td>
+					<em>Snap To Shape</em> enabled by default for new diagrams
+				</td>
+				<td>
+					<img border="0" src="./images/snap_to_shape.png"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<em>Snap To Grid</em> now used when an element is created
+				</td>
+				<td>
+					<img border="0" src="./images/snap_to_grid.png"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<em>Resize</em> no longer change ports or children&#8217;s location
+				</td>
+				<td>
+					<img border="0" src="./images/"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Actions to 
+					<em>distribute</em> shapes
+				</td>
+				<td>
+					<img border="0" src="./images/shapes_distribution.png"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Action to 
+					<em>reset the diagram origin</em>
+				</td>
+				<td>
+					<img border="0" src="./images/"/>
+				</td>
+			</tr>
+		</table>
+		<h3 id="Edgeslayouting">Edges layouting</h3>
+		<p>
+			<img border="0" src="./images/moveNode-edgeImpact-changedBehavior_old.gif"/>
+			<br/>
+			<img border="0" src="./images/moveNode-edgeImpact-changedBehavior_new.gif"/>
+		</p>
+		<h3 id="Beautifuleditor">Beautiful editor</h3>
+		<ul>
+			<li>Anchor on borders</li>
+			<li>Underlined and strike through style for labels</li>
+			<li>Compartments:
+				<ul>
+					<li>dynamic number of compartments</li>
+					<li>leverage queries</li>
+				</ul>
+			</li>
+		</ul>
+		<h2 id="Doitfaster">Do it faster</h2>
+		<p>GOAL : 1 MILLION MODEL ELEMENT
+			<br/>CONSTANT IMPROVEMENTS
+			<br/>|Time (sec)	Heap (Mb)	Time Variation	Heap Variation
+			<br/>|Open Huge Project	80	276	-31,00%	-20,00%
+			<br/>|Open Big Class Diagram	11	24	-54,00%	+20,00%
+			<br/>|Refresh Big Class Diagram	0,731	0	-18,00%	0,00%
+			<br/>|Save After Diagram Change	26	0	-23,00%	0,00%
+			<br/>|Close Diagam	0,1	-6	0,00%	0,00%
+			<br/>|Close Project	55	294	0,00%	0,00%
+		</p>
+		<h2 id="Makesusstronger">Makes us stronger</h2>
+		<h3 id="Definitiontooling">Definition tooling</h3>
+		<p>Workspace class loading is BACK
+			<br/>Image path validation and selection wizard
+			<br/>Quick Outline
+			<br/>Prioritized sub menus
+			<br/>...
+		</p>
+		<h3 id="Querylanguages">Query languages</h3>
+		<p>What is the type of var:source?
+			<br/>Type analysis within the action language
+			<br/>REQUIRES STRONGER TYPE INFORMATION FROM INTERPRETERS
+			<br/>Reference support in aql:
+			<br/>Implemented in feature:, var:
+			<br/>Improvements in [/]
+			<br/>No support in legacy &lt;%%&gt; and ocl:
+		</p>
+		<p>Let&#8217;s the Daft punk conclude this post :
+			<br/>Report on the bugzilla
+		</p>
+		<p>"More than ever
+			<br/>Hour after
+			<br/>Our work is
+			<br/>Never over"
+		</p>
+	</body>
+</html>
