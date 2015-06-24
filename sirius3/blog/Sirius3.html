@@ -5,14 +5,14 @@
 	</head>
 	<body>
 		<h1 id="Sirius3.0HarderBetterFasterStronger">Sirius 3.0 "Harder, Better, Faster, Stronger"</h1>
-		<p>It is a great day, within the announcement of Eclipse Mars, many great projects are released. Sirius 3.0 is part of this train.
-			<br/>When I have a look to what is the status of the Sirius project today, one soundtrack is running through my mind :
+		<p>Today is a great day: with the announcement of Eclipse Mars, many great projects are released, and Sirius 3.0 is part of this release train.</p>
+		<p>When I have a look at the status of the Sirius project today, one soundtrack immediately comes to mind: 
 			<br/>&#171;Harder, Better, Faster, Stronger&#187;:
 			<br/>
 			<img border="0" src="https://upload.wikimedia.org/wikipedia/en/d/d2/Hbfs_single.jpg"/> 
 		</p>
-		<h2 id="Workitharder">Work it harder</h2>
-		<p>One first fact, looking at the project&#8217;s statistics, the Sirius team worked hard on this release to deliver some new cool features and fix the existing ones:</p>
+		<h2 id="Workonitharder">Work on it harder</h2>
+		<p>One first fact, looking at the project&#8217;s statistics, is that the Sirius team worked hard on this release to deliver some new cool features and improve the existing ones:</p>
 		<table>
 			<tr>
 				<td>Version</td>
@@ -77,19 +77,23 @@
 			<tr>
 				<td></td>
 				<td></td>
-				<td>426</td>
-				<td>64</td>
+				<td>
+					<strong>426</strong>
+				</td>
+				<td>
+					<strong>64</strong>
+				</td>
 			</tr>
 		</table>
 		<h2 id="Makeitbetter">Make it better</h2>
-		<p>Their purpose was to make a better tooling for the end user and to improve the diagram user experience. This work started with Sirius 2.0 and some of the following features are there since this version. </p>
+		<p>Their goal was to provide a better tooling for the end users by improving the diagram user experience. This work started with Sirius 2.0 and some of the following features have been there since then.</p>
 		<h3 id="Resizingacontainer">Resizing a container</h3>
 		<p>
-			<img border="0" src="containerResize-changedBehavior_old.gif"/>
+			<img border="0" src="./images/containerResize-changedBehavior_old.gif"/>
 			<br/>
-			<img border="0" src="containerResize-changedBehavior_new.gif"/>
+			<img border="0" src="./images/containerResize-changedBehavior_new.gif"/>
 		</p>
-		<h3 id="Positioningthings">Positioning things</h3>
+		<h3 id="Positioningelements">Positioning elements</h3>
 		<table>
 			<tr>
 				<td>
@@ -112,7 +116,7 @@
 					<em>Resize</em> no longer change ports or children&#8217;s location
 				</td>
 				<td>
-					<img border="0" src="./images/"/>
+					<img border="0" src="./images/resize_ports.png"/>
 				</td>
 			</tr>
 			<tr>
@@ -128,7 +132,7 @@
 					<em>reset the diagram origin</em>
 				</td>
 				<td>
-					<img border="0" src="./images/"/>
+					<img border="0" src="./images/reset.png"/>
 				</td>
 			</tr>
 		</table>
@@ -139,47 +143,221 @@
 			<img border="0" src="./images/moveNode-edgeImpact-changedBehavior_new.gif"/>
 		</p>
 		<h3 id="Beautifuleditor">Beautiful editor</h3>
+		<p>The editor was also improved to provide :</p>
 		<ul>
-			<li>Anchor on borders</li>
+			<li>Anchor on borders: Now the edges are linked closely to the images, you just need to define images with an transparent background.</li>
+		</ul>
+		<p>
+			<img border="0" src="./images/imageborder-after.png"/>
+		</p>
+		<ul>
 			<li>Underlined and strike through style for labels</li>
-			<li>Compartments:
-				<ul>
-					<li>dynamic number of compartments</li>
-					<li>leverage queries</li>
-				</ul>
+		</ul>
+		<p>
+			<img border="0" src="./images/underline.png"/>
+		</p>
+		<ul>
+			<li>Compartments: There are two new values available for a container mapping 
+				<code>Vertical Stack</code> and 
+				<code>Horizontal Stack</code>. This means that the defined container will show its children as a vertical/horizontal stack of compartments. Thanks to this new feature, you are able to define a dynamic number of compartments.
 			</li>
 		</ul>
+		<p>
+			<img border="0" src="./images/compartments.png"/>
+		</p>
+		<p>As compartments also use 
+			<a href="http://www.eclipse.org/sirius/doc/specifier/general/Writing_Queries.html">queries</a>, it is easy to create any 
+			<a href="http://melb.enix.org/sirius/artificial-container/">artificial level</a> of compartments independently from the metamodel structure.
+		</p>
+		<p>Have a look at the 
+			<a href="view-source:http://www.eclipse.org/sirius/doc/specifier/diagrams/Diagrams.html#compartments">Sirius compartments documentation</a> for more details.
+		</p>
 		<h2 id="Doitfaster">Do it faster</h2>
-		<p>GOAL : 1 MILLION MODEL ELEMENT
-			<br/>CONSTANT IMPROVEMENTS
-			<br/>|Time (sec)	Heap (Mb)	Time Variation	Heap Variation
-			<br/>|Open Huge Project	80	276	-31,00%	-20,00%
-			<br/>|Open Big Class Diagram	11	24	-54,00%	+20,00%
-			<br/>|Refresh Big Class Diagram	0,731	0	-18,00%	0,00%
-			<br/>|Save After Diagram Change	26	0	-23,00%	0,00%
-			<br/>|Close Diagam	0,1	-6	0,00%	0,00%
-			<br/>|Close Project	55	294	0,00%	0,00%
+		<p>The goal was to be able to manage models with 1 million elements.
+			<br/>
+			<img border="0" src="./images/sirius2-bigmodel2.png"/>
 		</p>
-		<h2 id="Makesusstronger">Makes us stronger</h2>
+		<p>Sirius performances are in constant improvements, and this version comes with significant enhancements 
+			<br/>on heap consumption and time execution.
+		</p>
+		<table>
+			<tr>
+				<td></td>
+				<td>Time (sec)</td>
+				<td>Heap (Mb)</td>
+				<td>Time Variation</td>
+				<td>Heap Variation</td>
+			</tr>
+			<tr>
+				<td>Open Huge Project</td>
+				<td>80</td>
+				<td>276</td>
+				<td>-31,00%</td>
+				<td>-20,00%</td>
+			</tr>
+			<tr>
+				<td>Open Big Class Diagram</td>
+				<td>11</td>
+				<td>24</td>
+				<td>-54,00%</td>
+				<td>+20,00%</td>
+			</tr>
+			<tr>
+				<td>Refresh Big Class Diagram</td>
+				<td>0,731</td>
+				<td>0</td>
+				<td>-18,00%</td>
+				<td>0,00%</td>
+			</tr>
+			<tr>
+				<td>Save After Diagram Change</td>
+				<td>26</td>
+				<td>0</td>
+				<td>-23,00%</td>
+				<td>0,00%</td>
+			</tr>
+			<tr>
+				<td>Close Diagram</td>
+				<td>0,1</td>
+				<td>-6</td>
+				<td>0,00%</td>
+				<td>0,00%</td>
+			</tr>
+			<tr>
+				<td>Close Project</td>
+				<td>55</td>
+				<td>294</td>
+				<td>0,00%</td>
+				<td>0,00%</td>
+			</tr>
+		</table>
+		<p>On big operations, the model footprint is reduced by 20%. To do so, major work was done on:</p>
+		<ul>
+			<li>using MinimalEObject</li>
+			<li>Transforming Colors from full-blown EObject into Immutable DataType</li>
+			<li>Detecting and fixing leaks</li>
+			<li>Reducing the usage of adapters.</li>
+		</ul>
+		<p>Then the save strategy was reviewed as well as the diagram refresh and the image cache.</p>
+		<p>Another big task was to reduce the latency. First, on the UI runtime:</p>
+		<ul>
+			<li>model element selection dialogs must be used for big models.</li>
+			<li>the right-click in the explorer was optimized.</li>
+			<li>and the property views made with 
+				<a href="https://eclipse.org/eef/">EEF</a> are better integrated.
+			</li>
+		</ul>
+		<p>And then to reduce the latency on tables, SWT refreshes are now done in batch and the team also improved the table model refresh.</p>
+		<p>Performance is also your matter! It really depends on your .odesign specification. You should focus on queries : measure, improve and repeat! Think about using the Sirius embedded profiler:
+			<br/>
+			<img border="0" src="./images/sirius-profiler.png"/>
+		</p>
+		<h2 id="Makeusstronger">Make us stronger</h2>
 		<h3 id="Definitiontooling">Definition tooling</h3>
-		<p>Workspace class loading is BACK
-			<br/>Image path validation and selection wizard
-			<br/>Quick Outline
-			<br/>Prioritized sub menus
-			<br/>...
+		<p>The Sirius team also works to polish the specifier editor:</p>
+		<ul>
+			<li>Workspace class loading is BACK.</li>
+			<li>Image path validation and selection wizard : Now, there is a selection wizard to choose an image and then validation exists on image path. You will never get a _not found _ image.</li>
+		</ul>
+		<p>
+			<img border="0" src="./images/image_path_validation.png"/>
 		</p>
+		<ul>
+			<li>Quick Outline : An awesome improvement: it allows to quickly find any element in a 
+				<em>odesign</em>! Just call 
+				<code>Ctrl+O</code> and a wizard shows up to help you searching through the viewpoint specification.
+			</li>
+		</ul>
+		<p>
+			<img border="0" src="./images/quick_outline.png"/>
+		</p>
+		<ul>
+			<li>Prioritized sub menus : Another great thing, the menus have been reordered and now the most used elements are available at the top.</li>
+		</ul>
 		<h3 id="Querylanguages">Query languages</h3>
-		<p>What is the type of var:source?
-			<br/>Type analysis within the action language
-			<br/>REQUIRES STRONGER TYPE INFORMATION FROM INTERPRETERS
-			<br/>Reference support in aql:
-			<br/>Implemented in feature:, var:
-			<br/>Improvements in [/]
-			<br/>No support in legacy &lt;%%&gt; and ocl:
+		<p>If you are used to work with Sirius, you already know that writing queries can turn to a severe headache due to 
+			<em>types</em>.
+			<br/>
+			<img border="0" src="./images/queries-in-odesign.png"/>
+			<br/>Actually, there are in Sirius 5 different interpreters to write your queries:
 		</p>
-		<p>Let&#8217;s the Daft punk conclude this post :
-			<br/>Report on the bugzilla
+		<ul>
+			<li>Feature: 
+				<code>feature:</code>
+			</li>
+			<li>Service: 
+				<code>service:</code>
+			</li>
+			<li>Var: 
+				<code>var:</code>
+			</li>
+			<li>MTL: 
+				<code>[/]</code>
+			</li>
+			<li>and the legacy one: 
+				<code>&lt;%%&gt;</code> 
+			</li>
+		</ul>
+		<p>For example, if we have a look at the following query : 
+			<em>What is the type of var:source?</em>
+			<br/>
+			<img border="0" src="./images/typed-edge-mapping.png"/>
+			<br/>
+			<img border="0" src="./images/typed-edge-creation.png"/>
 		</p>
+		<p>Type analysis within the action language requires a stronger type information from interpreters. It is implemented in feature:, var:. We made some improvements in [/] and there is simply no support in legacy &lt;%%&gt; and ocl:. What we want is a good reference support.</p>
+		<p>The Acceleo Query Language also known as AQL comes to our rescue. The implementation of AQL is specifically tailored for the Sirius use case. We have many variables for a given expression and 
+			<em>null</em> values are common. The usage is really interactive and so the context is constantly changing.
+			<br/>I can hear you "Hoooo no, not yet 
+			<em>another</em> language...". Don&#8217;t be afraid! You know OCL ? Then you know AQL.
+		</p>
+		<p>The most important things to know is that:</p>
+		<ul>
+			<li>You will find the classic operations like 
+				<code>filter</code>,  
+				<code>collect</code>,
+			</li>
+			<li>And some convenient ones as: 
+				<code>eInverse()</code>, 
+				<code>eResource()</code>...
+			</li>
+			<li>There are 
+				<strong>no</strong> implicit variables,
+			</li>
+		</ul>
+		<pre><code>[name/] is invalid 
+becomes 
+self.name
+</code></pre>
+		<pre><code>[self.eContents()-&gt;select(name.startsWith('A'))/] is invalid 
+and becomes 
+self.eContents()-&gt;select(i | i.name.startsWith('A') 
+</code></pre>
+		<pre><code>self.referenceWithNoValue.someOtherAttribute has no evaluation error, returns "Nothing"
+</code></pre>
+		<p>AQL is not strictly compatible with MTL but a subset of MTL works for both.</p>
+		<p>We did some benchmarks with the different queries engines available in Sirius:
+			<br/>
+			<img border="0" src="./images/sirius-query-bench.png"/>
+		</p>
+		<p>AQL is very impressive! In Sirius 3.0, it is delivered as an experimental feature.
+			<br/>
+			<img border="0" src="./images/install-aql.png"/>
+		</p>
+		<p>But it will be available officially for the next 3.1 release, so consider using it from now on if you are still using Acceleo 2 expressions (
+			<code>&lt;%%&gt;</code>). Otherwise, if you are using MTL (
+			<code>[/]</code>), you can prepare your queries to make the migration easier.
+		</p>
+		<p>To get more details about what is arriving in Sirius 3.0, have a look at the 
+			<a href="http://www.eclipse.org/sirius/doc/Release_Notes.html">release notes</a>.
+			<br/>Even if Sirius 3.0 is major version, don&#8217;t be afraid! The models are automatically migrated by Sirius, the API changes are well documented in the release notes and some projects such as 
+			<a href="http://www.eclipse.org/ecoretools/">EcoreTools</a> or 
+			<a href="http://www.umldesigner.org">UML Designer</a> already use it with no major issues.
+		</p>
+		<p>The 3.1 version is planned for November and the next topics of work will be: more flexibility for diagram UX, compartments feature complete, bullet-proof AQL and again more performance and scalability improvements... and your priority is our priority for the future. So don&#8217;t be shy and report what you need and want on the 
+			<a href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Sirius">bugzilla</a>
+		</p>
+		<p>Let&#8217;s have Daft punk conclude this post :</p>
 		<p>"More than ever
 			<br/>Hour after
 			<br/>Our work is
