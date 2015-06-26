@@ -3,7 +3,7 @@ h1. Sirius 3.0 "Harder, Better, Faster, Stronger"
 Today is a great day: with the announcement of Eclipse Mars, many great projects are released, and Sirius 3.0 is part of this release train.
 
 When I have a look at the status of the Sirius project today, one soundtrack immediately comes to mind: 
-"Harder, Better, Faster, Stronger":
+"Harder, Better, Faster, Stronger":https://en.wikipedia.org/wiki/File:Daft_Punk_-_Harder_Better_Faster_Stronger_(Album_Version).ogg
 !https://upload.wikimedia.org/wikipedia/en/d/d2/Hbfs_single.jpg! 
 
 h2. Work on it harder
@@ -19,7 +19,7 @@ One first fact, looking at the project's statistics, is that the Sirius team wor
 |2.0.3      |Jan 15 |16	         |-|
 |2.0.4      |Feb 15 |8           |-|
 |2.0.5      |Apr 15 |8	         |-|
-|3.0.0(Mars)|Jun 14 |213         |35|
+|3.0.0(Mars)|Jun 15 |213         |35|
 |           |       |*426*	     |*64*|
 
 h2. Make it better
@@ -99,12 +99,13 @@ h2. Make us stronger
 h3. Definition tooling
 
 The Sirius team also works to polish the specifier editor:
-* Workspace class loading is BACK.
-* Image path validation and selection wizard : Now, there is a selection wizard to choose an image and then validation exists on image path. You will never get a _not found _ image.
+* Workspace class loading is BACK: With Sirius 3 you can define Java services and then try them directly in your current development environment, you do not need anymore to launch another runtime just to test your services!
+* Image path validation and selection wizard: Now, there is a selection wizard to choose an image and then validation exists on image path. You will never get a _not found _ image.
 !./images/image_path_validation.png!
+!./images/select_image.png!
 * Quick Outline : An awesome improvement: it allows to quickly find any element in a _odesign_! Just call @Ctrl+O@ and a wizard shows up to help you searching through the viewpoint specification.
 !./images/quick_outline.png!
-* Prioritized sub menus : Another great thing, the menus have been reordered and now the most used elements are available at the top.
+* Prioritized sub menus: Another great thing, the menus have been reordered and now the most used elements are available at the top.
 
 h3. Query languages
 
@@ -123,13 +124,13 @@ For example, if we have a look at the following query : _What is the type of var
 
 Type analysis within the action language requires a stronger type information from interpreters. It is implemented in feature:, var:. We made some improvements in [/] and there is simply no support in legacy <%%> and ocl:. What we want is a good reference support.
 
-The Acceleo Query Language also known as AQL comes to our rescue. The implementation of AQL is specifically tailored for the Sirius use case. We have many variables for a given expression and _null_ values are common. The usage is really interactive and so the context is constantly changing.
+The "Acceleo Query Language":https://www.eclipse.org/sirius/doc/specifier/general/Writing_Queries.html#aql also known as AQL comes to our rescue. The implementation of AQL is specifically tailored for the Sirius use case. We have many variables for a given expression and _null_ values are common. The usage is really interactive and so the context is constantly changing.
 I can hear you "Hoooo no, not yet _another_ language...". Don't be afraid! You know OCL ? Then you know AQL.
 
 The most important things to know is that:
 * You will find the classic operations like @filter@,  @collect@,
 * And some convenient ones as: @eInverse()@, @eResource()@...
-* There are *no* implicit variables,
+* There is *no* implicit variable:
 
 bc. 
 [name/] is invalid 
@@ -159,7 +160,7 @@ Even if Sirius 3.0 is major version, don't be afraid! The models are automatical
 
 The 3.1 version is planned for November and the next topics of work will be: more flexibility for diagram UX, compartments feature complete, bullet-proof AQL and again more performance and scalability improvements... and your priority is our priority for the future. So don't be shy and report what you need and want on the "bugzilla":https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Sirius
 
-Let's have Daft punk conclude this post :
+Let's have "Daft Punk":https://en.wikipedia.org/wiki/Daft_Punk conclude this post :
 
 "More than ever
 Hour after

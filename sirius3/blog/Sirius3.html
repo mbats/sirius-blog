@@ -7,7 +7,8 @@
 		<h1 id="Sirius3.0HarderBetterFasterStronger">Sirius 3.0 "Harder, Better, Faster, Stronger"</h1>
 		<p>Today is a great day: with the announcement of Eclipse Mars, many great projects are released, and Sirius 3.0 is part of this release train.</p>
 		<p>When I have a look at the status of the Sirius project today, one soundtrack immediately comes to mind: 
-			<br/>&#171;Harder, Better, Faster, Stronger&#187;:
+			<br/>
+			<a href="https://en.wikipedia.org/wiki/File:Daft_Punk_-_Harder_Better_Faster_Stronger_(Album_Version).ogg">Harder, Better, Faster, Stronger</a>
 			<br/>
 			<img border="0" src="https://upload.wikimedia.org/wikipedia/en/d/d2/Hbfs_single.jpg"/> 
 		</p>
@@ -70,7 +71,7 @@
 			</tr>
 			<tr>
 				<td>3.0.0(Mars)</td>
-				<td>Jun 14</td>
+				<td>Jun 15</td>
 				<td>213</td>
 				<td>35</td>
 			</tr>
@@ -256,11 +257,13 @@
 		<h3 id="Definitiontooling">Definition tooling</h3>
 		<p>The Sirius team also works to polish the specifier editor:</p>
 		<ul>
-			<li>Workspace class loading is BACK.</li>
-			<li>Image path validation and selection wizard : Now, there is a selection wizard to choose an image and then validation exists on image path. You will never get a _not found _ image.</li>
+			<li>Workspace class loading is BACK: With Sirius 3 you can define Java services and then try them directly in your current development environment, you do not need anymore to launch another runtime just to test your services!</li>
+			<li>Image path validation and selection wizard: Now, there is a selection wizard to choose an image and then validation exists on image path. You will never get a _not found _ image.</li>
 		</ul>
 		<p>
 			<img border="0" src="./images/image_path_validation.png"/>
+			<br/>
+			<img border="0" src="./images/select_image.png"/>
 		</p>
 		<ul>
 			<li>Quick Outline : An awesome improvement: it allows to quickly find any element in a 
@@ -272,7 +275,7 @@
 			<img border="0" src="./images/quick_outline.png"/>
 		</p>
 		<ul>
-			<li>Prioritized sub menus : Another great thing, the menus have been reordered and now the most used elements are available at the top.</li>
+			<li>Prioritized sub menus: Another great thing, the menus have been reordered and now the most used elements are available at the top.</li>
 		</ul>
 		<h3 id="Querylanguages">Query languages</h3>
 		<p>If you are used to work with Sirius, you already know that writing queries can turn to a severe headache due to 
@@ -306,7 +309,8 @@
 			<img border="0" src="./images/typed-edge-creation.png"/>
 		</p>
 		<p>Type analysis within the action language requires a stronger type information from interpreters. It is implemented in feature:, var:. We made some improvements in [/] and there is simply no support in legacy &lt;%%&gt; and ocl:. What we want is a good reference support.</p>
-		<p>The Acceleo Query Language also known as AQL comes to our rescue. The implementation of AQL is specifically tailored for the Sirius use case. We have many variables for a given expression and 
+		<p>The 
+			<a href="https://www.eclipse.org/sirius/doc/specifier/general/Writing_Queries.html#aql">Acceleo Query Language</a> also known as AQL comes to our rescue. The implementation of AQL is specifically tailored for the Sirius use case. We have many variables for a given expression and 
 			<em>null</em> values are common. The usage is really interactive and so the context is constantly changing.
 			<br/>I can hear you "Hoooo no, not yet 
 			<em>another</em> language...". Don&#8217;t be afraid! You know OCL ? Then you know AQL.
@@ -321,8 +325,8 @@
 				<code>eInverse()</code>, 
 				<code>eResource()</code>...
 			</li>
-			<li>There are 
-				<strong>no</strong> implicit variables,
+			<li>There is 
+				<strong>no</strong> implicit variable:
 			</li>
 		</ul>
 		<pre><code>[name/] is invalid 
@@ -357,7 +361,9 @@ self.eContents()-&gt;select(i | i.name.startsWith('A')
 		<p>The 3.1 version is planned for November and the next topics of work will be: more flexibility for diagram UX, compartments feature complete, bullet-proof AQL and again more performance and scalability improvements... and your priority is our priority for the future. So don&#8217;t be shy and report what you need and want on the 
 			<a href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Sirius">bugzilla</a>
 		</p>
-		<p>Let&#8217;s have Daft punk conclude this post :</p>
+		<p>Let&#8217;s have 
+			<a href="https://en.wikipedia.org/wiki/Daft_Punk">Daft Punk</a> conclude this post :
+		</p>
 		<p>"More than ever
 			<br/>Hour after
 			<br/>Our work is
