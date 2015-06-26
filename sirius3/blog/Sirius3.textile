@@ -65,7 +65,7 @@ Have a look at the "Sirius compartments documentation":http://www.eclipse.org/si
 
 h2. Do it faster
 
-The goal was to get a runtime which react well with 1 million elements. Why one million? Because it is a beautiful number... but also because we noted that the modelization environments are fastly growing to 200K elements and 500K in case of in-depth analysis. Usually when you are over 500K, it means: "think about reorganizing your stuff". That is why we aim Sirius to work with 1 millions, then it will be really smoothly with the more usual 500K use case. 
+The goal was to get a runtime which react well with 1 million elements. Why one million? Because it is a beautiful number... but also because we noted that the modeling projects are fastly growing to 200K elements and 500K in case of in-depth analysis. Usually when you are over 500K, it means it's time to re-think the process as you will likely need to decouple models with a clear and defined life-cycle. That is why we aim Sirius to work with 1 millions, then it will be really smoothly with the more usual 500K use case. 
 !./images/sirius2-bigmodel2.png!
 
 Sirius performances are in constant improvements, and this version comes with significant enhancements 
@@ -159,7 +159,7 @@ There is no good reason not to use it considering the overhead vs the flexibilit
 
 So consider using it from now on if you are still using Acceleo 2 expressions (@<%%>@). Otherwise, if you are using MTL (@[/]@), you can prepare your queries to make the migration easier.
 
-To get more details about what is arriving in Sirius 3.0, have a look at the "release notes":http://www.eclipse.org/sirius/doc/Release_Notes.html and to the "slides":http://cedric.brun.io/talks/ of "Cédric Brun":http://cedric.brun.io/ EclipseCon France talk.
+To get more details about what is arriving in Sirius 3.0, have a look at the "release notes":http://www.eclipse.org/sirius/doc/Release_Notes.html and to the "slides":http://cedric.brun.io/talks/ or the "video":https://youtu.be/4LzafNP5HNk?t=16445 of "Cédric Brun":http://cedric.brun.io/ EclipseCon France talk.
 Even if Sirius 3.0 is major version, don't be afraid! The models are automatically migrated by Sirius, the API changes are well documented in the release notes and some projects such as "EcoreTools":http://www.eclipse.org/ecoretools/ or "UML Designer":http://www.umldesigner.org could upgrade just by changing the version range in the plugin, no impact on the code.
 
 The 3.1 version is planned for November and the next topics of work will be: more flexibility for diagram UX, compartments feature complete, bullet-proof AQL and again more performance and scalability improvements... and your priority is our priority for the future. So don't be shy, report what you need and want on the "bugzilla":https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Sirius and remember you can "sponsor us":http://www.obeodesigner.com/sirius to get it done quickly!
