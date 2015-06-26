@@ -155,7 +155,7 @@ AQL is very impressive! In Sirius 3.0, it is delivered as an experimental featur
 
 But it will be available officially for the next 3.1 release, so consider using it from now on if you are still using Acceleo 2 expressions (@<%%>@). Otherwise, if you are using MTL (@[/]@), you can prepare your queries to make the migration easier.
 
-To get more details about what is arriving in Sirius 3.0, have a look at the "release notes":http://www.eclipse.org/sirius/doc/Release_Notes.html.
+To get more details about what is arriving in Sirius 3.0, have a look at the "release notes":http://www.eclipse.org/sirius/doc/Release_Notes.html and to the "slides":http://cedric.brun.io/talks/ of "Cédric Brun":http://cedric.brun.io/ EclipseCon France talk.
 Even if Sirius 3.0 is major version, don't be afraid! The models are automatically migrated by Sirius, the API changes are well documented in the release notes and some projects such as "EcoreTools":http://www.eclipse.org/ecoretools/ or "UML Designer":http://www.umldesigner.org already use it with no major issues.
 
 The 3.1 version is planned for November and the next topics of work will be: more flexibility for diagram UX, compartments feature complete, bullet-proof AQL and again more performance and scalability improvements... and your priority is our priority for the future. So don't be shy and report what you need and want on the "bugzilla":https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Sirius
